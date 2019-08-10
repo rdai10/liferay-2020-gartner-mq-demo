@@ -1,0 +1,9 @@
+{
+  "name": "liferay-2020-gartner-mq-demo",
+  "version": "1.0.0",
+  "description": "a quick demo for gartner mq",
+  "devDependencies": {
+    "generator-liferay-fragments": "^1.2.1"
+  },
+  "license": "ISC"
+}
