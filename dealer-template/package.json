@@ -13,6 +13,7 @@
   "scripts": {
     "add-collection": "yo liferay-fragments:collection",
     "add-fragment": "yo liferay-fragments:fragment",
+    "build-css:watch": "node-sass -w src/scss/main.scss src/styles.css",
     "compress": "yo liferay-fragments:compress",
     "export": "yo liferay-fragments:export",
     "import": "yo liferay-fragments:import",
@@ -22,5 +23,8 @@
   "devDependencies": {
     "generator-liferay-fragments": "^1.2.1",
     "yo": "^3.1.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.12.0"
   }
 }
