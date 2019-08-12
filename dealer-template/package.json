@@ -13,6 +13,7 @@
   "scripts": {
     "add-collection": "yo liferay-fragments:collection",
     "add-fragment": "yo liferay-fragments:fragment",
+    "build-css": "node-sass src/scss/main.scss src/styles.css",
     "build-css:watch": "node-sass -w src/scss/main.scss src/styles.css",
     "compress": "yo liferay-fragments:compress",
     "export": "yo liferay-fragments:export",

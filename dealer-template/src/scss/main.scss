@@ -1,8 +1,71 @@
 $font-family: 'Yantramanav';
+$base-font-size: 17px !default;
+$h1-display-size: 3.815rem !default; //64.85px
+$h1-size: 3.052rem !default; //51.88px
+$h2-size: 2.441rem !default; //41.5px
+$h3-size: 1.953rem !default; //33.2px
+$h4-size: 1.563rem !default; //26.56px
+$h5-size: 1.25rem !default; //21.25px
+$small-size: 15px !default;
+
+$h1-display-line-height: 72px !default;
+$h3-line-height: 30px !default;
+$h4-line-height: 72px !default;
+$h5-line-height: 28px !default;
+$small-line-height: 24px !default;
 
 $primary: #D72323;
 $dark: #09101D;
+$secondary: #646B75;
+$background: #E5E5E5;
+$white: #FFF;
 
+body {
+    color: $dark;
+    font-family: $font-family;
+    font-size: $base-font-size;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-weight: bold; 
+}
+
+h1 {
+    font-size: $h1-size;
+
+    &.display {
+        font-size: $h1-display-size;
+        line-height: $h1-display-line-height;
+    }
+}
+
+h2 {
+    font-size: $h2-size;
+}
+
+h3 {
+    font-size: $h3-size;
+    line-height: $h3-line-height;
+}
+
+h4 {
+    font-size: $h4-size;
+    line-height: $h4-line-height;
+}
+
+h5 {
+    font-size: $h5-size;
+    line-height: $h5-line-height;
+}
+
+.text-small {
+    font-size: $small-size;
+    line-height: $small-line-height;
+}
 
 @import './header';
 @import './banner';
