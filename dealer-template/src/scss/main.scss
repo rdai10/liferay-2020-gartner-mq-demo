@@ -20,6 +20,10 @@ $secondary: #646B75;
 $background: #E5E5E5;
 $white: #FFF;
 
+$sm-whitespace: 16px !default;
+$md-whitespace: 28px !default;
+$lg-whitespace: 32px !default;
+
 body {
     color: $dark;
     font-family: $font-family;

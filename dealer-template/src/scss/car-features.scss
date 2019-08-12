@@ -1,3 +1,31 @@
 .car-features {
-  color: inherit;
+  h3 {
+    margin-bottom: $sm-whitespace;
+  }
+
+  .features {
+    background-color: $dark;
+    color: $white;
+  }
+  
+  .feature-content {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
+  .feature-list {
+    list-style: none;
+    padding-left: 0;
+
+    .icon {
+      display: inline-block;
+      margin-right: $sm-whitespace;
+      height: 32px;
+      width: 32px;
+    }
+  }
+
+  .subheading {
+    margin-bottom: $lg-whitespace;
+  }
 }
