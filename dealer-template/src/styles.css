@@ -1,4 +1,4 @@
-body {
+body .zeon {
   color: #09101D;
   font-family: "Yantramanav";
   font-size: 17px; }
@@ -31,6 +31,9 @@ h5 {
   font-size: 1.25rem;
   line-height: 28px; }
 
+.btn.btn-link {
+  color: #D72323; }
+
 .text-small {
   font-size: 15px;
   line-height: 24px; }
@@ -45,7 +48,27 @@ h5 {
   color: inherit; }
 
 .quick-links {
-  color: inherit; }
+  background-color: #E5E5E5; }
+  .quick-links svg {
+    margin-bottom: 1.5rem; }
+  .quick-links .btn-link {
+    margin-top: 1rem;
+    text-transform: uppercase; }
+  .quick-links .description div {
+    color: #646B75; }
+  .quick-links .link {
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 4.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+    .quick-links .link:first-child {
+      padding-left: 0; }
+    .quick-links .link:last-child {
+      padding-right: 0; }
+  .quick-links .links-container {
+    margin: 0 auto;
+    width: 1224px; }
 
 .browse-vehicles {
   color: inherit; }
@@ -61,8 +84,12 @@ h5 {
   margin-bottom: 5rem;
   margin-top: 5rem; }
 
+.car-features .feature-image {
+  padding: 0; }
+
 .car-features .feature-list {
-  list-style: none; }
+  list-style: none;
+  padding-left: 0; }
   .car-features .feature-list .icon {
     display: inline-block;
     margin-right: 16px;

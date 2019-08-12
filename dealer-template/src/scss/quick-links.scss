@@ -1,3 +1,37 @@
 .quick-links {
-  color: inherit;
+  background-color: $background;
+
+  svg {
+    margin-bottom: 1.5rem;
+  }
+
+  .btn-link {
+    margin-top: 1rem;
+    text-transform: uppercase;
+  }
+
+  .description div {
+    color: $secondary;
+  }
+
+  .link {
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 4.25rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    &:first-child {
+      padding-left: 0;
+    }
+
+    &:last-child {
+      padding-right: 0;
+    }
+  }
+
+  .links-container {
+    margin: 0 auto;
+    width: $max-width;
+  }
 }
