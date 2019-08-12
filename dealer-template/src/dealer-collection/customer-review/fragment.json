@@ -3,6 +3,6 @@
   "configurationPath": "configuration.json",
   "htmlPath": "index.html",
   "jsPath": "main.js",
-  "name": "search-filters",
+  "name": "customer-review",
   "type": "section"
 }
