@@ -1,67 +1,95 @@
-<div class="search-filters container-fluid zeon">
-  <div class="row zeon-container">
-    <h5 class="col-md-12">
-      <lfr-editable id="search-filters-heading" type="text">
-        Search New Inventory
-      </lfr-editable>
-    </h5>
+<div class="search-filters zeon">
+  <div class="zeon-container">
+    <ul class="nav nav-tabs col-md-12 row " role="tablist">
+      <li class="nav-item">
+        <button aria-controls="buttonFields" aria-expanded="true" class="active btn btn-unstyled nav-link small-size" role="tab"
+          type="button">
+          <lfr-editable id="search-filters-nav-tab1" type="text">
+            New
+          </lfr-editable>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button aria-controls="buttonFields" aria-expanded="false" class="btn btn-unstyled nav-link small-size" role="tab"
+          type="button">
+          <lfr-editable id="search-filters-nav-tab2" type="text">
+            Pre-Owned
+          </lfr-editable>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button aria-controls="buttonFields" aria-expanded="false" class="btn btn-unstyled nav-link small-size" type="button">
+          <lfr-editable id="search-filters-nav-tab3" type="text">
+            Certified
+          </lfr-editable>
+        </button>
+      </li>
+    </ul>
 
-    <div class="col-md-2">
-      <label class="bold" for="search-filter-year">
-        <lfr-editable id="search-filters-label-1" type="text">
-          Year
+    <div class="row col-md-12 filter-content">
+      <h5 class="col-md-12">
+        <lfr-editable id="search-filters-heading" type="text">
+          Search New Inventory
         </lfr-editable>
-      </label>
-      <select id="search-filter-year">
-        <option>All</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label class="bold" for="search-filter-make">
-        <lfr-editable id="search-filters-label-2" type="text">
-          Make
-        </lfr-editable>
-      </label>
-      <select id="search-filter-make">
-        <option>All</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label class="bold" for="search-filter-body">
-        <lfr-editable id="search-filters-label-3" type="text">
-          Body Style
-        </lfr-editable>
-      </label>
-      <select id="search-filter-body">
-        <option>All</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label class="bold" for="search-filter-milage">
-        <lfr-editable id="search-filters-label-4" type="text">
-          Milage
-        </lfr-editable>
-      </label>
-      <select id="search-filter-milage">
-        <option>All</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <label class="bold" for="search-filter-price">
-        <lfr-editable id="search-filters-label-5" type="text">
-          Price
-        </lfr-editable>
-      </label>
-      <select id="search-filter-price">
-        <option>All</option>
-      </select>
-    </div>
-    <div class="col-md-2">
-      <button class="btn btn-primary">
-        <lfr-editable id="search-filters-btn" type="text">
-          SEARCH
-        </lfr-editable>
-      </button>
+      </h5>
+
+      <div class="col-md-2">
+        <label class="bold" for="search-filter-year">
+          <lfr-editable id="search-filters-label-1" type="text">
+            Year
+          </lfr-editable>
+        </label>
+        <select id="search-filter-year">
+          <option>All</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="bold" for="search-filter-make">
+          <lfr-editable id="search-filters-label-2" type="text">
+            Make
+          </lfr-editable>
+        </label>
+        <select id="search-filter-make">
+          <option>All</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="bold" for="search-filter-body">
+          <lfr-editable id="search-filters-label-3" type="text">
+            Body Style
+          </lfr-editable>
+        </label>
+        <select id="search-filter-body">
+          <option>All</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="bold" for="search-filter-milage">
+          <lfr-editable id="search-filters-label-4" type="text">
+            Milage
+          </lfr-editable>
+        </label>
+        <select id="search-filter-milage">
+          <option>All</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <label class="bold" for="search-filter-price">
+          <lfr-editable id="search-filters-label-5" type="text">
+            Price
+          </lfr-editable>
+        </label>
+        <select id="search-filter-price">
+          <option>All</option>
+        </select>
+      </div>
+      <div class="col-md-2">
+        <button class="btn btn-primary search-btn">
+          <lfr-editable id="search-filters-btn" type="text">
+            SEARCH
+          </lfr-editable>
+        </button>
+      </div>
     </div>
   </div>
 </div>
