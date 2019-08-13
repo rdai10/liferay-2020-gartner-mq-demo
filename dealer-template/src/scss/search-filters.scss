@@ -1,3 +1,27 @@
 .search-filters {
-  color: inherit;
+  padding-bottom: 2.35rem;  
+  padding-top: 1.75rem;
+
+  h5 {
+    margin-bottom: $sm-whitespace;
+  }
+
+  label {
+    display: block;
+  }
+
+  select,
+  .btn {
+    width: 100%;
+  }
+
+  select {
+    background-color: $light;
+    border-width: 0;
+    padding: 0.5rem 0.7rem;
+  }
+
+  button {
+    margin-top: 26px;
+  }
 }

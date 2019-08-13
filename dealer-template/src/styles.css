@@ -1,5 +1,5 @@
 body .zeon {
-  color: #09101D;
+  color: #09101d;
   font-family: "Yantramanav";
   font-size: 17px; }
 
@@ -31,12 +31,25 @@ h5 {
   font-size: 1.25rem;
   line-height: 28px; }
 
-.btn.btn-link {
-  color: #D72323; }
+.btn {
+  border-radius: 0;
+  font-size: 17px;
+  line-height: normal;
+  text-transform: uppercase; }
+  .btn.btn-link {
+    color: #d72323; }
+  .btn.btn-primary, .btn.btn-primary:focus, .btn.btn-primary:hover, .btn.btn-primary:not([disabled]):not(.disabled):active {
+    background-color: #d72323;
+    border-width: 0;
+    color: #fff; }
 
 .text-small {
   font-size: 15px;
   line-height: 24px; }
+
+.zeon-container {
+  margin: 0 auto;
+  width: 1224px; }
 
 .header {
   color: inherit; }
@@ -45,17 +58,30 @@ h5 {
   color: inherit; }
 
 .search-filters {
-  color: inherit; }
+  padding-bottom: 2.35rem;
+  padding-top: 1.75rem; }
+  .search-filters h5 {
+    margin-bottom: 16px; }
+  .search-filters label {
+    display: block; }
+  .search-filters select,
+  .search-filters .btn {
+    width: 100%; }
+  .search-filters select {
+    background-color: #ededf0;
+    border-width: 0;
+    padding: 0.5rem 0.7rem; }
+  .search-filters button {
+    margin-top: 26px; }
 
 .quick-links {
-  background-color: #E5E5E5; }
+  background-color: #e5e5e5; }
   .quick-links svg {
     margin-bottom: 1.5rem; }
   .quick-links .btn-link {
-    margin-top: 1rem;
-    text-transform: uppercase; }
-  .quick-links .description div {
-    color: #646B75; }
+    margin-top: 16px; }
+  .quick-links .description {
+    color: #646b75; }
   .quick-links .link {
     text-align: center;
     margin-bottom: 5rem;
@@ -66,9 +92,6 @@ h5 {
       padding-left: 0; }
     .quick-links .link:last-child {
       padding-right: 0; }
-  .quick-links .links-container {
-    margin: 0 auto;
-    width: 1224px; }
 
 .browse-vehicles {
   color: inherit; }
@@ -77,8 +100,8 @@ h5 {
   margin-bottom: 16px; }
 
 .car-features .features {
-  background-color: #09101D;
-  color: #FFF; }
+  background-color: #09101d;
+  color: #fff; }
 
 .car-features .feature-content {
   margin-bottom: 5rem;
@@ -86,6 +109,8 @@ h5 {
 
 .car-features .feature-image {
   padding: 0; }
+  .car-features .feature-image img {
+    min-height: 489px; }
 
 .car-features .feature-list {
   list-style: none;

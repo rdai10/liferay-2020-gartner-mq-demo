@@ -7,7 +7,7 @@
     background-color: $dark;
     color: $white;
   }
-  
+
   .feature-content {
     margin-bottom: 5rem;
     margin-top: 5rem;
@@ -15,6 +15,10 @@
 
   .feature-image {
     padding: 0;
+
+    img {
+      min-height: 489px;
+    }
   }
 
   .feature-list {

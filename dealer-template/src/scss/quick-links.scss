@@ -6,11 +6,10 @@
   }
 
   .btn-link {
-    margin-top: 1rem;
-    text-transform: uppercase;
+    margin-top: $sm-whitespace;
   }
 
-  .description div {
+  .description {
     color: $secondary;
   }
 
@@ -28,10 +27,5 @@
     &:last-child {
       padding-right: 0;
     }
-  }
-
-  .links-container {
-    margin: 0 auto;
-    width: $max-width;
   }
 }
