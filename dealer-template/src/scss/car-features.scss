@@ -25,11 +25,10 @@
     list-style: none;
     padding-left: 0;
 
-    .icon {
+    .list-item {
       display: inline-block;
-      margin-right: $sm-whitespace;
-      height: 32px;
-      width: 32px;
+      margin-bottom: $md-whitespace;
+      margin-left: $sm-whitespace;
     }
   }
 

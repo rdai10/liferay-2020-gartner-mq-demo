@@ -72,15 +72,17 @@ h5 {
     padding: 0.5rem 0.7rem; }
   .search-filters .filter-content {
     padding-top: 1.75rem; }
-  .search-filters .nav-tabs .nav-link {
-    background-color: #ededf0;
-    border: 1px solid transparent;
-    color: #fff;
-    padding: 1rem 2rem;
-    text-transform: none; }
-    .search-filters .nav-tabs .nav-link.active {
-      background-color: #fff;
-      color: #09101d; }
+  .search-filters .nav-tabs {
+    background-color: transparent; }
+    .search-filters .nav-tabs .nav-link {
+      background-color: #ededf0;
+      border: 1px solid transparent;
+      color: #fff;
+      padding: 1rem 2rem;
+      text-transform: none; }
+      .search-filters .nav-tabs .nav-link.active {
+        background-color: #fff;
+        color: #09101d; }
   .search-filters .search-btn {
     margin-top: 26px; }
 
@@ -125,11 +127,10 @@ h5 {
 .car-features .feature-list {
   list-style: none;
   padding-left: 0; }
-  .car-features .feature-list .icon {
+  .car-features .feature-list .list-item {
     display: inline-block;
-    margin-right: 16px;
-    height: 32px;
-    width: 32px; }
+    margin-bottom: 28px;
+    margin-left: 16px; }
 
 .car-features .subheading {
   margin-bottom: 32px; }
