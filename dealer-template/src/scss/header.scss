@@ -1,3 +1,41 @@
-.header {
-  color: inherit;
+.header.zeon {
+  .account-info,
+  .address,
+  .phone,
+  .hours {
+    display: inline-block;
+    padding: $xs-whitespace 0;
+
+    div {
+      display: inline;
+      padding-left: 0.5rem;
+      padding-right: $md-whitespace;
+    }
+  }
+
+  .info-bar,
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+
+    a {
+      color: $dark;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+
+  .info-bar {
+    border-bottom: 1px solid $light;
+  }
+
+  .nav {
+    flex-direction: row;
+  }
+
+  .navbar {
+    padding: $md-whitespace 0;
+  }
 }
