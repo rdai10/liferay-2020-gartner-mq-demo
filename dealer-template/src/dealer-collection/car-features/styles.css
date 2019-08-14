@@ -1,26 +1,34 @@
 .car-features h3 {
-  margin-bottom: var(--zeon-sm-whitespace); }
+  margin-bottom: var(--zeon-sm-whitespace);
+}
 
 .car-features .features {
   background-color: var(--zeon-dark);
-  color: var(--zeon-white); }
+  color: var(--zeon-white);
+}
 
 .car-features .feature-content {
-  margin-bottom: 5rem;
-  margin-top: 5rem; }
+  margin-bottom: 90px;
+  margin-top: 72px;
+}
 
 .car-features .feature-image {
-  padding: 0; }
-  .car-features .feature-image img {
-    min-height: 489px; }
+  padding: 0;
+}
+.car-features .feature-image img {
+  min-height: 489px;
+}
 
 .car-features .feature-list {
   list-style: none;
-  padding-left: 0; }
-  .car-features .feature-list .list-item {
-    display: inline-block;
-    margin-bottom: var(--zeon-md-whitespace);
-    margin-left: var(--zeon-sm-whitespace); }
+  padding-left: 0;
+}
+.car-features .feature-list .list-item {
+  display: inline-block;
+  margin-bottom: var(--zeon-md-whitespace);
+  margin-left: var(--zeon-sm-whitespace);
+}
 
 .car-features .subheading {
-  margin-bottom: var(--zeon-lg-whitespace); }
+  margin-bottom: var(--zeon-lg-whitespace);
+}

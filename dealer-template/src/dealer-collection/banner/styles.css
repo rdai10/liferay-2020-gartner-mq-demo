@@ -1,12 +1,11 @@
-/* banner */
 .banner.zeon {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAkSURBVHgB7cxBEQAACAIwtH8Pzw52kxD8OBZgNXsPQUOUwCIgAz0DHTyygaAAAAAASUVORK5CYII=');
   background-position: center;
   background-size: cover;
 }
 .banner.zeon .container {
-  padding-bottom: 12rem;
-  padding-top: 7.5rem;
+  padding-bottom: 211px;
+  padding-top: 133px;
 }
 .banner.zeon .learn-more,
 .banner.zeon .subtitle,
@@ -28,13 +27,13 @@
   color: var(--zeon-primary);
   font-size: var(--zeon-secondary-size);
   font-weight: var(--zeon-font-weight-black);
-  margin-bottom: 0.45rem;
+  margin-bottom: 8px;
 }
 .banner.zeon .subtitle {
   margin-bottom: var(--zeon-lg-whitespace);
 }
 .banner.zeon .title {
-  padding-bottom: 1rem;
+  padding-bottom: 8px;
 }
 .banner.zeon .title .display {
   color: var(--zeon-white);

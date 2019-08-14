@@ -2,7 +2,7 @@
   background-color: var(--zeon-background-light);
 }
 .quick-links svg {
-  margin-bottom: 1.5rem;
+  margin-bottom: 24px;
 }
 .quick-links .btn-link {
   margin-top: var(--zeon-sm-whitespace);
@@ -12,10 +12,10 @@
 }
 .quick-links .link {
   text-align: center;
-  margin-bottom: 5rem;
-  margin-top: 4.25rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  margin-bottom: 88px;
+  margin-top: 72px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .quick-links .link:first-child {
   padding-left: 0;

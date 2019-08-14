@@ -1,14 +1,14 @@
 :root {
   --zeon-font-family: 'Yantramanav', sans-serif;
   --zeon-base-font-size: 18px;
-  --zeon-h1-display-size: 3.653rem;
-  --zeon-h1-size: 2.887rem;
-  --zeon-h2-size: 2.281rem;
-  --zeon-h3-size: 1.802rem;
-  --zeon-h4-size: 1.424rem;
-  --zeon-h5-size: 1.266rem;
-  --zeon-secondary-size: 0.889rem;
-  --zeon-small-size: 0.702rem;
+  --zeon-h1-display-size: 65.76px;
+  --zeon-h1-size: 51.96px;
+  --zeon-h2-size: 41.05px;
+  --zeon-h3-size: 32.44px;
+  --zeon-h4-size: 25.63px;
+  --zeon-h5-size: 22.78px;
+  --zeon-secondary-size: 16px;
+  --zeon-small-size: 12.64px;
   --zeon-font-weight-medium: 500;
   --zeon-font-weight-black: 900;
   --zeon-h1-display-line-height: 72px;
@@ -105,7 +105,7 @@ body .zeon {
   .header.zeon .phone div,
   .header.zeon .hours div {
     display: inline;
-    padding-left: 0.5rem;
+    padding-left: 8px;
     padding-right: var(--zeon-md-whitespace); }
 
 .header.zeon .info-bar,
@@ -134,8 +134,8 @@ body .zeon {
   background-position: center;
   background-size: cover; }
   .banner.zeon .container {
-    padding-bottom: 12rem;
-    padding-top: 7.5rem; }
+    padding-bottom: 211px;
+    padding-top: 133px; }
   .banner.zeon .learn-more,
   .banner.zeon .subtitle,
   .banner.zeon .title {
@@ -152,11 +152,11 @@ body .zeon {
     color: var(--zeon-primary);
     font-size: var(--zeon-secondary-size);
     font-weight: var(--zeon-font-weight-black);
-    margin-bottom: 0.45rem; }
+    margin-bottom: 8px; }
   .banner.zeon .subtitle {
     margin-bottom: var(--zeon-lg-whitespace); }
   .banner.zeon .title {
-    padding-bottom: 1rem; }
+    padding-bottom: 8px; }
     .banner.zeon .title .display {
       color: var(--zeon-white); }
     .banner.zeon .title .heading-de-emphasized {
@@ -166,7 +166,7 @@ body .zeon {
 
 /* search filters */
 .search-filters {
-  padding-bottom: 2.35rem;
+  padding-bottom: 40px;
   margin-top: -59px; }
   .search-filters h5 {
     margin-bottom: var(--zeon-sm-whitespace); }
@@ -180,14 +180,14 @@ body .zeon {
     border-width: 0;
     padding: 10px var(--zeon-xs-whitespace); }
   .search-filters .filter-content {
-    padding-top: 1.7rem; }
+    padding-top: 30px; }
   .search-filters .nav-tabs {
     background-color: transparent; }
     .search-filters .nav-tabs .nav-link {
       background-color: var(--zeon-light);
       border: 2px solid transparent;
       color: var(--zeon-white);
-      padding: 1rem var(--zeon-lg-whitespace);
+      padding: 18px var(--zeon-lg-whitespace);
       text-transform: none; }
       .search-filters .nav-tabs .nav-link.active {
         background-color: var(--zeon-white);
@@ -199,17 +199,17 @@ body .zeon {
 .quick-links {
   background-color: var(--zeon-background-light); }
   .quick-links svg {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 24px; }
   .quick-links .btn-link {
     margin-top: var(--zeon-sm-whitespace); }
   .quick-links .description {
     color: var(--zeon-secondary); }
   .quick-links .link {
     text-align: center;
-    margin-bottom: 5rem;
-    margin-top: 4.25rem;
-    padding-left: 2rem;
-    padding-right: 2rem; }
+    margin-bottom: 88px;
+    margin-top: 72px;
+    padding-left: 20px;
+    padding-right: 20px; }
     .quick-links .link:first-child {
       padding-left: 0; }
     .quick-links .link:last-child {
@@ -228,8 +228,8 @@ body .zeon {
   color: var(--zeon-white); }
 
 .car-features .feature-content {
-  margin-bottom: 5rem;
-  margin-top: 5rem; }
+  margin-bottom: 90px;
+  margin-top: 72px; }
 
 .car-features .feature-image {
   padding: 0; }

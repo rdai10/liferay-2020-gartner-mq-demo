@@ -1,5 +1,5 @@
 .search-filters {
-  padding-bottom: 2.35rem;
+  padding-bottom: 40px;
   margin-top: -59px;
 }
 .search-filters h5 {
@@ -18,7 +18,7 @@
   padding: 10px var(--zeon-xs-whitespace);
 }
 .search-filters .filter-content {
-  padding-top: 1.7rem;
+  padding-top: 30px;
 }
 .search-filters .nav-tabs {
   background-color: transparent;
@@ -27,7 +27,7 @@
   background-color: var(--zeon-light);
   border: 2px solid transparent;
   color: var(--zeon-white);
-  padding: 1rem var(--zeon-lg-whitespace);
+  padding: 18px var(--zeon-lg-whitespace);
   text-transform: none;
 }
 .search-filters .nav-tabs .nav-link.active {

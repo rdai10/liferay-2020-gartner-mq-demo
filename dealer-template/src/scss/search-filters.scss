@@ -1,7 +1,7 @@
 /* search filters */
 
 .search-filters {
-  padding-bottom: 2.35rem;
+  padding-bottom: 40px;
   margin-top: -59px;
 
   h5 {
@@ -24,7 +24,7 @@
   }
 
   .filter-content {
-    padding-top: 1.7rem;
+    padding-top: 30px;
   }
 
   .nav-tabs {
@@ -34,7 +34,7 @@
       background-color: var(--zeon-light);
       border: 2px solid transparent;
       color: var(--zeon-white);
-      padding: 1rem var(--zeon-lg-whitespace);
+      padding: 18px var(--zeon-lg-whitespace);
       text-transform: none;
 
       &.active {

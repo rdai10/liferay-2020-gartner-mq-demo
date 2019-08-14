@@ -3,31 +3,39 @@
 .header.zeon .phone,
 .header.zeon .hours {
   display: inline-block;
-  padding: var(--zeon-xs-whitespace) 0; }
-  .header.zeon .account-info div,
-  .header.zeon .address div,
-  .header.zeon .phone div,
-  .header.zeon .hours div {
-    display: inline;
-    padding-left: 0.5rem;
-    padding-right: var(--zeon-md-whitespace); }
+  padding: var(--zeon-xs-whitespace) 0;
+}
+.header.zeon .account-info div,
+.header.zeon .address div,
+.header.zeon .phone div,
+.header.zeon .hours div {
+  display: inline;
+  padding-left: 8px;
+  padding-right: var(--zeon-md-whitespace);
+}
 
 .header.zeon .info-bar,
 .header.zeon .navbar {
   display: flex;
-  justify-content: space-between; }
-  .header.zeon .info-bar a,
-  .header.zeon .navbar a {
-    color: var(--zeon-dark); }
-    .header.zeon .info-bar a:hover,
-    .header.zeon .navbar a:hover {
-      text-decoration: none; }
+  justify-content: space-between;
+}
+.header.zeon .info-bar a,
+.header.zeon .navbar a {
+  color: var(--zeon-dark);
+}
+.header.zeon .info-bar a:hover,
+.header.zeon .navbar a:hover {
+  text-decoration: none;
+}
 
 .header.zeon .info-bar {
-  border-bottom: 1px solid var(--zeon-light); }
+  border-bottom: 1px solid var(--zeon-light);
+}
 
 .header.zeon .nav {
-  flex-direction: row; }
+  flex-direction: row;
+}
 
 .header.zeon .navbar {
-  padding: var(--zeon-md-whitespace) 0; }
+  padding: var(--zeon-md-whitespace) 0;
+}
