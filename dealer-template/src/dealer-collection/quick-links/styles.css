@@ -1,18 +1,25 @@
 .quick-links {
-  background-color: var(--zeon-background); }
-  .quick-links svg {
-    margin-bottom: 1.5rem; }
-  .quick-links .btn-link {
-    margin-top: var(--zeon-sm-whitespace); }
-  .quick-links .description {
-    color: var(--zeon-secondary); }
-  .quick-links .link {
-    text-align: center;
-    margin-bottom: 5rem;
-    margin-top: 4.25rem;
-    padding-left: 2rem;
-    padding-right: 2rem; }
-    .quick-links .link:first-child {
-      padding-left: 0; }
-    .quick-links .link:last-child {
-      padding-right: 0; }
+  background-color: var(--zeon-background-light);
+}
+.quick-links svg {
+  margin-bottom: 1.5rem;
+}
+.quick-links .btn-link {
+  margin-top: var(--zeon-sm-whitespace);
+}
+.quick-links .description {
+  color: var(--zeon-secondary);
+}
+.quick-links .link {
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 4.25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.quick-links .link:first-child {
+  padding-left: 0;
+}
+.quick-links .link:last-child {
+  padding-right: 0;
+}

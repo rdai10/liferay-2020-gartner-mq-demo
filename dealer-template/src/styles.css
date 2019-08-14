@@ -21,6 +21,7 @@
   --zeon-dark: #09101d;
   --zeon-secondary: #646b75;
   --zeon-background: #e5e5e5;
+  --zeon-background-light: #F7F8F9;
   --zeon-light: #ededf0;
   --zeon-white: #fff;
   --zeon-xs-whitespace: 12px;
@@ -165,7 +166,8 @@ body .zeon {
 
 /* search filters */
 .search-filters {
-  padding-bottom: 2.35rem; }
+  padding-bottom: 2.35rem;
+  margin-top: -59px; }
   .search-filters h5 {
     margin-bottom: var(--zeon-sm-whitespace); }
   .search-filters label {
@@ -176,16 +178,16 @@ body .zeon {
   .search-filters select {
     background-color: var(--zeon-light);
     border-width: 0;
-    padding: 0.5rem 0.7rem; }
+    padding: 10px var(--zeon-xs-whitespace); }
   .search-filters .filter-content {
-    padding-top: 1.75rem; }
+    padding-top: 1.7rem; }
   .search-filters .nav-tabs {
     background-color: transparent; }
     .search-filters .nav-tabs .nav-link {
       background-color: var(--zeon-light);
-      border: 1px solid transparent;
+      border: 2px solid transparent;
       color: var(--zeon-white);
-      padding: 1rem 2rem;
+      padding: 1rem var(--zeon-lg-whitespace);
       text-transform: none; }
       .search-filters .nav-tabs .nav-link.active {
         background-color: var(--zeon-white);
@@ -195,7 +197,7 @@ body .zeon {
 
 /* quick-links */
 .quick-links {
-  background-color: var(--zeon-background); }
+  background-color: var(--zeon-background-light); }
   .quick-links svg {
     margin-bottom: 1.5rem; }
   .quick-links .btn-link {
