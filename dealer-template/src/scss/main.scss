@@ -15,7 +15,7 @@ $h5-line-height: 28px !default;
 $small-line-height: 24px !default;
 
 $primary: #d72323;
-$primary-dark: #AF0000;
+$primary-dark: #af0000;
 $dark: #09101d;
 $secondary: #646b75;
 $background: #e5e5e5;
@@ -35,71 +35,73 @@ body .zeon {
   font-size: $base-font-size;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: $h1-size;
-
-  &.display {
-    font-size: $h1-display-size;
-    line-height: $h1-display-line-height;
-  }
-}
-
-h2 {
-  font-size: $h2-size;
-}
-
-h3 {
-  font-size: $h3-size;
-  line-height: $h3-line-height;
-}
-
-h4 {
-  font-size: $h4-size;
-  line-height: $h4-line-height;
-}
-
-h5 {
-  font-size: $h5-size;
-  line-height: $h5-line-height;
-}
-
-.btn {
-  border-radius: 0;
-  font-size: $base-font-size;
-  line-height: normal;
-  text-transform: uppercase;
-
-  &.btn-link {
-    color: $primary;
+.zeon {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: bold;
   }
 
-  &.btn-dark {
-    &,
-    &:focus,
-    &:hover,
-    &:not([disabled]):not(.disabled):active {
-      background-color: $dark;
-      border-width: 0;
-      color: $white;
+  h1 {
+    font-size: $h1-size;
+
+    &.display {
+      font-size: $h1-display-size;
+      line-height: $h1-display-line-height;
     }
   }
 
-  &.btn-primary {
-    &,
-    &:focus,
-    &:hover,
-    &:not([disabled]):not(.disabled):active {
-      background-color: $primary;
-      border-width: 0;
-      color: $white;
+  h2 {
+    font-size: $h2-size;
+  }
+
+  h3 {
+    font-size: $h3-size;
+    line-height: $h3-line-height;
+  }
+
+  h4 {
+    font-size: $h4-size;
+    line-height: $h4-line-height;
+  }
+
+  h5 {
+    font-size: $h5-size;
+    line-height: $h5-line-height;
+  }
+
+  .btn {
+    border-radius: 0;
+    font-size: $base-font-size;
+    line-height: normal;
+    text-transform: uppercase;
+
+    &.btn-link {
+      color: $primary;
+    }
+
+    &.btn-dark {
+      &,
+      &:focus,
+      &:hover,
+      &:not([disabled]):not(.disabled):active {
+        background-color: $dark;
+        border-width: 0;
+        color: $white;
+      }
+    }
+
+    &.btn-primary {
+      &,
+      &:focus,
+      &:hover,
+      &:not([disabled]):not(.disabled):active {
+        background-color: $primary;
+        border-width: 0;
+        color: $white;
+      }
     }
   }
 }

@@ -1,0 +1,56 @@
+body .zeon {
+  color: #09101d;
+  font-family: "Yantramanav", sans-serif;
+  font-size: 17px; }
+
+.zeon h1,
+.zeon h2,
+.zeon h3,
+.zeon h4,
+.zeon h5 {
+  font-weight: bold; }
+
+.zeon h1 {
+  font-size: 3.052rem; }
+  .zeon h1.display {
+    font-size: 3.815rem;
+    line-height: 72px; }
+
+.zeon h2 {
+  font-size: 2.441rem; }
+
+.zeon h3 {
+  font-size: 1.953rem;
+  line-height: 30px; }
+
+.zeon h4 {
+  font-size: 1.563rem;
+  line-height: 72px; }
+
+.zeon h5 {
+  font-size: 1.25rem;
+  line-height: 28px; }
+
+.zeon .btn {
+  border-radius: 0;
+  font-size: 17px;
+  line-height: normal;
+  text-transform: uppercase; }
+  .zeon .btn.btn-link {
+    color: #d72323; }
+  .zeon .btn.btn-dark, .zeon .btn.btn-dark:focus, .zeon .btn.btn-dark:hover, .zeon .btn.btn-dark:not([disabled]):not(.disabled):active {
+    background-color: #09101d;
+    border-width: 0;
+    color: #fff; }
+  .zeon .btn.btn-primary, .zeon .btn.btn-primary:focus, .zeon .btn.btn-primary:hover, .zeon .btn.btn-primary:not([disabled]):not(.disabled):active {
+    background-color: #d72323;
+    border-width: 0;
+    color: #fff; }
+
+.text-small {
+  font-size: 15px;
+  line-height: 24px; }
+
+.zeon-container {
+  margin: 0 auto;
+  width: 1224px; }

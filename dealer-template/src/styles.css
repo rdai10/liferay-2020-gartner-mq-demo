@@ -3,46 +3,46 @@ body .zeon {
   font-family: "Yantramanav", sans-serif;
   font-size: 17px; }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
+.zeon h1,
+.zeon h2,
+.zeon h3,
+.zeon h4,
+.zeon h5 {
   font-weight: bold; }
 
-h1 {
+.zeon h1 {
   font-size: 3.052rem; }
-  h1.display {
+  .zeon h1.display {
     font-size: 3.815rem;
     line-height: 72px; }
 
-h2 {
+.zeon h2 {
   font-size: 2.441rem; }
 
-h3 {
+.zeon h3 {
   font-size: 1.953rem;
   line-height: 30px; }
 
-h4 {
+.zeon h4 {
   font-size: 1.563rem;
   line-height: 72px; }
 
-h5 {
+.zeon h5 {
   font-size: 1.25rem;
   line-height: 28px; }
 
-.btn {
+.zeon .btn {
   border-radius: 0;
   font-size: 17px;
   line-height: normal;
   text-transform: uppercase; }
-  .btn.btn-link {
+  .zeon .btn.btn-link {
     color: #d72323; }
-  .btn.btn-dark, .btn.btn-dark:focus, .btn.btn-dark:hover, .btn.btn-dark:not([disabled]):not(.disabled):active {
+  .zeon .btn.btn-dark, .zeon .btn.btn-dark:focus, .zeon .btn.btn-dark:hover, .zeon .btn.btn-dark:not([disabled]):not(.disabled):active {
     background-color: #09101d;
     border-width: 0;
     color: #fff; }
-  .btn.btn-primary, .btn.btn-primary:focus, .btn.btn-primary:hover, .btn.btn-primary:not([disabled]):not(.disabled):active {
+  .zeon .btn.btn-primary, .zeon .btn.btn-primary:focus, .zeon .btn.btn-primary:hover, .zeon .btn.btn-primary:not([disabled]):not(.disabled):active {
     background-color: #d72323;
     border-width: 0;
     color: #fff; }
@@ -186,7 +186,7 @@ h5 {
 
 /* footer */
 .footer.zeon .cta {
-  background-color: #AF0000;
+  background-color: #af0000;
   color: #fff;
   padding: 28px 0; }
 
