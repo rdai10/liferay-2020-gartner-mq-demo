@@ -15,6 +15,7 @@ $h5-line-height: 28px !default;
 $small-line-height: 24px !default;
 
 $primary: #d72323;
+$primary-dark: #AF0000;
 $dark: #09101d;
 $secondary: #646b75;
 $background: #e5e5e5;
@@ -78,6 +79,17 @@ h5 {
 
   &.btn-link {
     color: $primary;
+  }
+
+  &.btn-dark {
+    &,
+    &:focus,
+    &:hover,
+    &:not([disabled]):not(.disabled):active {
+      background-color: $dark;
+      border-width: 0;
+      color: $white;
+    }
   }
 
   &.btn-primary {
