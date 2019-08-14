@@ -20,8 +20,8 @@
   border-left: 2px solid var(--zeon-primary);
   padding-left: var(--zeon-xs-whitespace);
 }
-.banner.zeon .learn-more .a {
-  color: var(--zeon-primary);
+.banner.zeon .learn-more a {
+  color: var(--zeon-white);
 }
 .banner.zeon .subheading {
   color: var(--zeon-primary);
