@@ -4,7 +4,7 @@
   padding-bottom: 2.35rem;
 
   h5 {
-    margin-bottom: $sm-whitespace;
+    margin-bottom: var(--zeon-sm-whitespace);
   }
 
   label {
@@ -17,7 +17,7 @@
   }
 
   select {
-    background-color: $light;
+    background-color: var(--zeon-light);
     border-width: 0;
     padding: 0.5rem 0.7rem;
   }
@@ -30,15 +30,15 @@
     background-color: transparent;
 
     .nav-link {
-      background-color: $light;
+      background-color: var(--zeon-light);
       border: 1px solid transparent;
-      color: $white;
+      color: var(--zeon-white);
       padding: 1rem 2rem;
       text-transform: none;
 
       &.active {
-        background-color: $white;
-        color: $dark;
+        background-color: var(--zeon-white);
+        color: var(--zeon-dark);
       }
     }
   }

@@ -29,10 +29,44 @@ $lg-whitespace: 32px !default;
 
 $max-width: 1224px !default;
 
+:root {
+  --zeon-font-family: 'Yantramanav', sans-serif;
+
+  --zeon-base-font-size: 17px;
+  --zeon-h1-display-size: 3.815rem; //64.85px
+  --zeon-h1-size: 3.052rem; //51.88px
+  --zeon-h2-size: 2.441rem; //41.5px
+  --zeon-h3-size: 1.953rem; //33.2px
+  --zeon-h4-size: 1.563rem; //26.56px
+  --zeon-h5-size: 1.25rem; //21.25px
+  --zeon-small-size: 15px;
+  
+  --zeon-h1-display-line-height: 72px;
+  --zeon-h3-line-height: 30px;
+  --zeon-h4-line-height: 72px;
+  --zeon-h5-line-height: 28px;
+  --zeon-small-line-height: 24px;
+  
+  --zeon-primary: #d72323;
+  --zeon-primary-dark: #af0000;
+  --zeon-dark: #09101d;
+  --zeon-secondary: #646b75;
+  --zeon-background: #e5e5e5;
+  --zeon-light: #ededf0;
+  --zeon-white: #fff;
+  
+  --zeon-xs-whitespace: 12px;
+  --zeon-sm-whitespace: 16px;
+  --zeon-md-whitespace: 28px;
+  --zeon-lg-whitespace: 32px;
+  
+  --zeon-max-width: 1224px;
+}
+
 body .zeon {
-  color: $dark;
-  font-family: $font-family;
-  font-size: $base-font-size;
+  color: var(--zeon-dark);
+  font-family: var(--zeon-font-family);
+  font-size: var(--zeon-base-font-size);
 }
 
 .zeon {
@@ -45,41 +79,41 @@ body .zeon {
   }
 
   h1 {
-    font-size: $h1-size;
+    font-size: var(--zeon-h1-size);
 
     &.display {
-      font-size: $h1-display-size;
-      line-height: $h1-display-line-height;
+      font-size: var(--zeon-h1-display-size);
+      line-height: var(--zeon-h1-display-line-height);
     }
   }
 
   h2 {
-    font-size: $h2-size;
+    font-size: var(--zeon-h2-size);
   }
 
   h3 {
-    font-size: $h3-size;
-    line-height: $h3-line-height;
+    font-size: var(--zeon-h3-size);
+    line-height: var(--zeon-h3-line-height);
   }
 
   h4 {
-    font-size: $h4-size;
-    line-height: $h4-line-height;
+    font-size: var(--zeon-h4-size);
+    line-height: var(--zeon-h4-line-height);
   }
 
   h5 {
-    font-size: $h5-size;
-    line-height: $h5-line-height;
+    font-size: var(--zeon-h5-size);
+    line-height: var(--zeon-h5-line-height);
   }
 
   .btn {
     border-radius: 0;
-    font-size: $base-font-size;
+    font-size: var(--zeon-base-font-size);
     line-height: normal;
     text-transform: uppercase;
 
     &.btn-link {
-      color: $primary;
+      color: var(--zeon-primary);
     }
 
     &.btn-dark {
@@ -87,9 +121,9 @@ body .zeon {
       &:focus,
       &:hover,
       &:not([disabled]):not(.disabled):active {
-        background-color: $dark;
+        background-color: var(--zeon-dark);
         border-width: 0;
-        color: $white;
+        color: var(--zeon-white);
       }
     }
 
@@ -98,22 +132,22 @@ body .zeon {
       &:focus,
       &:hover,
       &:not([disabled]):not(.disabled):active {
-        background-color: $primary;
+        background-color: var(--zeon-primary);
         border-width: 0;
-        color: $white;
+        color: var(--zeon-white);
       }
     }
   }
 }
 
 .text-small {
-  font-size: $small-size;
-  line-height: $small-line-height;
+  font-size: var(--zeon-small-size);
+  line-height: var(--zeon-small-line-height);
 }
 
 .zeon-container {
   margin: 0 auto;
-  width: $max-width;
+  width: var(--zeon-max-width);
 }
 
 @import './header';

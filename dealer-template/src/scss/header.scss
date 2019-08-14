@@ -6,12 +6,12 @@
   .phone,
   .hours {
     display: inline-block;
-    padding: $xs-whitespace 0;
+    padding: var(--zeon-xs-whitespace) 0;
 
     div {
       display: inline;
       padding-left: 0.5rem;
-      padding-right: $md-whitespace;
+      padding-right: var(--zeon-md-whitespace);
     }
   }
 
@@ -21,7 +21,7 @@
     justify-content: space-between;
 
     a {
-      color: $dark;
+      color: var(--zeon-dark);
 
       &:hover {
         text-decoration: none;
@@ -30,7 +30,7 @@
   }
 
   .info-bar {
-    border-bottom: 1px solid $light;
+    border-bottom: 1px solid var(--zeon-light);
   }
 
   .nav {
@@ -38,6 +38,6 @@
   }
 
   .navbar {
-    padding: $md-whitespace 0;
+    padding: var(--zeon-md-whitespace) 0;
   }
 }

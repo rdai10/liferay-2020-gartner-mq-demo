@@ -2,12 +2,12 @@
 
 .car-features {
   h3 {
-    margin-bottom: $sm-whitespace;
+    margin-bottom: var(--zeon-sm-whitespace);
   }
 
   .features {
-    background-color: $dark;
-    color: $white;
+    background-color: var(--zeon-dark);
+    color: var(--zeon-white);
   }
 
   .feature-content {
@@ -29,12 +29,12 @@
 
     .list-item {
       display: inline-block;
-      margin-bottom: $md-whitespace;
-      margin-left: $sm-whitespace;
+      margin-bottom: var(--zeon-md-whitespace);
+      margin-left: var(--zeon-sm-whitespace);
     }
   }
 
   .subheading {
-    margin-bottom: $lg-whitespace;
+    margin-bottom: var(--zeon-lg-whitespace);
   }
 }

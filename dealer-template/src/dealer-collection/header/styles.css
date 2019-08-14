@@ -3,14 +3,14 @@
 .header.zeon .phone,
 .header.zeon .hours {
   display: inline-block;
-  padding: 12px 0; }
+  padding: var(--zeon-xs-whitespace) 0; }
   .header.zeon .account-info div,
   .header.zeon .address div,
   .header.zeon .phone div,
   .header.zeon .hours div {
     display: inline;
     padding-left: 0.5rem;
-    padding-right: 28px; }
+    padding-right: var(--zeon-md-whitespace); }
 
 .header.zeon .info-bar,
 .header.zeon .navbar {
@@ -18,16 +18,16 @@
   justify-content: space-between; }
   .header.zeon .info-bar a,
   .header.zeon .navbar a {
-    color: #09101d; }
+    color: var(--zeon-dark); }
     .header.zeon .info-bar a:hover,
     .header.zeon .navbar a:hover {
       text-decoration: none; }
 
 .header.zeon .info-bar {
-  border-bottom: 1px solid #ededf0; }
+  border-bottom: 1px solid var(--zeon-light); }
 
 .header.zeon .nav {
   flex-direction: row; }
 
 .header.zeon .navbar {
-  padding: 28px 0; }
+  padding: var(--zeon-md-whitespace) 0; }

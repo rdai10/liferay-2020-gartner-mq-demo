@@ -1,9 +1,8 @@
 .footer.zeon .cta {
-    background-color: #af0000;
-    color: #fff;
-    padding: 28px 0; }
-  
-  .footer.zeon .cta-msg {
-    display: inline;
-    margin-right: 32px; }
-  
+  background-color: var(--zeon-primary-dark);
+  color: var(--zeon-white);
+  padding: var(--zeon-md-whitespace) 0; }
+
+.footer.zeon .cta-msg {
+  display: inline;
+  margin-right: var(--zeon-lg-whitespace); }

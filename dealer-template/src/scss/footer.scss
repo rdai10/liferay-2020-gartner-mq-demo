@@ -2,13 +2,13 @@
 
 .footer.zeon {
   .cta {
-    background-color: $primary-dark;
-    color: $white;
-    padding: $md-whitespace 0;
+    background-color: var(--zeon-primary-dark);
+    color: var(--zeon-white);
+    padding: var(--zeon-md-whitespace) 0;
   }
 
   .cta-msg {
     display: inline;
-    margin-right: $lg-whitespace;
+    margin-right: var(--zeon-lg-whitespace);
   }
 }

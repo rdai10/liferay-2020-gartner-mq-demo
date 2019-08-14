@@ -1,18 +1,18 @@
 /* quick-links */
 
 .quick-links {
-  background-color: $background;
+  background-color: var(--zeon-background);
 
   svg {
     margin-bottom: 1.5rem;
   }
 
   .btn-link {
-    margin-top: $sm-whitespace;
+    margin-top: var(--zeon-sm-whitespace);
   }
 
   .description {
-    color: $secondary;
+    color: var(--zeon-secondary);
   }
 
   .link {
