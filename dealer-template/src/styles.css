@@ -1,13 +1,15 @@
 :root {
   --zeon-font-family: 'Yantramanav', sans-serif;
-  --zeon-base-font-size: 17px;
-  --zeon-h1-display-size: 3.815rem;
-  --zeon-h1-size: 3.052rem;
-  --zeon-h2-size: 2.441rem;
-  --zeon-h3-size: 1.953rem;
-  --zeon-h4-size: 1.563rem;
-  --zeon-h5-size: 1.25rem;
-  --zeon-small-size: 15px;
+  --zeon-base-font-size: 18px;
+  --zeon-h1-display-size: 3.653rem;
+  --zeon-h1-size: 2.887rem;
+  --zeon-h2-size: 2.281rem;
+  --zeon-h3-size: 1.802rem;
+  --zeon-h4-size: 1.424rem;
+  --zeon-h5-size: 1.266rem;
+  --zeon-secondary-size: 0.889rem;
+  --zeon-small-size: 0.702rem;
+  --zeon-font-weight-medium: 500;
   --zeon-h1-display-line-height: 72px;
   --zeon-h3-line-height: 30px;
   --zeon-h4-line-height: 72px;
@@ -36,7 +38,7 @@ body .zeon {
 .zeon h3,
 .zeon h4,
 .zeon h5 {
-  font-weight: bold; }
+  font-weight: var(--zeon-font-weight-medium); }
 
 .zeon h1 {
   font-size: var(--zeon-h1-size); }
@@ -75,9 +77,15 @@ body .zeon {
     border-width: 0;
     color: var(--zeon-white); }
 
-.text-small {
+.font-size-secondary {
+  font-size: var(--zeon-secondary-size); }
+
+.font-size-small {
   font-size: var(--zeon-small-size);
   line-height: var(--zeon-small-line-height); }
+
+.font-weight-medium {
+  font-weight: var(--zeon-font-weight-medium); }
 
 .zeon-container {
   margin: 0 auto;
@@ -119,8 +127,10 @@ body .zeon {
   padding: var(--zeon-md-whitespace) 0; }
 
 /* banner */
-.banner {
-  color: inherit; }
+.banner.zeon {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAkSURBVHgB7cxBEQAACAIwtH8Pzw52kxD8OBZgNXsPQUOUwCIgAz0DHTyygaAAAAAASUVORK5CYII=");
+  background-position: center;
+  background-size: cover; }
 
 /* search filters */
 .search-filters {

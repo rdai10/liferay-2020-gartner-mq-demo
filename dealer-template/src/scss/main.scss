@@ -1,45 +1,17 @@
-$font-family: 'Yantramanav', sans-serif;
-$base-font-size: 17px !default;
-$h1-display-size: 3.815rem !default; //64.85px
-$h1-size: 3.052rem !default; //51.88px
-$h2-size: 2.441rem !default; //41.5px
-$h3-size: 1.953rem !default; //33.2px
-$h4-size: 1.563rem !default; //26.56px
-$h5-size: 1.25rem !default; //21.25px
-$small-size: 15px !default;
-
-$h1-display-line-height: 72px !default;
-$h3-line-height: 30px !default;
-$h4-line-height: 72px !default;
-$h5-line-height: 28px !default;
-$small-line-height: 24px !default;
-
-$primary: #d72323;
-$primary-dark: #af0000;
-$dark: #09101d;
-$secondary: #646b75;
-$background: #e5e5e5;
-$light: #ededf0;
-$white: #fff;
-
-$xs-whitespace: 12px !default;
-$sm-whitespace: 16px !default;
-$md-whitespace: 28px !default;
-$lg-whitespace: 32px !default;
-
-$max-width: 1224px !default;
-
 :root {
   --zeon-font-family: 'Yantramanav', sans-serif;
 
-  --zeon-base-font-size: 17px;
-  --zeon-h1-display-size: 3.815rem; //64.85px
-  --zeon-h1-size: 3.052rem; //51.88px
-  --zeon-h2-size: 2.441rem; //41.5px
-  --zeon-h3-size: 1.953rem; //33.2px
-  --zeon-h4-size: 1.563rem; //26.56px
-  --zeon-h5-size: 1.25rem; //21.25px
-  --zeon-small-size: 15px;
+  --zeon-base-font-size: 18px;
+  --zeon-h1-display-size: 3.653rem; //65.76px
+  --zeon-h1-size: 2.887rem; //51.96px
+  --zeon-h2-size: 2.281rem; //41.05px
+  --zeon-h3-size: 1.802rem; //32.44px
+  --zeon-h4-size: 1.424rem; //25.63px
+  --zeon-h5-size: 1.266rem; //22.78px
+  --zeon-secondary-size: 0.889rem; //16px
+  --zeon-small-size: 0.702rem; //12.64px 
+
+  --zeon-font-weight-medium: 500;
   
   --zeon-h1-display-line-height: 72px;
   --zeon-h3-line-height: 30px;
@@ -75,7 +47,7 @@ body .zeon {
   h3,
   h4,
   h5 {
-    font-weight: bold;
+    font-weight: var(--zeon-font-weight-medium);
   }
 
   h1 {
@@ -140,9 +112,17 @@ body .zeon {
   }
 }
 
-.text-small {
+.font-size-secondary {
+  font-size: var(--zeon-secondary-size);
+}
+
+.font-size-small {
   font-size: var(--zeon-small-size);
   line-height: var(--zeon-small-line-height);
+}
+
+.font-weight-medium {
+  font-weight: var(--zeon-font-weight-medium);
 }
 
 .zeon-container {
