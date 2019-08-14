@@ -55,6 +55,7 @@ h5 {
   margin: 0 auto;
   width: 1224px; }
 
+/* header */
 .header.zeon .account-info,
 .header.zeon .address,
 .header.zeon .phone,
@@ -89,9 +90,11 @@ h5 {
 .header.zeon .navbar {
   padding: 28px 0; }
 
+/* banner */
 .banner {
   color: inherit; }
 
+/* search filters */
 .search-filters {
   padding-bottom: 2.35rem; }
   .search-filters h5 {
@@ -121,6 +124,7 @@ h5 {
   .search-filters .search-btn {
     margin-top: 26px; }
 
+/* quick-links */
 .quick-links {
   background-color: #e5e5e5; }
   .quick-links svg {
@@ -140,9 +144,11 @@ h5 {
     .quick-links .link:last-child {
       padding-right: 0; }
 
+/* browse vehicles */
 .browse-vehicles {
   color: inherit; }
 
+/* car features */
 .car-features h3 {
   margin-bottom: 16px; }
 
@@ -170,12 +176,15 @@ h5 {
 .car-features .subheading {
   margin-bottom: 32px; }
 
+/* customer review */
 .customer-review {
   color: inherit; }
 
+/* location info */
 .location-info {
   color: inherit; }
 
+/* footer */
 .footer.zeon .cta {
   background-color: #AF0000;
   color: #fff;
