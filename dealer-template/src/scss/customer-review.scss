@@ -1,3 +1,14 @@
-.customer-review {
-  color: inherit;
+.customer-review.zeon {
+  background-color: var(--zeon-background-light);
+  padding-bottom: 88px;
+  padding-top: 72px;
+
+  h3 {
+    margin-bottom: var(--zeon-small-line-height);
+  }
+
+  .carousel {
+    background-color: var(--zeon-white);
+    padding: var(--zeon-lg-whitespace);
+  }
 }
