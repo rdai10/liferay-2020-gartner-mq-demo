@@ -219,8 +219,22 @@ body .zeon {
       padding-right: 0; }
 
 /* browse vehicles */
-.browse-vehicles {
-  color: inherit; }
+.browse-vehicles.zeon {
+  padding-bottom: 88px;
+  padding-top: 72px; }
+  .browse-vehicles.zeon .nav-underline {
+    padding-top: 24px;
+    padding-bottom: 44px; }
+    .browse-vehicles.zeon .nav-underline .nav-item .nav-link {
+      color: var(--zeon-secondary);
+      padding-left: 0;
+      padding-right: 0;
+      margin-right: 24px; }
+      .browse-vehicles.zeon .nav-underline .nav-item .nav-link.active {
+        color: var(--zeon-dark);
+        font-weight: var(--zeon-font-weight-medium); }
+        .browse-vehicles.zeon .nav-underline .nav-item .nav-link.active:after {
+          background-color: var(--zeon-primary); }
 
 /* car features */
 .car-features h3 {
