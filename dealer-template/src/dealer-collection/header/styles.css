@@ -14,14 +14,10 @@
   padding-right: var(--zeon-md-whitespace);
 }
 
-.header.zeon .info-bar,
-.header.zeon .navbar {
-  display: flex;
-  justify-content: space-between;
-}
 .header.zeon .info-bar a,
 .header.zeon .navbar a {
   color: var(--zeon-dark);
+  padding: 0;
 }
 .header.zeon .info-bar a:hover,
 .header.zeon .navbar a:hover {
@@ -34,8 +30,21 @@
 
 .header.zeon .nav {
   flex-direction: row;
+  font-size: var(--zeon-base-font-size);
+  font-weight: normal;
+  justify-content: flex-end;
+  padding: 0;
 }
 
 .header.zeon .navbar {
   padding: var(--zeon-md-whitespace) 0;
+}
+
+.header.zeon .nav-link {
+  padding-left: 26px;
+  padding-right: 0;
+}
+
+.header.zeon .zeon-container {
+  justify-content: space-between;
 }

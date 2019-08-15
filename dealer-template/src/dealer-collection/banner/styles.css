@@ -8,11 +8,6 @@
   padding-top: 133px;
 }
 .banner.zeon .learn-more,
-.banner.zeon .subtitle,
-.banner.zeon .title {
-  color: var(--zeon-white);
-}
-.banner.zeon .learn-more,
 .banner.zeon .subheading {
   text-transform: uppercase;
 }

@@ -108,25 +108,33 @@ body .zeon {
     padding-left: 8px;
     padding-right: var(--zeon-md-whitespace); }
 
-.header.zeon .info-bar,
-.header.zeon .navbar {
-  display: flex;
-  justify-content: space-between; }
-  .header.zeon .info-bar a,
-  .header.zeon .navbar a {
-    color: var(--zeon-dark); }
-    .header.zeon .info-bar a:hover,
-    .header.zeon .navbar a:hover {
-      text-decoration: none; }
+.header.zeon .info-bar a,
+.header.zeon .navbar a {
+  color: var(--zeon-dark);
+  padding: 0; }
+  .header.zeon .info-bar a:hover,
+  .header.zeon .navbar a:hover {
+    text-decoration: none; }
 
 .header.zeon .info-bar {
   border-bottom: 1px solid var(--zeon-light); }
 
 .header.zeon .nav {
-  flex-direction: row; }
+  flex-direction: row;
+  font-size: var(--zeon-base-font-size);
+  font-weight: normal;
+  justify-content: flex-end;
+  padding: 0; }
 
 .header.zeon .navbar {
   padding: var(--zeon-md-whitespace) 0; }
+
+.header.zeon .nav-link {
+  padding-left: 26px;
+  padding-right: 0; }
+
+.header.zeon .zeon-container {
+  justify-content: space-between; }
 
 /* banner */
 .banner.zeon {
@@ -136,10 +144,6 @@ body .zeon {
   .banner.zeon .container {
     padding-bottom: 211px;
     padding-top: 133px; }
-  .banner.zeon .learn-more,
-  .banner.zeon .subtitle,
-  .banner.zeon .title {
-    color: var(--zeon-white); }
   .banner.zeon .learn-more,
   .banner.zeon .subheading {
     text-transform: uppercase; }

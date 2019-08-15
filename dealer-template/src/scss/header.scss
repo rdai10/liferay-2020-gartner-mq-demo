@@ -17,11 +17,9 @@
 
   .info-bar,
   .navbar {
-    display: flex;
-    justify-content: space-between;
-
     a {
       color: var(--zeon-dark);
+      padding: 0;
 
       &:hover {
         text-decoration: none;
@@ -35,9 +33,22 @@
 
   .nav {
     flex-direction: row;
+    font-size: var(--zeon-base-font-size);
+    font-weight: normal;
+    justify-content: flex-end;
+    padding: 0;
   }
 
   .navbar {
     padding: var(--zeon-md-whitespace) 0;
+  }
+
+  .nav-link {
+    padding-left: 26px;
+    padding-right: 0;
+  }
+
+  .zeon-container {
+    justify-content: space-between;
   }
 }
