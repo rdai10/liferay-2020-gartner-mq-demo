@@ -1,38 +1,29 @@
+/* car features */
 .car-features h3 {
-  margin-bottom: var(--zeon-sm-whitespace);
-}
+  margin-bottom: var(--zeon-sm-whitespace); }
 
 .car-features .features {
+  align-items: center;
   background-color: var(--zeon-dark);
   color: var(--zeon-white);
-}
-
-.car-features .feature-content {
-  margin-bottom: 90px;
-  margin-top: 90px;
-}
+  display: flex; }
 
 .car-features .feature-image {
-  padding: 0;
-}
-.car-features .feature-image img {
-  object-fit: cover;
-  width: 100%;
-}
+  padding: 0; }
+  .car-features .feature-image img {
+    object-fit: cover;
+    width: 100%; }
 
 .car-features .feature-list {
   list-style: none;
-  padding-left: 0;
-}
-.car-features .feature-list .list-item {
-  display: inline-block;
-  margin-bottom: var(--zeon-md-whitespace);
-  margin-left: var(--zeon-sm-whitespace);
-}
+  padding-left: 0; }
+  .car-features .feature-list .list-item {
+    display: inline-block;
+    margin-bottom: var(--zeon-md-whitespace);
+    margin-left: var(--zeon-sm-whitespace); }
 
 .car-features .icon {
   display: inline; }
 
 .car-features .subheading {
-  margin-bottom: var(--zeon-lg-whitespace);
-}
+  margin-bottom: var(--zeon-lg-whitespace); }

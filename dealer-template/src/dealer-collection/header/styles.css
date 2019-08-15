@@ -1,54 +1,41 @@
+/* header */
 .header.zeon .account-info,
 .header.zeon .address,
 .header.zeon .phone,
 .header.zeon .hours {
   display: inline-block;
-  padding: var(--zeon-xs-whitespace) 0;
-}
-.header.zeon .account-info div,
-.header.zeon .address div,
-.header.zeon .phone div,
-.header.zeon .hours div {
-  display: inline;
-  padding-left: 8px;
-  padding-right: var(--zeon-md-whitespace);
-}
-
-.header.zeon .icon {
-  display: inline;
-}
+  padding: var(--zeon-xs-whitespace) 0; }
+  .header.zeon .account-info .icon,
+  .header.zeon .address .icon,
+  .header.zeon .phone .icon,
+  .header.zeon .hours .icon {
+    display: inline;
+    padding-right: var(--zeon-md-whitespace); }
 
 .header.zeon .info-bar a,
 .header.zeon .navbar a {
   color: var(--zeon-dark);
-  padding: 0;
-}
-.header.zeon .info-bar a:hover,
-.header.zeon .navbar a:hover {
-  text-decoration: none;
-}
+  padding: 0; }
+  .header.zeon .info-bar a:hover,
+  .header.zeon .navbar a:hover {
+    text-decoration: none; }
 
 .header.zeon .info-bar {
-  border-bottom: 1px solid var(--zeon-light);
-}
+  border-bottom: 1px solid var(--zeon-light); }
 
 .header.zeon .nav {
   flex-direction: row;
   font-size: var(--zeon-base-font-size);
   font-weight: normal;
   justify-content: flex-end;
-  padding: 0;
-}
+  padding: 0; }
 
 .header.zeon .navbar {
-  padding: var(--zeon-md-whitespace) 0;
-}
+  padding: var(--zeon-md-whitespace) 0; }
 
 .header.zeon .nav-link {
   padding-left: 26px;
-  padding-right: 0;
-}
+  padding-right: 0; }
 
 .header.zeon .zeon-container {
-  justify-content: space-between;
-}
+  justify-content: space-between; }

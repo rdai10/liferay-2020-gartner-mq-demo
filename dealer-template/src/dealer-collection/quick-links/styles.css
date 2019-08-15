@@ -1,25 +1,19 @@
+/* quick-links */
 .quick-links {
-  background-color: var(--zeon-background-light);
-}
-.quick-links .btn-link {
-  margin-top: var(--zeon-sm-whitespace);
-}
-.quick-links .description {
-  color: var(--zeon-secondary);
-}
-.quick-links .icon {
-  margin-bottom: 24px;
-}
-.quick-links .link {
-  text-align: center;
-  margin-bottom: 88px;
-  margin-top: 72px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.quick-links .link:first-child {
-  padding-left: 0;
-}
-.quick-links .link:last-child {
-  padding-right: 0;
-}
+  background-color: var(--zeon-background-light); }
+  .quick-links .btn-link {
+    margin-top: var(--zeon-sm-whitespace); }
+  .quick-links .description {
+    color: var(--zeon-secondary); }
+  .quick-links .icon {
+    margin-bottom: 24px; }
+  .quick-links .link {
+    text-align: center;
+    margin-bottom: 88px;
+    margin-top: 72px;
+    padding-left: 20px;
+    padding-right: 20px; }
+    .quick-links .link:first-child {
+      padding-left: 0; }
+    .quick-links .link:last-child {
+      padding-right: 0; }
