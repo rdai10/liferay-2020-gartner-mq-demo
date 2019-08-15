@@ -19,7 +19,8 @@
     padding: 0;
 
     img {
-      min-height: 489px;
+      object-fit: cover;
+      width: 100%;
     }
   }
 

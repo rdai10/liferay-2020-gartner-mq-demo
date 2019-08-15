@@ -251,7 +251,8 @@ body .zeon {
 .car-features .feature-image {
   padding: 0; }
   .car-features .feature-image img {
-    min-height: 489px; }
+    object-fit: cover;
+    width: 100%; }
 
 .car-features .feature-list {
   list-style: none;
