@@ -10,6 +10,12 @@
   .header.zeon .phone .icon,
   .header.zeon .hours .icon {
     display: inline;
+    padding-right: 8px; }
+  .header.zeon .account-info .content,
+  .header.zeon .address .content,
+  .header.zeon .phone .content,
+  .header.zeon .hours .content {
+    display: inline;
     padding-right: var(--zeon-md-whitespace); }
 
 .header.zeon .info-bar a,
