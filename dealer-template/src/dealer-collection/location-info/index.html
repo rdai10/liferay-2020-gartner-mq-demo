@@ -1,3 +1,153 @@
-<div class="location-info">
-  location-info
+<div class="location-info zeon">
+  <div class="row zeon-container">
+    <h3 class="text-center col-md-12">
+      <lfr-editable id="location-info-heading" type="text">
+        Location Information
+      </lfr-editable>
+    </h3>
+
+    <div class="col-md-6">
+      <h4>
+        <lfr-editable id="location-info-company-name" type="text">
+          Zeon of Diamond Bar
+        </lfr-editable>
+      </h4>
+
+      <lfr-editable class="address" id="location-info-address" type="text">
+        312 Montefino Ave, Diamond Bar, CA 91765
+      </lfr-editable>
+
+      <ul class="nav nav-underline" role="tablist">
+        <li class="nav-item">
+          <button aria-controls="buttonNavUnderlineFields" aria-expanded="true" class="btn btn-unstyled nav-link active"
+            type="button" aria-selected="true">
+            <lfr-editable id="location-info-departments1" type="rich-text">
+              Sales
+            </lfr-editable>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button aria-controls="buttonNavUnderlineSettings" class="btn btn-unstyled nav-link" type="button"
+            aria-selected="false">
+            <lfr-editable id="location-info-departments2" type="rich-text">
+              Service
+            </lfr-editable>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button aria-controls="buttonNavUnderlineSettings" class="btn btn-unstyled nav-link" type="button"
+            aria-selected="false">
+            <lfr-editable id="location-info-departments3" type="rich-text">
+              Parts
+            </lfr-editable>
+          </button>
+        </li>
+      </ul>
+
+      <div class="department-contact-info col-md-12 row">
+        <div class="col-md-6">
+          <div class="department-info-wrapper">
+            <lfr-editable class="icon" id="location-info-contact-icon1" type="image">
+              <img alt="icon" src="" />
+            </lfr-editable>
+
+            <div class="info">
+              <lfr-editable class="contact-label" id="location-info-contact-label" type="text">
+                Contact
+              </lfr-editable>
+
+              <lfr-editable class="contact font-size-secondary" id="location-info-contact" type="text">
+                1-800-123-4567
+              </lfr-editable>
+            </div>
+          </div>
+
+          <div class="department-info-wrapper">
+            <lfr-editable class="icon" id="location-info-contact-icon2" type="image">
+              <img alt="icon" src="" />
+            </lfr-editable>
+
+            <div class="info">
+              <lfr-editable class="contact-label" id="location-info-emaiil-label" type="text">
+                Email
+              </lfr-editable>
+
+              <lfr-editable class="contact font-size-secondary" id="location-info-email" type="text">
+                sales@zee-db.com
+              </lfr-editable>
+            </div>
+          </div>
+
+          <div class="department-info-wrapper">
+            <lfr-editable class="icon" id="location-info-contact-icon3" type="image">
+              <img alt="icon" src="" />
+            </lfr-editable>
+
+            <div class="info">
+              <lfr-editable class="contact-label" id="location-info-fax-label" type="text">
+                Fax
+              </lfr-editable>
+
+              <lfr-editable class="contact font-size-secondary" id="location-info-fax" type="text">
+                1-800-123-4567
+              </lfr-editable>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 hours">
+          <lfr-editable class="icon" id="location-info-hours-icon" type="image">
+            <img alt="icon" src="" />
+          </lfr-editable>
+
+          <div class="info">
+            <lfr-editable class="contact-label" id="location-info-hours-label" type="text">
+              Hours
+            </lfr-editable>
+
+            <div class="font-size-secondary row">
+              <div class="col-md-6 ">
+                <div class="day">Monday</div>
+                <div class="day">Tuesday</div>
+                <div class="day">Wednesday</div>
+                <div class="day">Thursday</div>
+                <div class="day">Friday</div>
+                <div class="day">Saturday</div>
+                <div class="day">Sunday</div>
+              </div>
+
+              <div class="col-md-6 hour">
+                <lfr-editable class="hour" id="location-info-hours-m" type="text">
+                  11AM-8PM
+                </lfr-editable>
+                <lfr-editable class="hour" id="location-info-hours-t" type="text">
+                  11AM-8PM
+                </lfr-editable>
+                <lfr-editable class="hour" id="location-info-hours-w" type="text">
+                  11AM-8PM
+                </lfr-editable>
+                <lfr-editable class="hour" id="location-info-hours-tr" type="text">
+                  11AM-8PM
+                </lfr-editable>
+                <lfr-editable class="hour" id="location-info-hours-f" type="text">
+                  11AM-8PM
+                </lfr-editable>
+                <lfr-editable class="hour" id="location-info-hours-sa" type="text">
+                  10AM-9PM
+                </lfr-editable>
+                <lfr-editable class="hour" id="location-info-hours-s" type="text">
+                  Closed
+                </lfr-editable>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-6 map">
+      <lfr-editable class="map" id="location-info-map" type="image">
+        <img alt="Map" src="" />
+      </lfr-editable>
+    </div>
+  </div>
 </div>

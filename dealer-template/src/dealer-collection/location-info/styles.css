@@ -1,2 +1,35 @@
-.location-info {
-  color: inherit; }
+.location-info.zeon {
+  padding-bottom: 90px;
+  padding-top: 72px; }
+  .location-info.zeon h3 {
+    margin-bottom: var(--zeon-lg-whitespace); }
+  .location-info.zeon .address,
+  .location-info.zeon .contact,
+  .location-info.zeon .hour {
+    color: var(--zeon-secondary); }
+  .location-info.zeon .address,
+  .location-info.zeon .contact {
+    padding-bottom: var(--zeon-md-whitespace); }
+  .location-info.zeon .contact-label {
+    font-weight: var(--zeon-font-weight-black);
+    text-transform: uppercase; }
+  .location-info.zeon .department-contact-info {
+    border-top: 1px solid var(--zeon-background-light);
+    padding-top: var(--zeon-lg-whitespace); }
+  .location-info.zeon .department-info-wrapper {
+    display: flex; }
+  .location-info.zeon .hours {
+    display: flex; }
+    .location-info.zeon .hours .day {
+      margin-right: 12px; }
+    .location-info.zeon .hours .contact-label,
+    .location-info.zeon .hours .day,
+    .location-info.zeon .hours .hour {
+      padding-bottom: 8px; }
+  .location-info.zeon .icon {
+    padding-right: var(--zeon-sm-whitespace); }
+  .location-info.zeon .map {
+    padding-top: var(--zeon-lg-whitespace); }
+  .location-info.zeon .nav-underline {
+    padding-bottom: 0;
+    padding-top: 28px; }

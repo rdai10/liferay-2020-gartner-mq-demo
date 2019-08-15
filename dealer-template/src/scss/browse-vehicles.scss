@@ -34,27 +34,6 @@
     padding: 0 var(--zeon-lg-whitespace) var(--zeon-lg-whitespace);
   }
 
-  .nav-underline {
-    padding-top: 24px;
-    padding-bottom: 44px;
-
-    .nav-item .nav-link {
-      color: var(--zeon-secondary);
-      padding-left: 0;
-      padding-right: 0;
-      margin-right: 24px;
-
-      &.active {
-        color: var(--zeon-dark);
-        font-weight: var(--zeon-font-weight-medium);
-
-        &:after {
-          background-color: var(--zeon-primary);
-        }
-      }
-    }
-  }
-
   .stats {
     font-weight: var(--zeon-font-weight-medium);
     margin-top: var(--zeon-sm-whitespace);

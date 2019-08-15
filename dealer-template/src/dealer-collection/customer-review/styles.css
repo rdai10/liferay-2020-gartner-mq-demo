@@ -3,8 +3,7 @@
   padding-bottom: 88px;
   padding-top: 72px; }
   .customer-review.zeon h3 {
-    margin-bottom: var(--zeon-small-line-height); }
+    margin-bottom: 24px; }
   .customer-review.zeon .carousel {
     background-color: var(--zeon-white);
-    padding-bottom: var(--zeon-lg-whitespace);
-    padding-top: 30px; }
+    padding: var(--zeon-lg-whitespace); }

@@ -89,6 +89,20 @@ body .zeon {
 .font-weight-medium {
   font-weight: var(--zeon-font-weight-medium); }
 
+.nav-underline {
+  padding-top: 24px;
+  padding-bottom: 44px; }
+  .nav-underline .nav-item .nav-link {
+    color: var(--zeon-secondary);
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 24px; }
+    .nav-underline .nav-item .nav-link.active {
+      color: var(--zeon-dark);
+      font-weight: var(--zeon-font-weight-medium); }
+      .nav-underline .nav-item .nav-link.active:after {
+        background-color: var(--zeon-primary); }
+
 .zeon-container {
   margin: 0 auto;
   width: var(--zeon-max-width); }

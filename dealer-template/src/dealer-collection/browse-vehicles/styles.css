@@ -15,19 +15,6 @@
     color: var(--zeon-secondary); }
   .browse-vehicles.zeon .info {
     padding: 0 var(--zeon-lg-whitespace) var(--zeon-lg-whitespace); }
-  .browse-vehicles.zeon .nav-underline {
-    padding-top: 24px;
-    padding-bottom: 44px; }
-    .browse-vehicles.zeon .nav-underline .nav-item .nav-link {
-      color: var(--zeon-secondary);
-      padding-left: 0;
-      padding-right: 0;
-      margin-right: 24px; }
-      .browse-vehicles.zeon .nav-underline .nav-item .nav-link.active {
-        color: var(--zeon-dark);
-        font-weight: var(--zeon-font-weight-medium); }
-        .browse-vehicles.zeon .nav-underline .nav-item .nav-link.active:after {
-          background-color: var(--zeon-primary); }
   .browse-vehicles.zeon .stats {
     font-weight: var(--zeon-font-weight-medium);
     margin-top: var(--zeon-sm-whitespace); }

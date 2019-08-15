@@ -1,3 +1,60 @@
-.location-info {
-  color: inherit;
+.location-info.zeon {
+  padding-bottom: 90px;
+  padding-top: 72px;
+
+  h3 {
+    margin-bottom: var(--zeon-lg-whitespace);
+  }
+
+  .address,
+  .contact,
+  .hour {
+    color: var(--zeon-secondary);
+  }
+  
+  .address,
+  .contact {
+    padding-bottom: var(--zeon-md-whitespace);
+  }
+
+  .contact-label {
+    font-weight: var(--zeon-font-weight-black);
+    text-transform: uppercase;
+  }
+
+  .department-contact-info {
+    border-top: 1px solid var(--zeon-background-light);
+    padding-top: var(--zeon-lg-whitespace);
+  }
+
+  .department-info-wrapper {
+    display: flex;
+  }
+
+  .hours {
+    display: flex;
+
+    .day {
+      margin-right: 12px;
+    }
+
+    .contact-label,
+    .day,
+    .hour {
+      padding-bottom: 8px
+    }
+  }
+
+  .icon {
+    padding-right: var(--zeon-sm-whitespace);
+  }
+
+  .map {
+    padding-top: var(--zeon-lg-whitespace);
+  }
+
+  .nav-underline {
+    padding-bottom: 0;
+    padding-top: 28px;
+  }
 }
