@@ -1,7 +1,20 @@
-/* browse vehicles */
 .browse-vehicles.zeon {
   padding-bottom: 88px;
   padding-top: 72px; }
+  .browse-vehicles.zeon .car-card {
+    padding-bottom: 24px; }
+    .browse-vehicles.zeon .car-card:hover {
+      cursor: pointer; }
+      .browse-vehicles.zeon .car-card:hover h5 {
+        border-bottom: 2px solid var(--zeon-primary); }
+      .browse-vehicles.zeon .car-card:hover .card-content {
+        background-color: var(--zeon-background-light); }
+  .browse-vehicles.zeon .card-content {
+    background: linear-gradient(180deg, #f7f8f9 45.83%, rgba(247, 248, 249, 0) 100%); }
+  .browse-vehicles.zeon .description {
+    color: var(--zeon-secondary); }
+  .browse-vehicles.zeon .info {
+    padding: 0 var(--zeon-lg-whitespace) var(--zeon-lg-whitespace); }
   .browse-vehicles.zeon .nav-underline {
     padding-top: 24px;
     padding-bottom: 44px; }
@@ -15,3 +28,9 @@
         font-weight: var(--zeon-font-weight-medium); }
         .browse-vehicles.zeon .nav-underline .nav-item .nav-link.active:after {
           background-color: var(--zeon-primary); }
+  .browse-vehicles.zeon .stats {
+    font-weight: var(--zeon-font-weight-medium);
+    margin-top: var(--zeon-sm-whitespace); }
+  .browse-vehicles.zeon .stat-label {
+    color: var(--zeon-secondary);
+    text-transform: uppercase; }

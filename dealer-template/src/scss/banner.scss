@@ -34,6 +34,8 @@
   }
 
   .title {
+    align-items: baseline;
+    display: flex;
     padding-bottom: 8px;
 
     .display {
@@ -44,6 +46,7 @@
       display: inline;
       font-size: var(--zeon-h5-size);
       line-height: var(--zeon-h5-line-height);
+      padding-left: 12px;
     }
   }
 }
