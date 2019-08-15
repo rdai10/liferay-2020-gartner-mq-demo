@@ -1,14 +1,14 @@
 .quick-links {
   background-color: var(--zeon-background-light);
 }
-.quick-links svg {
-  margin-bottom: 24px;
-}
 .quick-links .btn-link {
   margin-top: var(--zeon-sm-whitespace);
 }
 .quick-links .description {
   color: var(--zeon-secondary);
+}
+.quick-links .icon {
+  margin-bottom: 24px;
 }
 .quick-links .link {
   text-align: center;

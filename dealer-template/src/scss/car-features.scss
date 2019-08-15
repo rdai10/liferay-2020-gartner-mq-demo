@@ -6,13 +6,10 @@
   }
 
   .features {
+    align-items: center;
     background-color: var(--zeon-dark);
     color: var(--zeon-white);
-  }
-
-  .feature-content {
-    margin-bottom: 90px;
-    margin-top: 72px;
+    display: flex;
   }
 
   .feature-image {
@@ -33,6 +30,10 @@
       margin-bottom: var(--zeon-md-whitespace);
       margin-left: var(--zeon-sm-whitespace);
     }
+  }
+
+  .icon {
+    display: inline;
   }
 
   .subheading {

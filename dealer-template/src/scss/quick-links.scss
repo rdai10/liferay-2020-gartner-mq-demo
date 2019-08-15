@@ -3,10 +3,6 @@
 .quick-links {
   background-color: var(--zeon-background-light);
 
-  svg {
-    margin-bottom: 24px;
-  }
-
   .btn-link {
     margin-top: var(--zeon-sm-whitespace);
   }
@@ -15,6 +11,10 @@
     color: var(--zeon-secondary);
   }
 
+  .icon {
+    margin-bottom: 24px;
+  }
+  
   .link {
     text-align: center;
     margin-bottom: 88px;

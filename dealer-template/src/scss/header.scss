@@ -8,9 +8,8 @@
     display: inline-block;
     padding: var(--zeon-xs-whitespace) 0;
 
-    div {
+    .icon {
       display: inline;
-      padding-left: 8px;
       padding-right: var(--zeon-md-whitespace);
     }
   }

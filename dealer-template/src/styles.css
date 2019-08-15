@@ -100,12 +100,11 @@ body .zeon {
 .header.zeon .hours {
   display: inline-block;
   padding: var(--zeon-xs-whitespace) 0; }
-  .header.zeon .account-info div,
-  .header.zeon .address div,
-  .header.zeon .phone div,
-  .header.zeon .hours div {
+  .header.zeon .account-info .icon,
+  .header.zeon .address .icon,
+  .header.zeon .phone .icon,
+  .header.zeon .hours .icon {
     display: inline;
-    padding-left: 8px;
     padding-right: var(--zeon-md-whitespace); }
 
 .header.zeon .info-bar a,
@@ -205,12 +204,12 @@ body .zeon {
 /* quick-links */
 .quick-links {
   background-color: var(--zeon-background-light); }
-  .quick-links svg {
-    margin-bottom: 24px; }
   .quick-links .btn-link {
     margin-top: var(--zeon-sm-whitespace); }
   .quick-links .description {
     color: var(--zeon-secondary); }
+  .quick-links .icon {
+    margin-bottom: 24px; }
   .quick-links .link {
     text-align: center;
     margin-bottom: 88px;
@@ -245,12 +244,10 @@ body .zeon {
   margin-bottom: var(--zeon-sm-whitespace); }
 
 .car-features .features {
+  align-items: center;
   background-color: var(--zeon-dark);
-  color: var(--zeon-white); }
-
-.car-features .feature-content {
-  margin-bottom: 90px;
-  margin-top: 72px; }
+  color: var(--zeon-white);
+  display: flex; }
 
 .car-features .feature-image {
   padding: 0; }
@@ -265,6 +262,9 @@ body .zeon {
     display: inline-block;
     margin-bottom: var(--zeon-md-whitespace);
     margin-left: var(--zeon-sm-whitespace); }
+
+.car-features .icon {
+  display: inline; }
 
 .car-features .subheading {
   margin-bottom: var(--zeon-lg-whitespace); }

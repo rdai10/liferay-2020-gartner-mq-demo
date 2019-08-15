@@ -9,7 +9,7 @@
 
 .car-features .feature-content {
   margin-bottom: 90px;
-  margin-top: 72px;
+  margin-top: 90px;
 }
 
 .car-features .feature-image {
@@ -29,6 +29,9 @@
   margin-bottom: var(--zeon-md-whitespace);
   margin-left: var(--zeon-sm-whitespace);
 }
+
+.car-features .icon {
+  display: inline; }
 
 .car-features .subheading {
   margin-bottom: var(--zeon-lg-whitespace);
