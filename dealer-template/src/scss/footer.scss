@@ -1,11 +1,27 @@
 .footer.zeon {
+  a {
+    color: var(--zeon-white);
+  }
+
   .additional-links,
   .admin-links,
   .language,
   .social-logos {
+    align-items: center;
     display: flex;
   }
-  
+
+  .additional-links {
+    justify-content: space-between;
+    padding-top: 70px;
+  }
+
+  .copyright,
+  .footer-description,
+  .link-label {
+    color: var(--zeon-secondary);
+  }
+
   .cta {
     background-color: var(--zeon-primary-dark);
     color: var(--zeon-white);
@@ -17,9 +33,34 @@
     margin-right: var(--zeon-lg-whitespace);
   }
 
+  .footer-description {
+    padding: var(--zeon-sm-whitespace) 0;
+  }
+
+  .footer-link {
+      padding-bottom: 12px;
+  }
+
   .footer-main {
     background-color: var(--zeon-dark);
     padding-bottom: 77px;
     padding-top: 73px;
+  }
+
+  .language {
+    svg {
+      padding-right: 4px;
+    }
+  }
+
+  .link-label {
+    font-weight: var(--zeon-font-weight-black);
+    padding-bottom: 24px;
+  }
+
+  .social-logos {
+    img {
+      margin-right: 12px;
+    }
   }
 }

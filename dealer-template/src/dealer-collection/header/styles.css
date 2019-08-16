@@ -2,20 +2,7 @@
 .header.zeon .address,
 .header.zeon .phone,
 .header.zeon .hours {
-  display: inline-block;
-  padding: var(--zeon-xs-whitespace) 0; }
-  .header.zeon .account-info .icon,
-  .header.zeon .address .icon,
-  .header.zeon .phone .icon,
-  .header.zeon .hours .icon {
-    display: inline;
-    padding-right: 8px; }
-  .header.zeon .account-info .content,
-  .header.zeon .address .content,
-  .header.zeon .phone .content,
-  .header.zeon .hours .content {
-    display: inline;
-    padding-right: var(--zeon-md-whitespace); }
+  display: inline-block; }
 
 .header.zeon .info-bar a,
 .header.zeon .navbar a {

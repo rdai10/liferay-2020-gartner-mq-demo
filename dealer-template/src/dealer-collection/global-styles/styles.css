@@ -63,6 +63,24 @@ body .zeon {
   font-size: var(--zeon-h5-size);
   line-height: var(--zeon-h5-line-height); }
 
+.zeon .account-info,
+.zeon .address,
+.zeon .phone,
+.zeon .hours {
+  padding: var(--zeon-xs-whitespace) 0; }
+  .zeon .account-info .icon,
+  .zeon .address .icon,
+  .zeon .phone .icon,
+  .zeon .hours .icon {
+    display: inline;
+    padding-right: 8px; }
+  .zeon .account-info .content,
+  .zeon .address .content,
+  .zeon .phone .content,
+  .zeon .hours .content {
+    display: inline;
+    padding-right: var(--zeon-md-whitespace); }
+
 .zeon .btn {
   border-radius: 0;
   font-size: var(--zeon-base-font-size);

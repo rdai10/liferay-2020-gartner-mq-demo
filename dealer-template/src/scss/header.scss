@@ -4,17 +4,6 @@
   .phone,
   .hours {
     display: inline-block;
-    padding: var(--zeon-xs-whitespace) 0;
-
-    .icon {
-      display: inline;
-      padding-right: 8px;
-    }
-    
-    .content {
-      display: inline;
-      padding-right: var(--zeon-md-whitespace);
-    }
   }
 
   .info-bar,

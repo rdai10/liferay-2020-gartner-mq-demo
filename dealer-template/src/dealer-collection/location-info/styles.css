@@ -19,7 +19,8 @@
   .location-info.zeon .department-info-wrapper {
     display: flex; }
   .location-info.zeon .hours {
-    display: flex; }
+    display: flex;
+    padding: 0; }
     .location-info.zeon .hours .day {
       margin-right: 12px; }
     .location-info.zeon .hours .contact-label,
