@@ -4,6 +4,21 @@
   padding-top: 72px; }
   .customer-review.zeon h3 {
     margin-bottom: 24px; }
-  .customer-review.zeon .carousel {
+  .customer-review.zeon .card-review-wrapper {
+    padding: 0 12px; }
+  .customer-review.zeon .card-review {
+    background-color: var(--zeon-background-light);
+    padding: var(--zeon-md-whitespace) var(--zeon-lg-whitespace); }
+  .customer-review.zeon .review,
+  .customer-review.zeon .review-count {
+    color: var(--zeon-secondary); }
+  .customer-review.zeon .review {
+    padding: 16px 0; }
+  .customer-review.zeon .reviews {
     background-color: var(--zeon-white);
     padding: var(--zeon-lg-whitespace); }
+    .customer-review.zeon .reviews h2,
+    .customer-review.zeon .reviews .avg-rating {
+      display: inline-block; }
+    .customer-review.zeon .reviews .avg-rating {
+      padding-left: 8px; }

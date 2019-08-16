@@ -7,8 +7,35 @@
     margin-bottom: 24px;
   }
 
-  .carousel {
+  .card-review-wrapper {
+    padding: 0 12px;
+  }
+
+  .card-review {
+    background-color: var(--zeon-background-light);
+    padding: var(--zeon-md-whitespace) var(--zeon-lg-whitespace);
+  }
+
+  .review,
+  .review-count {
+    color: var(--zeon-secondary);
+  }
+
+  .review {
+    padding: 16px 0;
+  }
+
+  .reviews {
     background-color: var(--zeon-white);
     padding: var(--zeon-lg-whitespace);
+
+    h2,
+    .avg-rating {
+      display: inline-block;
+    }
+
+    .avg-rating {
+      padding-left: 8px;
+    }
   }
 }
