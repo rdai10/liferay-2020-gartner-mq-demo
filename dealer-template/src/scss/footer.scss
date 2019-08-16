@@ -1,4 +1,11 @@
 .footer.zeon {
+  .additional-links,
+  .admin-links,
+  .language,
+  .social-logos {
+    display: flex;
+  }
+  
   .cta {
     background-color: var(--zeon-primary-dark);
     color: var(--zeon-white);
@@ -8,5 +15,11 @@
   .cta-msg {
     display: inline;
     margin-right: var(--zeon-lg-whitespace);
+  }
+
+  .footer-main {
+    background-color: var(--zeon-dark);
+    padding-bottom: 77px;
+    padding-top: 73px;
   }
 }

@@ -1,3 +1,9 @@
+.footer.zeon .additional-links,
+.footer.zeon .admin-links,
+.footer.zeon .language,
+.footer.zeon .social-logos {
+  display: flex; }
+
 .footer.zeon .cta {
   background-color: var(--zeon-primary-dark);
   color: var(--zeon-white);
@@ -6,3 +12,8 @@
 .footer.zeon .cta-msg {
   display: inline;
   margin-right: var(--zeon-lg-whitespace); }
+
+.footer.zeon .footer-main {
+  background-color: var(--zeon-dark);
+  padding-bottom: 77px;
+  padding-top: 73px; }
