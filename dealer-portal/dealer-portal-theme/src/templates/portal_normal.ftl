@@ -21,29 +21,17 @@
 <@liferay.control_menu />
 
 <div id="wrapper">
-	<header class="container-fluid-1280" id="banner" role="banner">
+	<header class="container-fluid" id="banner" role="banner">
 		<div class="row">
-			<div class="navbar-header" id="heading">
-				<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
+			<div class="col-md-12 max-width-1224 navbar-header text-white" id="heading">
+				<#--  <a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
 					<img alt="${logo_description}" height="64" src="${site_logo}" />
-				</a>
+				</a> -->
 
-				<#if show_site_name>
-					<span class="site-name" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-						${site_name}
-					</span>
-				</#if>
+				<input class="form-control" placeholder="Search inventory, customers, orders..." type="search" />
 
 				<#if is_setup_complete>
-					<button aria-controls="navigation" aria-expanded="false" class="collapsed navbar-toggle" data-target="#navigationCollapse" data-toggle="collapse" type="button">
-						<span class="icon-bar"></span>
-
-						<span class="icon-bar"></span>
-
-						<span class="icon-bar"></span>
-					</button>
-
-					<div class="pull-right user-personal-bar">
+					<div class="user-personal-bar">
 						<@liferay.user_personal_bar />
 					</div>
 				</#if>
@@ -69,7 +57,7 @@
 		</#if>
 	</section>
 
-	<footer class="container-fluid-1280" id="footer" role="contentinfo">
+	<footer class="container-fluid" id="footer" role="contentinfo">
 		<div class="row">
 			<#include "${full_templates_path}/footer.ftl" />
 		</div>

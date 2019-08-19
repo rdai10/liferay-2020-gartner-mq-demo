@@ -1,0 +1,87 @@
+#wrapper {
+	padding-top: 0;
+}
+
+html body {
+	font-family: $font-family-base;
+	font-size: $base-font-size;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: $font-weight-medium;
+}
+
+h1 {
+	font-size: $h1-size;
+
+	&.display {
+		font-size: $h1-display-size;
+		line-height: $h1-display-line-height;
+	}
+}
+
+h2 {
+	font-size: $h2-size;
+}
+
+h3 {
+	font-size: $h3-size;
+	line-height: $h3-line-height;
+}
+
+h4 {
+	font-size: $h4-size;
+	line-height: $h4-line-height;
+}
+
+h5 {
+	font-size: $h5-size;
+	line-height: $h5-line-height;
+}
+
+.font-size-secondary {
+	font-size: $secondary-size;
+}
+
+.font-size-small {
+	font-size: $small-size;
+	line-height: $small-line-height;
+}
+
+.font-weight-medium {
+	font-weight: $font-weight-medium;
+}
+
+.footer {
+	background-color: $dark;
+}
+
+.max-width-1224 {
+	margin: 0 auto;
+	width: 1224px;
+}
+
+.nav-underline {
+	padding-top: $md-whitespace;
+	padding-bottom: 44px;
+
+	.nav-item .nav-link {
+		color: $secondary;
+		padding-left: 0;
+		padding-right: 0;
+		margin-right: $md-whitespace;
+
+		&.active {
+			color: $dark;
+			font-weight: $font-weight-medium;
+
+			&:after {
+				background-color: $primary;
+			}
+		}
+	}
+}
