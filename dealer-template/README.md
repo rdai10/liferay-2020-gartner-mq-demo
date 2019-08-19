@@ -1,4 +1,4 @@
-# dealer-template
+# Dealer Site
 
 This set of fragments has been created with [generator-liferay-fragments][1]. It's intended to be used as the Dealer site that drives internet sales and marketing purposes for Dealerships.
 
@@ -15,7 +15,7 @@ To use the fragments, place them in the following order:
 - location-information
 - footer
 
-Placeholder images used for the fragments are located in the assets folder. 
+Placeholder images used for the fragments are located in the [assets folder](/assets/imgs). 
 
 
 [1]: https://www.npmjs.com/package/generator-liferay-fragments
