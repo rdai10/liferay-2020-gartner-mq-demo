@@ -79,7 +79,7 @@ body .zeon {
   .zeon .phone .content,
   .zeon .hours .content {
     display: inline;
-    padding-right: var(--zeon-md-whitespace); }
+    padding-right: 22px; }
 
 .zeon .btn {
   border-radius: 0;
