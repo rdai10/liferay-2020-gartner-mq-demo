@@ -23,16 +23,21 @@
 <div id="wrapper">
 	<header class="container-fluid" id="banner" role="banner">
 		<div class="row">
-			<div class="col-md-12 max-width-1224 navbar-header text-white" id="heading">
-				<#--  <a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments="${site_name}" key="go-to-x" />">
-					<img alt="${logo_description}" height="64" src="${site_logo}" />
-				</a> -->
+			<div class="col-md-12 navbar-header text-white" id="heading">
+				<div class="col-md-6">
+					<a class="" href="/" title="Dealer Portal" />">
+						<img alt="${logo_description}" height="64" src="${site_logo}" />
+						<h5>Dealer Portal</h5>
+					</a>
 
-				<input class="form-control" placeholder="Search inventory, customers, orders..." type="search" />
+					<input class="form-control" placeholder="Search inventory, customers, orders..." type="search" />
+				</div>
 
 				<#if is_setup_complete>
-					<div class="user-personal-bar">
-						<@liferay.user_personal_bar />
+					<div class="col-md-3">
+						<div class="user-personal-bar">
+							<@liferay.user_personal_bar />
+						</div>
 					</div>
 				</#if>
 			</div>

@@ -1,0 +1,20 @@
+.kb-article-container {
+    form,
+    .kb-entity-body + h5,
+    .taglib-social-bookmarks {
+        display: none;
+    }
+
+    .kb-article-ratings {
+        margin-top: $md-whitespace;
+    }
+
+    .taglib-header {
+        border-bottom-width: 0;
+    }
+}
+
+.kb-tools,
+.portlet-title-text {
+    display: none;
+}
