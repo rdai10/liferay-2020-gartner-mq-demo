@@ -1,0 +1,28 @@
+.footer {
+	background-color: $dark;
+	padding-bottom: 56px;
+	padding-top: 56px;
+
+	a {
+		color: $white;
+	}
+
+	.company-copyright-text {
+		color: $background;
+	}
+
+	.copyright {
+		display: flex;
+		padding-top: 64px;
+		justify-content: space-between;
+	}
+
+	.footer-links {
+		font-size: 16px;
+		font-weight: $font-weight-medium;
+
+		a {
+			display: block;
+		}
+	}
+}

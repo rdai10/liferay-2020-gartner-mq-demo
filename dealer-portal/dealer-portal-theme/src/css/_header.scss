@@ -1,6 +1,41 @@
+#banner .navbar-header-inner.row {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar-header {
+    align-items: center;
     background-color: $brand;
     display: flex;
-    height: 72px;
-    justify-content: space-between;
+	height: 72px;
+
+	a {
+		color: $white;
+	}
+
+	.company-logo h5,
+	.nav-search,
+	.user-personal-bar {
+		display: inline-block;
+	}
+
+	.nav-search {
+		background-color: rgba(255, 255, 255, 0.1);
+		border-color: transparent;
+		margin-left: $md-whitespace;
+
+		&::placeholder {
+			color: $white;
+		}
+	}
+
+	.notification {
+		margin-left: $lg-whitespace;
+		margin-right: $lg-whitespace;
+	}
+
+	.sticker-lg {
+		height: $lg-whitespace;
+		width: $lg-whitespace;
+	}
 }

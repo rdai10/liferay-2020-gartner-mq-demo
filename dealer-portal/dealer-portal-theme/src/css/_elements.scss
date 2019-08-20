@@ -3,6 +3,7 @@
 }
 
 html body {
+	background: $white;
 	font-family: $font-family-base;
 	font-size: $base-font-size;
 }
@@ -43,6 +44,12 @@ h5 {
 	line-height: $h5-line-height;
 }
 
+hr {
+	background-color: $light;
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+
 .font-size-secondary {
 	font-size: $secondary-size;
 }
@@ -54,10 +61,6 @@ h5 {
 
 .font-weight-medium {
 	font-weight: $font-weight-medium;
-}
-
-.footer {
-	background-color: $dark;
 }
 
 .max-width-1224 {
