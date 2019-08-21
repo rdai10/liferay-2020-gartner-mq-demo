@@ -7,6 +7,11 @@ To set up, deploy and set all pages to use [dealer-portal-theme](/dealer-portal-
 
 - Create an empty page with 2 Columns (30/70) layout. 
 - Place _Knownledge Base Article_ widget on the page. 
-- Under _Look and Feel Configuration_, find _Application Decorators_ and select select _Borderless_.
-- Go to _Site Administration_, find _Content & Data_ > _Knowledge Base_. Create an article using _h4_ headings and save.
-- Return to _Knownledge Base Article_ widget, configure it by selecting the article created in the previous step.
+  - Under _Look and Feel Configuration_, find _Application Decorators_ and select _Borderless_.
+  - Go to _Site Administration_, find _Content & Data_ > _Knowledge Base_. Create an article using _h4_ headings and save.
+  - Return to _Knownledge Base Article_ widget, configure it by selecting the article created in the previous step.
+- Place _Asset Publisher_ widget on the page below _Knowledge Base Article_.
+  - Under _Configuration_, find _Set Up_ tab and select [resources][1] under _Display Templates_.
+
+
+[1]: [resources widget template](/widget-templates) can be added under _Widget Templates_ in control panel, under type _Asset Publisher Template_. 
