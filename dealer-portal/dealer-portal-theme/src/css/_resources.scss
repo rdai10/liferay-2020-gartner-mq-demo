@@ -17,6 +17,10 @@
     }
 }
 
+.kb-entity-body {
+    padding-bottom: $xl-whitespace;
+}
+
 .kb-tools,
 .portlet-title-text {
     display: none;
@@ -24,7 +28,6 @@
 
 .portlet-asset-publisher {
     .portlet-content {
-        background-color: $white;
         border-width: 0;
     }
 }

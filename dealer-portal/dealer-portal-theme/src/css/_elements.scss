@@ -59,7 +59,13 @@ hr {
 	line-height: $small-line-height;
 }
 
+.font-weight-black {
+	font-family: 'Yantramanav-Black';
+	font-weight: $font-weight-black;
+}
+
 .font-weight-medium {
+	font-family: 'Yantramanav-Medium';
 	font-weight: $font-weight-medium;
 }
 
