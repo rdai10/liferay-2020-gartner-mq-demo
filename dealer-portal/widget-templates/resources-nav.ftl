@@ -88,3 +88,50 @@
         </ul>
     </div>
 </#if>
+
+<script>
+    AUI().ready('', function () {
+        const childNavLinks = document.querySelectorAll('.child-nav-link');
+        const headings = document.querySelectorAll('.kb-entity-body h4[id]');
+
+        if (childNavLinks && headings.length) {
+            const headingPositionMap = new Map();
+
+            headings.forEach(
+                heading => headingPositionMap.set(heading.getBoundingClientRect().top, heading.innerText)
+            )
+
+            const addActiveClass = function (text) {
+                childNavLinks.forEach(
+                    link => {
+                        link.classList.remove('active');
+
+                        if (link.innerText === text) {
+                            link.classList.add('active');
+                        }
+                    }
+                )
+            }
+
+            const headingPositionIterator = headingPositionMap.keys();
+            const initialHeadingPos = headingPositionIterator.next().value;
+
+            window.addEventListener(
+                'scroll',
+                function (event) {
+                    const currentScrollPos = document.documentElement.scrollTop;
+                    let headingPos = initialHeadingPos;
+
+                    // problematic
+                    while (currentScrollPos > headingPos) {
+                        headingPos = headingPositionIterator.next().value;
+                    }
+
+                    const headingText = headingPositionMap.get(headingPos);
+
+                    addActiveClass(headingText);
+                }
+            );
+        }
+    });
+</script>
