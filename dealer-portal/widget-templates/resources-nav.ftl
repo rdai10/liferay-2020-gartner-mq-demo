@@ -38,6 +38,12 @@
     .resources-documentation-nav .child-nav .active.nav-link {
         border-color: #D72323;
     }
+
+   /* offset the headings when referenced via hash anchor due to the fixed navbar */ 
+    .kb-article-container h4 {
+        padding-top: 70px;
+        margin-top: -70px;
+    }
 </style>
 
 <#if !entries?has_content>
@@ -71,16 +77,8 @@
                     <#if navItem.hasChildren() && navItem.isSelected()>
                         <ul class="nav navbar-nav child-nav">
                             <#list navItem.getChildren() as childNavItem>
-                                <#assign child_nav_item_css_class = "nav-link" />
-
-                                 <#if childNavItem.isSelected()>
-                                    <#assign
-                                        child_nav_item_css_class = "${child_nav_item_css_class} active"
-                                    />
-                                </#if>
-
                                 <li class="nav-item">
-                                    <a class="${child_nav_item_css_class}" href="${childNavItem.URL}">${childNavItem.getName()}</a>
+                                    <a class="child-nav-link nav-link" href="${childNavItem.URL}">${childNavItem.getName()}</a>
                                 </li>
                             </#list>
                         </ul>

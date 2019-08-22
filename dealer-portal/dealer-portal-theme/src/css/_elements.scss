@@ -1,10 +1,6 @@
 #banner {
 	position: fixed;
-	z-index: 5000;
-}
-
-#content {
-	margin-top: 58px;
+	z-index: 1000;
 }
 
 #wrapper {
@@ -57,6 +53,12 @@ hr {
 	border-bottom-color: $light;
 	margin-top: 48px;
 	margin-bottom: 48px;
+}
+
+.has-control-menu {
+	#content {
+		margin-top: 58px;
+	}
 }
 
 .font-size-secondary {
