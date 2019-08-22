@@ -1,4 +1,8 @@
 <style>
+    .resources-documentation-nav {
+        position: fixed;
+    }
+
     .resources-documentation-nav .menu-label {
         color: #646B75;
         font-size: 14px;
@@ -64,7 +68,7 @@
                 <li class="nav-item" role="presentation">
                     <a class="${nav_item_css_class}" href="${nav_item_href!""}" ${navItem.getTarget()}>${navItem.getName()}</a>
 
-                    <#if navItem.hasChildren()>
+                    <#if navItem.hasChildren() && navItem.isSelected()>
                         <ul class="nav navbar-nav child-nav">
                             <#list navItem.getChildren() as childNavItem>
                                 <#assign child_nav_item_css_class = "nav-link" />
