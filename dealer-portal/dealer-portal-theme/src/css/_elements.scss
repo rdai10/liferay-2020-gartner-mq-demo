@@ -1,6 +1,11 @@
 #banner {
 	position: fixed;
-	z-index: 1000;
+	z-index: 3;
+}
+
+#content {
+	padding-top: $lg-whitespace;
+	margin-top: 136px;
 }
 
 #wrapper {
@@ -57,7 +62,15 @@ hr {
 
 .has-control-menu {
 	#content {
-		margin-top: 58px;
+		margin-top: 194px;
+	}
+
+	.navbar-header {
+		top: 58px;
+	}
+
+	.nav-primary {
+		top: 129px;
 	}
 }
 
@@ -86,13 +99,12 @@ hr {
 }
 
 .nav-underline {
-	padding-top: $md-whitespace;
-	padding-bottom: 44px;
+	padding-left: 12px;
 
 	.nav-item .nav-link {
 		color: $secondary;
-		padding-left: 0;
-		padding-right: 0;
+		font-size: 16px;
+		padding: 20px 0;
 		margin-right: $md-whitespace;
 
 		&.active {

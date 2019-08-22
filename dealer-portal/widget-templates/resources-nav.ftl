@@ -41,8 +41,8 @@
 
    /* offset the headings when referenced via hash anchor due to the fixed navbar */ 
     .kb-article-container h4 {
-        padding-top: 70px;
-        margin-top: -70px;
+        padding-top: 180px;
+        margin-top: -180px;
     }
 </style>
 

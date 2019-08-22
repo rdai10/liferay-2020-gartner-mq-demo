@@ -8,6 +8,8 @@
     background-color: $brand;
     display: flex;
 	height: 72px;
+	position: fixed;
+	top: 0;
 
 	a {
 		color: $white;
@@ -38,4 +40,12 @@
 		height: $lg-whitespace;
 		width: $lg-whitespace;
 	}
+}
+
+.nav-primary {
+	background-color: $white;
+	border-bottom: 1px solid $light;
+	height: 64px;
+	position: fixed;
+	top: 72px;
 }

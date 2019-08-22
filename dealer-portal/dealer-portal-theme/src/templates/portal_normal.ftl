@@ -54,6 +54,8 @@
 					</#if>
 				</div>
 			</div>
+
+			<#include "${full_templates_path}/navigation.ftl" />
 		</div>
 	</header>
 
