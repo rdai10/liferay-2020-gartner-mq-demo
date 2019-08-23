@@ -15,7 +15,7 @@ To use the fragments, place them in the following order:
 - location-information
 - footer
 
-Placeholder images used for the fragments are located in the [assets folder](/assets/imgs). 
+Placeholder images used for the fragments are located in the [assets folder](/dealer-template/assets/imgs). 
 
 
 [1]: https://www.npmjs.com/package/generator-liferay-fragments

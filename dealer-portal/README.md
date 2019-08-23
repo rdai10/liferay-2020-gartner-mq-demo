@@ -1,10 +1,10 @@
 # Dealer Portal
 
-To set up, deploy and set all pages to use [dealer-portal-theme](/dealer-portal-theme) and place _Navigation Menu_ widget at the top of the page.
+To set up, deploy and set all pages to use [dealer-portal-theme](/dealer-portal/dealer-portal-theme) and place _Navigation Menu_ widget at the top of the page.
 
 ## Inventory
 ### Setup steps:
-- Add the _Inventory_ [fragment](/fragments/dealer-portal-collection) to the page.
+- Add the _Inventory_ [fragment](/dealer-portal/src/dealer-portal-collection/inventory) to the page.
 
 ## Resources
 ### Setup steps:
