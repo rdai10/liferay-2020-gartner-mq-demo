@@ -2,6 +2,10 @@
 
 To set up, deploy and set all pages to use [dealer-portal-theme](/dealer-portal-theme) and place _Navigation Menu_ widget at the top of the page.
 
+## Inventory
+### Setup steps:
+- Add the _Inventory_ [fragment](/fragments/dealer-portal-collection) to the page.
+
 ## Resources
 ### Setup steps:
 - Create an empty page with 2 Columns (30/70) layout. 
