@@ -1,0 +1,128 @@
+$primary: #d72323 !default;
+$primary-dark: #af0000 !default;
+$dark: #09101d !default;
+$secondary: #646b75 !default;
+$background: #e5e5e5 !default;
+$background-light: #f7f8f9 !default;
+$light: #f1f2f5 !default;
+$white: #fff !default;
+$brand: #1d2431 !default;
+
+$font-weight-medium: 500 !default;
+$font-weight-black: 900 !default;
+
+html body {
+  background-color: $background-light;
+}
+
+.inventory.dealer-portal {
+  .inventory-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 32px;
+
+    .control {
+      padding-right: 28px;
+    }
+  }
+
+  .nav-tabs {
+    font-size: 18px;
+
+    .count {
+      color: $secondary;
+      font-weight: normal;
+      font-size: 13px;
+    }
+
+    .nav-link {
+      background-color: #e7e7ed;
+      margin-right: 4px;
+
+      &.active {
+        background-color: $white;
+        border-bottom-width: 0;
+        color: $dark;
+        font-family: 'Yantramanav-Black';
+        font-weight: $font-weight-black;
+      }
+
+      &.btn-unstyled {
+        padding: 9px 24px 12px;
+      }
+    }
+  }
+
+  .tab-content {
+    background-color: $white;
+    font-size: 16px;
+    margin-bottom: 48px;
+
+    .custom-control {
+      margin-left: 12px;
+    }
+
+    .filter {
+      color: #6b6c7e;
+      display: inline;
+      padding-left: 30px;
+    }
+
+    .search-filter {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20width='512'%20height='512'%20viewBox='0%200%20512%20512'%3E%3Cpath%20class='lexicon-icon-outline'%20d='M503.254%20467.861L369.609%20334.216c27.671-35.13%2044.344-79.327%2044.344-127.415C413.953%2093.017%20321.375.439%20207.591.439S1.229%2093.017%201.229%20206.801s92.578%20206.362%20206.362%20206.362c47.268%200%2090.735-16.146%20125.572-42.969l133.851%20133.851c5.002%205.002%2011.554%207.488%2018.106%207.488s13.104-2.486%2018.106-7.488c10.004-10.003%2010.004-26.209.029-36.183zM52.446%20206.801c0-85.558%2069.616-155.173%20155.173-155.173s155.174%2069.616%20155.174%20155.173-69.616%20155.173-155.173%20155.173S52.447%20292.358%2052.447%20206.801z'%20fill='%23646B75'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 24px center;
+      background-size: 16px;
+      border-width: 0;
+      display: inline-block;
+      margin-left: 12px;
+      width: 30%;
+    }
+
+    .status-icon {
+      padding-right: 4px;
+    }
+
+    .stock-number {
+      color: $secondary;
+    }
+
+    .tab-filters {
+      padding: 12px 24px;
+    }
+
+    .tab-footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 24px;
+    }
+
+    .table {
+      font-size: 16px;
+
+      &.table-list {
+        td,
+        th {
+          &:last-child,
+          &:first-child {
+            box-shadow: inset 0 0.0625rem #e7e7ed, 0 0.0625rem #e7e7ed;
+          }
+        }
+      }
+
+      th {
+        color: $dark;
+      }
+    }
+
+    .table-display-filter {
+      margin-left: 4px;
+    }
+
+    .vehicle-name {
+      font-family: 'Yantramanav-Medium';
+      font-size: 18px;
+      font-weight: $font-weight-medium;
+    }
+  }
+}

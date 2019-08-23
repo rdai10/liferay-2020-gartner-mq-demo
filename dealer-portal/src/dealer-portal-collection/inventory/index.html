@@ -1,3 +1,508 @@
-<div class="inventory">
-  inventory
+<div class="inventory dealer-portal row max-width-1224">
+  <div class="col-md-12 inventory-heading">
+    <h3>
+      Inventory
+    </h3>
+
+    <div class="inventory-heading-controls">
+      <lr-editable class="control font-size-secondary font-weight-medium" id="inventory-heading-controls1" type="text">
+        Import</lr-editable>
+
+      <lr-editable class="control font-size-secondary font-weight-medium" id="inventory-heading-controls2" type="text">
+        Export</lr-editable>
+
+      <button class="btn btn-primary" type="button">
+        <lfr-editable class="d-inline" id="inventory-heading-controls3-icon" type="image">
+          <image alt="Control Icon" src=""></image>
+        </lfr-editable>
+        <lfr-editable class="d-inline" id="inventory-heading-controls3" type="text">
+          New
+        </lfr-editable>
+      </button>
+    </div>
+  </div>
+  <div class="col-md-12 inventory-tabs">
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <button aria-controls="buttonFields" aria-expanded="true" class="active btn btn-unstyled nav-link small-size"
+          role="tab" type="button">
+          <lfr-editable class="d-inline" id="inventory-nav-tab1" type="text">
+            New
+          </lfr-editable>
+          <lfr-editable class="count d-inline" id="inventory-nav-tab1-count" type="text">
+            (239)
+          </lfr-editable>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button aria-controls="buttonFields" aria-expanded="false" class="btn btn-unstyled nav-link small-size"
+          role="tab" type="button">
+          <lfr-editable class="d-inline" id="inventory-nav-tab2" type="text">
+            Pre-Owned
+          </lfr-editable>
+          <lfr-editable class="count d-inline" id="inventory-nav-tab2-count" type="text">
+            (567)
+          </lfr-editable>
+        </button>
+      </li>
+      <li class="nav-item">
+        <button aria-controls="buttonFields" aria-expanded="false" class="btn btn-unstyled nav-link small-size"
+          type="button">
+          <lfr-editable class="d-inline" id="inventory-nav-tab3" type="text">
+            Certified
+          </lfr-editable>
+          <lfr-editable class="count d-inline" id="inventory-nav-tab3-count" type="text">
+            (300)
+          </lfr-editable>
+        </button>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-filters">
+        <span class="custom-checkbox">
+          <label>
+            <input class="custom-control-input" type="checkbox">
+            <span class="custom-control-label"></span>
+          </label>
+        </span>
+
+        <input class="form-control search-filter" placeholder="Product name, category, sku" type="search" />
+
+        <div class="filter">
+          <lfr-editable class="d-inline" id="inventory-tab-filter1" type="text">
+            Model
+          </lfr-editable>
+
+          <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.2477 14.7798 4.2721 4.2719c.2825.2824.7439.2824 1.0264 0l4.272-4.2719c.4583-.4582.1349-1.2398-.5148-1.2398h-8.5409c-.6497 0-.973.7816-.5148 1.2398z"
+              fill="#6B6C7E" />
+          </svg>
+        </div>
+
+        <div class="filter">
+          <lfr-editable class="d-inline" id="inventory-tab-filter2" type="text">
+            Body
+          </lfr-editable>
+
+          <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.2477 14.7798 4.2721 4.2719c.2825.2824.7439.2824 1.0264 0l4.272-4.2719c.4583-.4582.1349-1.2398-.5148-1.2398h-8.5409c-.6497 0-.973.7816-.5148 1.2398z"
+              fill="#6B6C7E" />
+          </svg>
+        </div>
+
+        <div class="filter">
+          <lfr-editable class="d-inline" id="inventory-tab-filter3" type="text">
+            Exterior Color
+          </lfr-editable>
+
+          <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.2477 14.7798 4.2721 4.2719c.2825.2824.7439.2824 1.0264 0l4.272-4.2719c.4583-.4582.1349-1.2398-.5148-1.2398h-8.5409c-.6497 0-.973.7816-.5148 1.2398z"
+              fill="#6B6C7E" />
+          </svg>
+        </div>
+
+        <div class="filter">
+          <lfr-editable class="d-inline" id="inventory-tab-filter4" type="text">
+            Status
+          </lfr-editable>
+
+          <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.2477 14.7798 4.2721 4.2719c.2825.2824.7439.2824 1.0264 0l4.272-4.2719c.4583-.4582.1349-1.2398-.5148-1.2398h-8.5409c-.6497 0-.973.7816-.5148 1.2398z"
+              fill="#6B6C7E" />
+          </svg>
+        </div>
+
+        <div class="filter">
+          <lfr-editable class="d-inline" id="inventory-tab-filter5" type="text">
+            MPG
+          </lfr-editable>
+
+          <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.2477 14.7798 4.2721 4.2719c.2825.2824.7439.2824 1.0264 0l4.272-4.2719c.4583-.4582.1349-1.2398-.5148-1.2398h-8.5409c-.6497 0-.973.7816-.5148 1.2398z"
+              fill="#6B6C7E" />
+          </svg>
+        </div>
+
+        <div class="filter">
+          <lfr-editable class="d-inline" id="inventory-tab-filter6" type="text">
+            Price
+          </lfr-editable>
+
+          <svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m11.2477 14.7798 4.2721 4.2719c.2825.2824.7439.2824 1.0264 0l4.272-4.2719c.4583-.4582.1349-1.2398-.5148-1.2398h-8.5409c-.6497 0-.973.7816-.5148 1.2398z"
+              fill="#6B6C7E" />
+          </svg>
+        </div>
+
+        <svg class="table-display-filter" width="32" height="32" viewBox="0 0 32 32" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M9.00098 8H11.001C11.5527 8 12.001 8.448 12.001 9C12.001 9.552 11.5527 10 11.001 10H9.00098C8.44922 10 8.00098 9.552 8.00098 9C8.00098 8.448 8.44922 8 9.00098 8Z"
+            fill="#646B75" />
+          <path
+            d="M9.00098 15H11.001C11.5527 15 12.001 15.448 12.001 16C12.001 16.552 11.5527 17 11.001 17H9.00098C8.44922 17 8.00098 16.552 8.00098 16C8.00098 15.448 8.44922 15 9.00098 15Z"
+            fill="#646B75" />
+          <path
+            d="M11.001 22H9.00098C8.44922 22 8.00098 22.448 8.00098 23C8.00098 23.552 8.44922 24 9.00098 24H11.001C11.5527 24 12.001 23.552 12.001 23C12.001 22.448 11.5527 22 11.001 22Z"
+            fill="#646B75" />
+          <path
+            d="M15 17H23C23.5498 17 24 16.55 24 16C24 15.45 23.5498 15 23 15H15C14.4502 15 14 15.45 14 16C14 16.55 14.4502 17 15 17Z"
+            fill="#646B75" />
+          <path
+            d="M23 10H15C14.4502 10 14 9.54999 14 9C14 8.45001 14.4502 8 15 8H23C23.5498 8 24 8.45001 24 9C24 9.54999 23.5498 10 23 10Z"
+            fill="#646B75" />
+          <path
+            d="M15 24H23C23.5498 24 24 23.55 24 23C24 22.45 23.5498 22 23 22H15C14.4502 22 14 22.45 14 23C14 23.55 14.4502 24 15 24Z"
+            fill="#646B75" />
+        </svg>
+
+        <svg class="table-display-filter" width="32" height="32" viewBox="0 0 32 32" fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <rect width="32" height="32" rx="4" fill="#F1F2F5" />
+          <path
+            d="M23 11H9C8.44824 11 8 10.552 8 10C8 9.448 8.44824 9 9 9H23C23.5518 9 24 9.448 24 10C24 10.552 23.5518 11 23 11Z"
+            fill="#09101D" />
+          <path
+            d="M9 13H23C23.5518 13 24 13.448 24 14C24 14.552 23.5518 15 23 15H9C8.44824 15 8 14.552 8 14C8 13.448 8.44824 13 9 13Z"
+            fill="#09101D" />
+          <path
+            d="M23 17H9C8.44824 17 8 17.4468 8 18C8 18.552 8.44824 19 9 19H23C23.5518 19 24 18.552 24 18C24 17.4468 23.5518 17 23 17Z"
+            fill="#09101D" />
+          <path
+            d="M9 21H23C23.5518 21 24 21.448 24 22C24 22.552 23.5518 23 23 23H9C8.44824 23 8 22.552 8 22C8 21.448 8.44824 21 9 21Z"
+            fill="#09101D" />
+        </svg>
+      </div>
+      <table class="table table-autofit table-list table-nowrap">
+        <thead>
+          <tr>
+            <th></th>
+            <th>
+              <lfr-editable class="inline-item" id="inventory-th0" type="text">
+                Image
+              </lfr-editable>
+            </th>
+            <th class="table-head-title">
+              <button class="btn btn-unstyled inline-item" type="button">
+                <lfr-editable id="inventory-th1" type="text">
+                  Vehicle
+                </lfr-editable>
+                <span class="inline-item inline-item-after">
+                  <svg class="lexicon-icon lexicon-icon-order-arrow-down" focusable="false" role="presentation"
+                    viewBox="0 0 512 512">
+
+                    <path class="lexicon-icon-outline"
+                      d="M161.5,367.9l71.6,71.6c11.9,10.8,32.9,11.2,45.8,0l71.6-71.6c29.8-33.6-15.8-74.9-45.8-45.8L288,338.8V96c0-42.5-64-42.5-64,0v242.8l-16.7-16.7C175.5,292.2,131.8,337,161.5,367.9z">
+                    </path>
+                  </svg>
+                </span>
+              </button>
+            </th>
+            <th class="table-cell-expand table-head-title">
+              <lfr-editable class="inline-item" id="inventory-th2" type="text">
+                Colors
+              </lfr-editable>
+            </th>
+            <th>
+              <lfr-editable class="inline-item" id="inventory-th3" type="text">
+                MSRP
+              </lfr-editable>
+            </th>
+            <th>
+              <lfr-editable class="inline-item" id="inventory-th4" type="text">
+                Price
+              </lfr-editable>
+            </th>
+            <th>
+              <lfr-editable class="inline-item" id="inventory-th5" type="text">
+                Status
+              </lfr-editable>
+            </th>
+            <th>
+              <lfr-editable class="inline-item" id="inventory-th6" type="text">
+                On Hand
+              </lfr-editable>
+            </th>
+            <th>
+              <lfr-editable class="inline-item" id="inventory-th7" type="text">
+                Available
+              </lfr-editable>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                <label>
+                  <input class="custom-control-input" type="checkbox">
+                  <span class="custom-control-label"></span>
+                </label>
+              </div>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-image1" type="image">
+                <image alt="Inventory Image" src=""></image>
+              </lfr-editable>
+            </td>
+            <td class="table-cell-expand">
+              <lfr-editable class="vehicle-name" id="inventory-table-vehicle1" type="text">2019 Zeon Sedan
+              </lfr-editable>
+              <lfr-editable class="stock-number" id="inventory-table-stockNum1" type="text">Stock #: 23490
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-color1" type="text">Lunar Silver Metallic
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-msrp1" type="text">2.9% APR / 36 mos.
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-price1" type="text">$17,910
+              </lfr-editable>
+            </td>
+            <td>
+              <span class="inline-item">
+                <lfr-editable class="status-icon" id="inventory-table-status-icon1" type="image">
+                  <image alt="Status Icon" src=""></image>
+                </lfr-editable>
+                <lfr-editable id="inventory-table-status1" type="text">In Stock
+                </lfr-editable>
+              </span>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-onhand1" type="text">12
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-available1" type="text">12
+              </lfr-editable>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                <label>
+                  <input class="custom-control-input" type="checkbox">
+                  <span class="custom-control-label"></span>
+                </label>
+              </div>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-image2" type="image">
+                <image alt="Inventory Image" src=""></image>
+              </lfr-editable>
+            </td>
+            <td class="table-cell-expand">
+              <lfr-editable class="vehicle-name" id="inventory-table-vehicle2" type="text">2019 Zeon Sedan
+              </lfr-editable>
+              <lfr-editable class="stock-number" id="inventory-table-stockNum2" type="text">Stock #: 23490
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-color2" type="text">Lunar Silver Metallic
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-msrp2" type="text">2.9% APR / 36 mos.
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-price2" type="text">$27,920
+              </lfr-editable>
+            </td>
+            <td>
+              <span class="inline-item">
+                <lfr-editable class="status-icon" id="inventory-table-status-icon2" type="image">
+                  <image alt="Status Icon" src=""></image>
+                </lfr-editable>
+                <lfr-editable id="inventory-table-status2" type="text">In Stock
+                </lfr-editable>
+              </span>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-onhand2" type="text">22
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-available2" type="text">12
+              </lfr-editable>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                <label>
+                  <input class="custom-control-input" type="checkbox">
+                  <span class="custom-control-label"></span>
+                </label>
+              </div>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-image3" type="image">
+                <image alt="Inventory Image" src=""></image>
+              </lfr-editable>
+            </td>
+            <td class="table-cell-expand">
+              <lfr-editable class="vehicle-name" id="inventory-table-vehicle3" type="text">2019 Zeon Sedan
+              </lfr-editable>
+              <lfr-editable class="stock-number" id="inventory-table-stockNum3" type="text">Stock #: 23490
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-color3" type="text">Lunar Silver Metallic
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-msrp3" type="text">2.9% APR / 36 mos.
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-price3" type="text">$37,930
+              </lfr-editable>
+            </td>
+            <td>
+              <span class="inline-item">
+                <lfr-editable class="status-icon" id="inventory-table-status-icon3" type="image">
+                  <image alt="Status Icon" src=""></image>
+                </lfr-editable>
+                <lfr-editable id="inventory-table-status3" type="text">In Stock
+                </lfr-editable>
+              </span>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-onhand3" type="text">32
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-available3" type="text">12
+              </lfr-editable>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                <label>
+                  <input class="custom-control-input" type="checkbox">
+                  <span class="custom-control-label"></span>
+                </label>
+              </div>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-image4" type="image">
+                <image alt="Inventory Image" src=""></image>
+              </lfr-editable>
+            </td>
+            <td class="table-cell-expand">
+              <lfr-editable class="vehicle-name" id="inventory-table-vehicle4" type="text">2019 Zeon Sedan
+              </lfr-editable>
+              <lfr-editable class="stock-number" id="inventory-table-stockNum4" type="text">Stock #: 23490
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-color4" type="text">Lunar Silver Metallic
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-msrp4" type="text">2.9% APR / 36 mos.
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-price4" type="text">$47,940
+              </lfr-editable>
+            </td>
+            <td>
+              <span class="inline-item">
+                <lfr-editable class="status-icon" id="inventory-table-status-icon4" type="image">
+                  <image alt="Status Icon" src=""></image>
+                </lfr-editable>
+                <lfr-editable id="inventory-table-status4" type="text">In Stock
+                </lfr-editable>
+              </span>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-onhand4" type="text">42
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-available4" type="text">42
+              </lfr-editable>
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <div class="custom-control custom-checkbox">
+                <label>
+                  <input class="custom-control-input" type="checkbox">
+                  <span class="custom-control-label"></span>
+                </label>
+              </div>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-image5" type="image">
+                <image alt="Inventory Image" src=""></image>
+              </lfr-editable>
+            </td>
+            <td class="table-cell-expand">
+              <lfr-editable class="vehicle-name" id="inventory-table-vehicle5" type="text">2019 Zeon Sedan
+              </lfr-editable>
+              <lfr-editable class="stock-number" id="inventory-table-stockNum5" type="text">Stock #: 23490
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-color5" type="text">Lunar Silver Metallic
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-msrp5" type="text">2.9% APR / 36 mos.
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-price5" type="text">$17,910
+              </lfr-editable>
+            </td>
+            <td>
+              <span class="inline-item">
+                <lfr-editable class="status-icon" id="inventory-table-status-icon5" type="image">
+                  <image alt="Status Icon" src=""></image>
+                </lfr-editable>
+                <lfr-editable id="inventory-table-status5" type="text">In Stock
+                </lfr-editable>
+              </span>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-onhand5" type="text">52
+              </lfr-editable>
+            </td>
+            <td>
+              <lfr-editable class="inline-item" id="inventory-table-available5" type="text">52
+              </lfr-editable>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="tab-footer">
+        <lfr-editable class="d-inline" id="inventory-footer-pagination1" type="image">
+          <image alt="Page Detail" src=""></image>
+        </lfr-editable>
+
+        <lfr-editable class="d-inline" id="inventory-footer-pagination2" type="image">
+          <image alt="Pagination" src=""></image>
+        </lfr-editable>
+      </div>
+    </div>
+  </div>
 </div>
