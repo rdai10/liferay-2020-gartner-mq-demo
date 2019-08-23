@@ -35,14 +35,21 @@
 		}
 	}
 
-	.notification {
-		margin-left: $lg-whitespace;
-		margin-right: $lg-whitespace;
-	}
-
 	.sticker-lg {
 		height: $lg-whitespace;
 		width: $lg-whitespace;
+	}
+
+	.user-information {
+		align-items: center;
+		display: flex;
+		justify-content: space-evenly;
+
+		.salutation {
+			display: flex;
+			font-size: 16px;
+			line-height: 18px;
+		}
 	}
 }
 
