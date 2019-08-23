@@ -28,10 +28,12 @@
   .nav-tabs {
     background-color: transparent;
 
+    .nav-item {
+      margin-right: 2px;
+    }
+
     .nav-link {
       background-color: #595E68; // one off color to give a semi translucent feel
-      border: 2px solid #0B111E; //  one off color
-      border-bottom: 0;
       color: var(--zeon-white);
       padding: 18px var(--zeon-lg-whitespace);
       text-transform: none;

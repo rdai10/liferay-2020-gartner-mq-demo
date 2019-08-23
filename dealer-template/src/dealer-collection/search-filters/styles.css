@@ -16,10 +16,10 @@
     padding-top: 30px; }
   .search-filters .nav-tabs {
     background-color: transparent; }
+    .search-filters .nav-tabs .nav-item {
+      margin-right: 2px; }
     .search-filters .nav-tabs .nav-link {
       background-color: #595E68;
-      border: 2px solid #0B111E;
-      border-bottom: 0;
       color: var(--zeon-white);
       padding: 18px var(--zeon-lg-whitespace);
       text-transform: none; }
