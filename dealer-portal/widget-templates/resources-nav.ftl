@@ -1,5 +1,6 @@
 <style>
     .resources-documentation-nav {
+        margin-left: 30px; /* lineup onpage nav with navbar */
         position: fixed;
     }
 
@@ -105,7 +106,6 @@
                 childNavLinks.forEach(
                     link => {
                         link.classList.remove('active');
-
                         if (link.innerText === text) {
                             link.classList.add('active');
                         }
@@ -113,21 +113,21 @@
                 )
             }
 
-            const headingPositionIterator = headingPositionMap.keys();
-            const initialHeadingPos = headingPositionIterator.next().value;
-
+            // TODO: throttle callback
             window.addEventListener(
                 'scroll',
                 function (event) {
                     const currentScrollPos = document.documentElement.scrollTop;
-                    let headingPos = initialHeadingPos;
 
-                    // problematic
-                    while (currentScrollPos > headingPos) {
-                        headingPos = headingPositionIterator.next().value;
+                    let prevPos = 0;
+
+                    for (const headingPosition of headingPositionMap.keys()) {
+                        if (currentScrollPos > prevPos && currentScrollPos > headingPosition) {
+                            prevPos = headingPosition;
+                        }
                     }
 
-                    const headingText = headingPositionMap.get(headingPos);
+                    const headingText = headingPositionMap.get(prevPos);
 
                     addActiveClass(headingText);
                 }

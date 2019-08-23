@@ -49,6 +49,8 @@
 								<@liferay.user_personal_bar />
 							</div>
 
+							<#--  TODO: display user name  -->
+
 							<svg fill="none" height="32" viewBox="0 0 32 32" width="32" xmlns="http://www.w3.org/2000/svg"><path d="m11.2477 14.7798 4.2721 4.2719c.2825.2824.7439.2824 1.0264 0l4.272-4.2719c.4583-.4582.1349-1.2398-.5148-1.2398h-8.5409c-.6497 0-.973.7816-.5148 1.2398z" fill="#fff" opacity=".75"/></svg>
 						</div>
 					</#if>
