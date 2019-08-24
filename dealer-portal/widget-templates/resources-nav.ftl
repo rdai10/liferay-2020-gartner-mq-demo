@@ -91,7 +91,7 @@
 </#if>
 
 <script>
-    AUI().ready('', function () {
+    AUI().ready('', () => {
         const childNavLinks = document.querySelectorAll('.child-nav-link');
         const headings = document.querySelectorAll('.kb-entity-body h4[id]');
 
@@ -102,7 +102,7 @@
                 heading => headingPositionMap.set(heading.getBoundingClientRect().top, heading.innerText)
             )
 
-            const addActiveClass = function (text) {
+            const addActiveClass = text =>
                 childNavLinks.forEach(
                     link => {
                         link.classList.remove('active');
@@ -110,13 +110,12 @@
                             link.classList.add('active');
                         }
                     }
-                )
-            }
+                );
 
             // TODO: throttle callback
             window.addEventListener(
                 'scroll',
-                function (event) {
+                event => {
                     const currentScrollPos = document.documentElement.scrollTop;
 
                     let prevPos = 0;
