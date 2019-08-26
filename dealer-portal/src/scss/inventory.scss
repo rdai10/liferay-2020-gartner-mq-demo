@@ -70,10 +70,6 @@ html body {
       padding-right: 4px;
     }
 
-    .stock-number {
-      color: var(--dp-color-secondary);
-    }
-
     .tab-filters {
       padding: 12px 24px;
     }
@@ -84,32 +80,8 @@ html body {
         padding: 30px 24px;
     }
 
-    .table {
-      font-size: 16px;
-
-      &.table-list {
-        td,
-        th {
-          &:last-child,
-          &:first-child {
-            box-shadow: inset 0 0.0625rem #e7e7ed, 0 0.0625rem #e7e7ed;
-          }
-        }
-      }
-
-      th {
-        color: var(--dp-color-dark);
-      }
-    }
-
     .table-display-filter {
       margin-left: 4px;
-    }
-
-    .vehicle-name {
-      font-family: 'Yantramanav-Medium';
-      font-size: 18px;
-      font-weight: var(--dp-font-weight-medium);
     }
   }
 }

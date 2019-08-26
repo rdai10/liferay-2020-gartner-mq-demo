@@ -1,0 +1,9 @@
+.recent-sales.dealer-portal {
+  background-color: var(--dp-color-white); }
+  .recent-sales.dealer-portal .recent-sales-heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 28px; }
+  .recent-sales.dealer-portal .table-list td:first-child,
+  .recent-sales.dealer-portal .table-list thead:first-child tr:first-child th:first-child {
+    padding-left: 28px; }

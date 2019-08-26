@@ -13,10 +13,10 @@
 }
 
 :root {
-  --dp-color-background-light: #F7F8F9;
+  --dp-color-background-light: #f7f8f9;
   --dp-color-dark: #09101d;
   --dp-color-secondary: #646b75;
-  --dp-color-white: #FFF;
+  --dp-color-white: #fff;
 
   --dp-font-weight-black: 900;
   --dp-font-weight-medium: 500;
@@ -76,17 +76,15 @@ hr {
   border-color: $primary;
 }
 
-.has-control-menu {
-  #content {
-    margin-top: 194px;
-  }
+.dashboard-fragment-footer {
+  display: flex;
 
-  .navbar-header {
-    top: 58px;
-  }
-
-  .nav-primary {
-    top: 129px;
+  .view-all {
+    font-family: 'Yantramanav-Medium';
+    font-size: 16px;
+    font-weight: $font-weight-medium;
+    padding: 24px;
+    text-transform: uppercase;
   }
 }
 
@@ -107,6 +105,20 @@ hr {
 .font-weight-medium {
   font-family: 'Yantramanav-Medium';
   font-weight: $font-weight-medium;
+}
+
+.has-control-menu {
+  #content {
+    margin-top: 194px;
+  }
+
+  .navbar-header {
+    top: 58px;
+  }
+
+  .nav-primary {
+    top: 129px;
+  }
 }
 
 .max-width-1224 {
@@ -134,4 +146,33 @@ hr {
       padding-bottom: 20px;
     }
   }
+}
+
+.stock-number,
+.vin {
+  color: $secondary;
+}
+
+.table {
+  font-size: 16px;
+
+  &.table-list {
+    td,
+    th {
+      &:last-child,
+      &:first-child {
+        box-shadow: inset 0 0.0625rem #e7e7ed, 0 0.0625rem #e7e7ed;
+      }
+    }
+  }
+
+  th {
+    color: $dark;
+  }
+}
+
+.vehicle-name {
+  font-family: 'Yantramanav-Medium';
+  font-size: 18px;
+  font-weight: $font-weight-medium;
 }
