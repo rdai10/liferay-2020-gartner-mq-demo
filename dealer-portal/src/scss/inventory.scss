@@ -1,18 +1,5 @@
-$primary: #d72323 !default;
-$primary-dark: #af0000 !default;
-$dark: #09101d !default;
-$secondary: #646b75 !default;
-$background: #e5e5e5 !default;
-$background-light: #f7f8f9 !default;
-$light: #f1f2f5 !default;
-$white: #fff !default;
-$brand: #1d2431 !default;
-
-$font-weight-medium: 500 !default;
-$font-weight-black: 900 !default;
-
 html body {
-  background-color: $background-light;
+  background-color: var(--dp-color-background-light);
 }
 
 .inventory.dealer-portal {
@@ -30,7 +17,7 @@ html body {
     font-size: 18px;
 
     .count {
-      color: $secondary;
+      color: var(--dp-color-secondary);
       font-weight: normal;
       font-size: 13px;
     }
@@ -40,11 +27,11 @@ html body {
       margin-right: 4px;
 
       &.active {
-        background-color: $white;
+        background-color: var(--dp-color-white);
         border-bottom-width: 0;
-        color: $dark;
+        color: var(--dp-color-dark);
         font-family: 'Yantramanav-Black';
-        font-weight: $font-weight-black;
+        font-weight: var(--dp-font-weight-black);
       }
 
       &.btn-unstyled {
@@ -54,7 +41,7 @@ html body {
   }
 
   .tab-content {
-    background-color: $white;
+    background-color: var(--dp-color-white);
     font-size: 16px;
     margin-bottom: 48px;
 
@@ -84,7 +71,7 @@ html body {
     }
 
     .stock-number {
-      color: $secondary;
+      color: var(--dp-color-secondary);
     }
 
     .tab-filters {
@@ -111,7 +98,7 @@ html body {
       }
 
       th {
-        color: $dark;
+        color: var(--dp-color-dark);
       }
     }
 
@@ -122,7 +109,7 @@ html body {
     .vehicle-name {
       font-family: 'Yantramanav-Medium';
       font-size: 18px;
-      font-weight: $font-weight-medium;
+      font-weight: var(--dp-font-weight-medium);
     }
   }
 }

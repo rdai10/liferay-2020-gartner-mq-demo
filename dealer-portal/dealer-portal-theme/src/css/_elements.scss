@@ -12,6 +12,16 @@
   padding-top: 0;
 }
 
+:root {
+  --dp-color-background-light: #F7F8F9;
+  --dp-color-dark: #09101d;
+  --dp-color-secondary: #646b75;
+  --dp-color-white: #FFF;
+
+  --dp-font-weight-black: 900;
+  --dp-font-weight-medium: 500;
+}
+
 html body {
   background: $white;
   font-family: $font-family-base;
