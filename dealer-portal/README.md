@@ -4,6 +4,11 @@ To set up, deploy and set all pages to use [dealer-portal-theme](/dealer-portal/
 
 All relevant images are in the [assets](/dealer-portal/assets) folder.
 
+## Dashboard
+### Setup steps:
+- Add _notification_ fragment at top of the page.
+- Add _recent-sales_ fragment at the bottom of the page.
+
 ## Inventory
 ### Setup steps:
 - Add the _Inventory_ [fragment](/dealer-portal/src/dealer-portal-collection/inventory) to the page.
