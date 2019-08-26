@@ -88,6 +88,12 @@ hr {
   }
 }
 
+.dashboard-fragment-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px 28px;
+}
+
 .font-size-secondary {
   font-size: $secondary-size;
 }
