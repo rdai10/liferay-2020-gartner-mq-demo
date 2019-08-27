@@ -1,4 +1,29 @@
 .vehicle-promotion.dealer-portal {
-    background-color: var(--dp-color-white);
-    border-radius: 4px;
+  background-color: var(--dp-color-white);
+  border-radius: 4px;
+
+  .promotion {
+    display: flex;
+    border-bottom: 1px solid var(--dp-color-light);
+    border-top: 1px solid var(--dp-color-light);
+    padding: var(--dp-sm-whitespace) var(--dp-md-whitespace);
+
+    &:last-child {
+      border-top-width: 0;
+    }
+  }
+
+  .promotion-detail,
+  .promotion-period {
+    font-size: var(--dp-secondary-font-size);
+  }
+
+  .promotion-detail {
+      padding-left: var(--dp-md-whitespace);
+  }
+
+  .promotion-period {
+    color: var(--dp-color-secondary);
+    padding-top: var(--dp-sm-whitespace);
+  }
 }

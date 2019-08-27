@@ -1,3 +1,18 @@
 .vehicle-promotion.dealer-portal {
   background-color: var(--dp-color-white);
   border-radius: 4px; }
+  .vehicle-promotion.dealer-portal .promotion {
+    display: flex;
+    border-bottom: 1px solid var(--dp-color-light);
+    border-top: 1px solid var(--dp-color-light);
+    padding: var(--dp-sm-whitespace) var(--dp-md-whitespace); }
+    .vehicle-promotion.dealer-portal .promotion:last-child {
+      border-top-width: 0; }
+  .vehicle-promotion.dealer-portal .promotion-detail,
+  .vehicle-promotion.dealer-portal .promotion-period {
+    font-size: var(--dp-secondary-font-size); }
+  .vehicle-promotion.dealer-portal .promotion-detail {
+    padding-left: var(--dp-md-whitespace); }
+  .vehicle-promotion.dealer-portal .promotion-period {
+    color: var(--dp-color-secondary);
+    padding-top: var(--dp-sm-whitespace); }
