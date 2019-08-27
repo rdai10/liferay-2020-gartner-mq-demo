@@ -2,7 +2,7 @@
   background-color: var(--dp-color-white);
   border-radius: 4px; }
   .manufacturer-incentive.dealer-portal .detail-fineprint {
-    padding: var(--dp-xs-whitespace) var(--dp-xl-whitespace) var(--dp-xs-whitespace) var(--dp-md-whitespace); }
+    padding: 0 var(--dp-xl-whitespace) 0 var(--dp-md-whitespace); }
   .manufacturer-incentive.dealer-portal .expiration {
     font-size: 14px; }
   .manufacturer-incentive.dealer-portal .featured,
