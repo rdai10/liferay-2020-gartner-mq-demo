@@ -1,4 +1,61 @@
 .manufacturer-incentive.dealer-portal {
-    background-color: var(--dp-color-white);
-    border-radius: 4px;
+  background-color: var(--dp-color-white);
+  border-radius: 4px;
+
+  .detail-fineprint {
+    padding: var(--dp-xs-whitespace) var(--dp-xl-whitespace) var(--dp-xs-whitespace) var(--dp-md-whitespace);
+  }
+
+  .expiration {
+    font-size: 14px;
+  }
+
+  .featured,
+  .incentive-name {
+    font-family: 'Yantramanav-Medium';
+    font-weight: var(--dp-font-weight-medium);
+  }
+
+  .featured {
+    font-size: var(--dp-h4-size);
+  }
+
+  .incentive {
+    display: flex;
+    border-bottom: 1px solid var(--dp-color-light);
+    border-top: 1px solid var(--dp-color-light);
+    padding: var(--dp-sm-whitespace) var(--dp-md-whitespace);
+
+    &:last-child {
+      border-top-width: 0;
+    }
+  }
+
+  .incentive-description,
+  .incentive-stat {
+    font-size: var(--dp-secondary-font-size);
+  }
+
+  .incentive-detail {
+    .detail {
+      display: flex;
+    }
+  }
+
+  .incentive-stat {
+    min-width: 20%;
+  }
+
+  .progress-group {
+    margin-left: var(--dp-md-whitespace);
+    padding-top: var(--dp-xs-whitespace);
+
+    .goal-progress-gt50 .progress-bar {
+      background-color: #50d2a0;
+    }
+
+    .goal-progress-lt50 .progress-bar {
+      background-color: #ffb46e;
+    }
+  }
 }

@@ -1,3 +1,34 @@
 .manufacturer-incentive.dealer-portal {
   background-color: var(--dp-color-white);
   border-radius: 4px; }
+  .manufacturer-incentive.dealer-portal .detail-fineprint {
+    padding: var(--dp-xs-whitespace) var(--dp-xl-whitespace) var(--dp-xs-whitespace) var(--dp-md-whitespace); }
+  .manufacturer-incentive.dealer-portal .expiration {
+    font-size: 14px; }
+  .manufacturer-incentive.dealer-portal .featured,
+  .manufacturer-incentive.dealer-portal .incentive-name {
+    font-family: 'Yantramanav-Medium';
+    font-weight: var(--dp-font-weight-medium); }
+  .manufacturer-incentive.dealer-portal .featured {
+    font-size: var(--dp-h4-size); }
+  .manufacturer-incentive.dealer-portal .incentive {
+    display: flex;
+    border-bottom: 1px solid var(--dp-color-light);
+    border-top: 1px solid var(--dp-color-light);
+    padding: var(--dp-sm-whitespace) var(--dp-md-whitespace); }
+    .manufacturer-incentive.dealer-portal .incentive:last-child {
+      border-top-width: 0; }
+  .manufacturer-incentive.dealer-portal .incentive-description,
+  .manufacturer-incentive.dealer-portal .incentive-stat {
+    font-size: var(--dp-secondary-font-size); }
+  .manufacturer-incentive.dealer-portal .incentive-detail .detail {
+    display: flex; }
+  .manufacturer-incentive.dealer-portal .incentive-stat {
+    min-width: 20%; }
+  .manufacturer-incentive.dealer-portal .progress-group {
+    margin-left: var(--dp-md-whitespace);
+    padding-top: var(--dp-xs-whitespace); }
+    .manufacturer-incentive.dealer-portal .progress-group .goal-progress-gt50 .progress-bar {
+      background-color: #50d2a0; }
+    .manufacturer-incentive.dealer-portal .progress-group .goal-progress-lt50 .progress-bar {
+      background-color: #ffb46e; }
