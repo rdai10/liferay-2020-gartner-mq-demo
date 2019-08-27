@@ -2,7 +2,33 @@
   background-color: var(--dp-color-white);
   border-radius: 4px;
 
+  .breakdown {
+    padding-bottom: var(--dp-xl-whitespace);
+    padding-top: var(--dp-lg-whitespace);
+    padding-left: var(--dp-lg-whitespace);
+
+    &.featured {
+      border-bottom: 1px solid var(--dp-color-light);
+      border-top: 1px solid var(--dp-color-light);
+      display: flex;
+
+      &:first-child {
+        border-right: 1px solid var(--dp-color-light);
+      }
+    }
+
+    &.key {
+      border-right: 1px solid var(--dp-color-light);
+
+      &:last-child {
+        border-right-width: 0;
+      }
+    }
+  }
+
   .stat {
+    font-family: 'Yantramanav-Medium';
+    font-weight: var(--dp-font-weight-medium);
     font-size: var(--dp-h4-size);
   }
 }

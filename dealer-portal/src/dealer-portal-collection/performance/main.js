@@ -1,1 +1,1 @@
-const content = fragmentElement.querySelector('.performance');
+const performance = fragmentElement.querySelector('.performance');

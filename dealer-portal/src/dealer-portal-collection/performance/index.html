@@ -1,7 +1,7 @@
 <div class="performance dealer-portal">
   <div class="dashboard-fragment-header">
-    <h5>Performance</h5>
-    <div>
+    <h5>Your Performance</h5>
+    <div class="header-select">
       This Quarter
       <svg
         fill="none"
@@ -18,20 +18,67 @@
     </div>
   </div>
 
-  <div class="performance-breakdown">
-    <div class="col-6"></div>
-    <div class="col-6"></div>
+  <div class="performance-breakdown container">
+    <div class="row">
+      <div class="col-6 breakdown featured">
+        <div id="closedSalesDonutChart"></div>
+        <div>
+          Sales Closed
+          <lfr-editable class="stat" id="stat1" type="text">
+            12%
+          </lfr-editable>
+          Goal:
+          <lfr-editable class="d-inline" id="goal1" type="text">
+            25%
+          </lfr-editable>
+        </div>
+      </div>
+      <div class="col-6 breakdown featured">
+        <div id="carsSoldDonutChart"></div>
+        <div>
+          Cars Sold
+          <lfr-editable class="stat" id="stat2" type="text">
+            31
+          </lfr-editable>
+          Goal:
+          <lfr-editable class="d-inline" id="goal2" type="text">
+            40
+          </lfr-editable>
+        </div>
+      </div>
 
-    <div class="col-4">
-      Used-To-New Ratio
+      <div class="col-4 breakdown key">
+        Used-To-New Ratio
+        <lfr-editable class="stat" id="stat3" type="text">
+          1.12:1
+        </lfr-editable>
+        Goal:
+        <lfr-editable class="d-inline" id="goal3" type="text">
+          1.25:1
+        </lfr-editable>
+      </div>
 
-      <lfr-editable class="stat" id="stat3" type="text">
-        1.12:1
-      </lfr-editable>
+      <div class="col-4 breakdown key">
+        Avg. Commision
+        <lfr-editable class="stat" id="stat4" type="text">
+          $256.00
+        </lfr-editable>
+        Goal:
+        <lfr-editable class="d-inline" id="goal4" type="text">
+          $280.00
+        </lfr-editable>
+      </div>
+
+      <div class="col-4 breakdown key">
+        # of Clients
+        <lfr-editable class="stat" id="stat5" type="text">
+          50
+        </lfr-editable>
+        Goal:
+        <lfr-editable class="d-inline" id="goal5" type="text">
+          70
+        </lfr-editable>
+      </div>
     </div>
-
-    <div class="col-4"></div>
-
-    <div class="col-4"></div>
   </div>
 </div>

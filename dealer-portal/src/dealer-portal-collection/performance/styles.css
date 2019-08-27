@@ -1,5 +1,21 @@
 .performance.dealer-portal {
   background-color: var(--dp-color-white);
   border-radius: 4px; }
+  .performance.dealer-portal .breakdown {
+    padding-bottom: var(--dp-xl-whitespace);
+    padding-top: var(--dp-lg-whitespace);
+    padding-left: var(--dp-lg-whitespace); }
+    .performance.dealer-portal .breakdown.featured {
+      border-bottom: 1px solid var(--dp-color-light);
+      border-top: 1px solid var(--dp-color-light);
+      display: flex; }
+      .performance.dealer-portal .breakdown.featured:first-child {
+        border-right: 1px solid var(--dp-color-light); }
+    .performance.dealer-portal .breakdown.key {
+      border-right: 1px solid var(--dp-color-light); }
+      .performance.dealer-portal .breakdown.key:last-child {
+        border-right-width: 0; }
   .performance.dealer-portal .stat {
+    font-family: 'Yantramanav-Medium';
+    font-weight: var(--dp-font-weight-medium);
     font-size: var(--dp-h4-size); }

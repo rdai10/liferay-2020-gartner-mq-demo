@@ -18,6 +18,7 @@
   --dp-color-background-light: #f7f8f9;
   --dp-color-dark: #09101d;
   --dp-color-secondary: #646b75;
+  --dp-color-light: #f1f2f5;
   --dp-color-white: #fff;
 
   --dp-font-weight-black: 900;
@@ -101,6 +102,10 @@ hr {
   display: flex;
   justify-content: space-between;
   padding: $sm-whitespace 28px;
+
+  .header-select {
+    color: $secondary;
+  }
 }
 
 .font-size-secondary {
