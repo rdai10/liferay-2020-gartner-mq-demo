@@ -13,6 +13,8 @@
 }
 
 :root {
+  --dp-h4-size: 25.63px;
+  --dp-secondary-font-size: 16px;
   --dp-color-background-light: #f7f8f9;
   --dp-color-dark: #09101d;
   --dp-color-secondary: #646b75;
@@ -20,6 +22,12 @@
 
   --dp-font-weight-black: 900;
   --dp-font-weight-medium: 500;
+
+  --dp-xs-whitespace: 12px;
+  --dp-sm-whitespace: 16px;
+  --dp-md-whitespace: 24px;
+  --dp-lg-whitespace: 32px;
+  --dp-xl-whitespace: 48px;
 }
 
 html body {
@@ -67,8 +75,8 @@ h5 {
 
 hr {
   border-bottom-color: $light;
-  margin-top: 48px;
-  margin-bottom: 48px;
+  margin-top: $xl-whitespace;
+  margin-bottom: $xl-whitespace;
 }
 
 .btn-primary {
@@ -77,13 +85,14 @@ hr {
 }
 
 .dashboard-fragment-footer {
-  display: flex;
+  padding: $md-whitespace;
+  text-align: right;
 
   .view-all {
+    display: inline-block;
     font-family: 'Yantramanav-Medium';
-    font-size: 16px;
+    font-size: $secondary-size;
     font-weight: $font-weight-medium;
-    padding: 24px;
     text-transform: uppercase;
   }
 }
@@ -91,7 +100,7 @@ hr {
 .dashboard-fragment-header {
   display: flex;
   justify-content: space-between;
-  padding: 16px 28px;
+  padding: $sm-whitespace 28px;
 }
 
 .font-size-secondary {
@@ -135,7 +144,7 @@ hr {
 .nav-underline {
   .nav-item {
     color: $secondary;
-    font-size: 16px;
+    font-size: $secondary-size;
     margin-right: $md-whitespace;
 
     &.active {
@@ -160,7 +169,7 @@ hr {
 }
 
 .table {
-  font-size: 16px;
+  font-size: $secondary-size;
 
   &.table-list {
     td,

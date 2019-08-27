@@ -8,7 +8,7 @@ All relevant images are in the [assets](/dealer-portal/assets) folder.
 ### Setup steps:
 - Add _notification_ fragment at top of the page.
 - Add two 50-50 _layout_ from _Section Build_.
-- Insert _performance_, _sales-forcast_, _manufacturer-incentive_, and _vehicle-promotion_ components respectively in the layouts. 
+  - Insert _performance_, _sales-forcast_, _manufacturer-incentive_, and _vehicle-promotion_ components respectively in the layouts. 
 - Add _recent-sales_ fragment at the bottom of the page.
 
 ## Inventory

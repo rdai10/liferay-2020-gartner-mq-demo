@@ -1,3 +1,5 @@
 .performance.dealer-portal {
   background-color: var(--dp-color-white);
   border-radius: 4px; }
+  .performance.dealer-portal .stat {
+    font-size: var(--dp-h4-size); }

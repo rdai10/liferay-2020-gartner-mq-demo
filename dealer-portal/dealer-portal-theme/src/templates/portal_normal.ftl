@@ -10,6 +10,9 @@
 	<meta content="initial-scale=1.0, width=device-width" name="viewport" />
 
 	<@liferay_util["include"] page=top_head_include />
+
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://naver.github.io/billboard.js/release/latest/dist/billboard.js"></script>
 </head>
 
 <body class="${css_class}">
