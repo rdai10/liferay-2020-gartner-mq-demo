@@ -3,16 +3,17 @@
 	"version": "1.0.0",
 	"description": "A React based dashboard with usage metrics for car owners.",
 	"devDependencies": {
-		"liferay-npm-bundler": "^2.12.0",
-		"liferay-npm-build-support": "^2.12.0",
-		"copy-webpack-plugin": "4.6.0",
-		"webpack": "4.29.6",
-		"webpack-cli": "3.3.0",
-		"webpack-dev-server": "3.2.1",
 		"babel-cli": "6.26.0",
+		"babel-loader": "7.1.5",
 		"babel-preset-env": "1.7.0",
 		"babel-preset-react": "6.24.1",
-		"babel-loader": "7.1.5"
+		"copy-webpack-plugin": "4.6.0",
+		"liferay-npm-build-support": "^2.12.0",
+		"liferay-npm-bundler": "^2.12.0",
+		"prettier": "^1.18.2",
+		"webpack": "4.29.6",
+		"webpack-cli": "3.3.0",
+		"webpack-dev-server": "3.2.1"
 	},
 	"dependencies": {
 		"react": "16.8.6",
@@ -22,7 +23,15 @@
 		"build": "babel --source-maps -d build src && npm run copy-assets && liferay-npm-bundler",
 		"copy-assets": "lnbs-copy-assets",
 		"deploy": "npm run build && lnbs-deploy",
+		"format": "prettier --write 'src/*.js'",
 		"start": "lnbs-start"
+	},
+	"prettier": {
+		"bracketSpacing": false,
+		"endOfLine": "lf",
+		"singleQuote": true,
+		"tabWidth": 4,
+		"useTabs": true
 	},
 	"portlet": {
 		"com.liferay.portlet.display-category": "category.sample",
