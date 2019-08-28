@@ -1,5 +1,4 @@
 {
-	"liferayDir": "/home/rebecca/projects/liferay/bundles/liferay-dxp-7.2.10-ga1",
 	"webpack": {
 		"rules": [
 			{

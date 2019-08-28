@@ -3,8 +3,7 @@
 		"output-dir": "dist",
 		"features": {
 			"js-extender": true,
-			"web-context": "/subscription-portal",
-			"configuration": "features/configuration.json"
+			"web-context": "/subscription-portal"
 		}
 	},
 	"dump-report": true

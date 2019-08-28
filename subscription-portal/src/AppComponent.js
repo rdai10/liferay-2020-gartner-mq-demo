@@ -1,30 +1,37 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 export default class extends React.Component {
 	render() {
 		return (
-			<div>
-				<div>
-					<span className="tag">Portlet Namespace:</span>
-					<span className="value">{this.props.portletNamespace}</span>
-				</div>
-				<div>
-					<span className="tag">Context Path:</span>
-					<span className="value">{this.props.contextPath}</span>
-				</div>
-				<div>
-					<span className="tag">Portlet Element Id:</span>
-					<span className="value">{this.props.portletElementId}</span>
+			<React.Fragment>
+				<div className="col-md-12 header-bar">
+					<div className="vehicle-name">
+						<h4>2019 Riuvo Sedan</h4>
+						<button className="btn btn-link">Change Vehicle</button>
+					</div>
+
+					<div className="acc-info">svg User Name dropdown</div>
 				</div>
 
-				<div>
-					<span className="tag">Configuration:</span>
-					<span className="value pre">
-						{JSON.stringify(this.props.configuration, null, 2)}
-					</span>
+				<div className="col-md-12 central-dash">
+					<div className="col-md-5">
+						Card
+						Card
+					</div>
+					<div className="col-md-7">Card</div>
 				</div>
-			</div>
+				<div className="col-md-12 subscriptions">
+					<div className="col-md-12 subscription-header">
+						<h6>Your Subscriptions</h6>
+
+						<button className="btn btn-link">Add</button>
+					</div>
+
+					<div className="col-md-4">Card</div>
+					<div className="col-md-4">Card</div>
+					<div className="col-md-4">Card</div>
+				</div>
+			</React.Fragment>
 		);
 	}
 }
