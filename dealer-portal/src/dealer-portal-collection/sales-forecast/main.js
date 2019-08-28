@@ -30,10 +30,6 @@ const salesForecastChart = bb.generate({
   },
   axis: {
     x: {
-      label: {
-        text: 'Period (Month)',
-        position: 'outer-center'
-      },
       tick: {
         show: false
       },
