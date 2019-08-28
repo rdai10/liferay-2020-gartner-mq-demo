@@ -39,7 +39,7 @@
 		"com.liferay.portlet.instanceable": true,
 		"javax.portlet.name": "subscriptionportal",
 		"javax.portlet.security-role-ref": "power-user,user",
-		"javax.portlet.display-name": "A React based dashboard with usage metrics for car owners."
+		"javax.portlet.display-name": "Subscription Portal"
 	},
 	"main": "index.js"
 }

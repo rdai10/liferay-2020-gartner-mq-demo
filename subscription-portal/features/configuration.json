@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/liferay/liferay-js-toolkit/master/resources/schemas/configuration.schema.json",
 	"system": {
 		"category": "subscription-portal",
-		"name": "A React based dashboard with usage metrics for car owners.",
+		"name": "Subscription Portal",
 		"fields": {
 			"fruit": {
 				"type": "string",

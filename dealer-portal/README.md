@@ -1,15 +1,15 @@
 # Dealer Portal
 
-To set up, deploy and set all pages to use [dealer-portal-theme](/dealer-portal/dealer-portal-theme) and place _Navigation Menu_ widget at the top of the page.
+To set up, deploy and set all pages to use [dealer-portal-theme](/dealer-portal/dealer-portal-theme).
 
 All relevant images are in the [assets](/dealer-portal/assets) folder.
 
 ## Dashboard
 ### Setup steps:
-- Add _notification_ fragment at top of the page.
+- Add _notification_ [fragment](/dealer-portal/src/dealer-portal-collection/notification) at top of the page.
 - Add two 50-50 _layout_ from _Section Build_.
   - Insert _performance_, _sales-forcast_, _manufacturer-incentive_, and _vehicle-promotion_ components respectively in the layouts. 
-- Add _recent-sales_ fragment at the bottom of the page.
+- Add _recent-sales_ [fragment](/dealer-portal/src/dealer-portal-collection/recent-sales) at the bottom of the page.
 
 ## Inventory
 ### Setup steps:
@@ -17,8 +17,10 @@ All relevant images are in the [assets](/dealer-portal/assets) folder.
 
 ## Resources
 ### Setup steps:
-- Create an empty page with 2 Columns (30/70) layout. 
-- Place _Navigation Menu_ widget on the left side of the page.
+- Create an empty widget page with 2 Columns (30/70) layout. 
+  - Create children pages as shown on mockup (For example: _Quick Reference_, _Safe Driving_).
+  - Create grandchildren pages as _Link to URL_ for the child page called _Driving_.
+- Place _Navigation Menu_ widget on the left side of the Resourcse page.
   - Under _Configuration_, find _Set Up_ tab and select [_resources-nav_][1] under _Display Templates_.
 - Place _Knownledge Base Article_ widget on the right side of the page. 
   - Under _Look and Feel Configuration_, find _Application Decorators_ and select _Barebone_.
