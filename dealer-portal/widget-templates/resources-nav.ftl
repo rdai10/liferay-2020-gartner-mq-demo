@@ -112,7 +112,7 @@
                     }
                 );
 
-            // TODO: throttle callback
+            // TODO: throttle callback or refactor using Intersection Observer API
             window.addEventListener(
                 'scroll',
                 event => {
