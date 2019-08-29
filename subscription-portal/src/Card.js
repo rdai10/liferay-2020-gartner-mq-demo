@@ -11,13 +11,13 @@ class Card extends React.Component {
 				<div className="card-item-first">
 					{subheading && (
 						<React.Fragment>
-							<h6>{heading}</h6>
-							<div className="subheading">{subheading}</div>
+							<h6 className="heading">{heading}</h6>
+							<div className="subheading secondary-font-color">{subheading}</div>
 						</React.Fragment>
 					)}
 
 					{!subheading && (
-						<div className="secondary-font-size">{heading}</div>
+						<div className="heading secondary-font-size">{heading}</div>
 					)}
 				</div>
 				<div className="card-body">{children}</div>

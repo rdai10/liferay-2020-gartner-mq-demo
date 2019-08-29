@@ -5,8 +5,8 @@ import Card from './Card';
 export default class extends React.Component {
 	render() {
 		return (
-			<React.Fragment>
-				<div className="col-md-12 header-bar">
+			<div className="dashboard-body">
+				<div className="col-md-12 header-bar row">
 					<div className="vehicle-name">
 						<h4>2019 Riuvo Sedan</h4>
 						<button className="btn btn-link">Change Vehicle</button>
@@ -15,7 +15,7 @@ export default class extends React.Component {
 					<div className="acc-info">svg User Name dropdown</div>
 				</div>
 
-				<div className="col-md-12 central-dash">
+				<div className="col-md-12 central-dash row">
 					<div className="col-md-5">
 						Alert <Card heading="Performance">Graph</Card>
 					</div>
@@ -23,7 +23,7 @@ export default class extends React.Component {
 						<Card heading="Usage">Car</Card>
 					</div>
 				</div>
-				<div className="col-md-12 subscriptions">
+				<div className="col-md-12 subscriptions row">
 					<div className="col-md-12 subscription-header">
 						<h6>Your Subscriptions</h6>
 
@@ -46,7 +46,7 @@ export default class extends React.Component {
 						</Card>
 					</div>
 				</div>
-			</React.Fragment>
+			</div>
 		);
 	}
 }
