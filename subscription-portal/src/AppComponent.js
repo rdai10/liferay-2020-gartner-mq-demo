@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Card from './Card';
+
 export default class extends React.Component {
 	render() {
 		return (
@@ -15,10 +17,11 @@ export default class extends React.Component {
 
 				<div className="col-md-12 central-dash">
 					<div className="col-md-5">
-						Card
-						Card
+						Alert <Card heading="Performance">Graph</Card>
 					</div>
-					<div className="col-md-7">Card</div>
+					<div className="col-md-7">
+						<Card heading="Usage">Car</Card>
+					</div>
 				</div>
 				<div className="col-md-12 subscriptions">
 					<div className="col-md-12 subscription-header">
@@ -27,9 +30,21 @@ export default class extends React.Component {
 						<button className="btn btn-link">Add</button>
 					</div>
 
-					<div className="col-md-4">Card</div>
-					<div className="col-md-4">Card</div>
-					<div className="col-md-4">Card</div>
+					<div className="col-md-4">
+						<Card heading="My Data" subheading="Premium Plus">
+							Chart
+						</Card>
+					</div>
+					<div className="col-md-4">
+						<Card heading="Cloud Share" subheading="Basic">
+							Progress Bar
+						</Card>
+					</div>
+					<div className="col-md-4">
+						<Card heading="SolarTrak" subheading="Basic">
+							Graph
+						</Card>
+					</div>
 				</div>
 			</React.Fragment>
 		);
