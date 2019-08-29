@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import AppComponent from './AppComponent';
+import ErrorBoundary from './ErrorBoundary';
 
 /**
  * This is the main entry point of the portlet.
@@ -18,11 +19,13 @@ export default function main({
 	portletElementId
 }) {
 	ReactDOM.render(
-		<AppComponent
-			portletNamespace={portletNamespace}
-			contextPath={contextPath}
-			portletElementId={portletElementId}
-		/>,
+		<ErrorBoundary>
+			<AppComponent
+				portletNamespace={portletNamespace}
+				contextPath={contextPath}
+				portletElementId={portletElementId}
+			/>
+		</ErrorBoundary>,
 		document.getElementById(portletElementId)
 	);
 }
