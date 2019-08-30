@@ -6,15 +6,6 @@ export default class extends React.Component {
 	render() {
 		return (
 			<div className="dashboard-body">
-				<div className="col-md-12 header-bar row">
-					<div className="vehicle-name">
-						<h4>2019 Riuvo Sedan</h4>
-						<button className="btn btn-link">Change Vehicle</button>
-					</div>
-
-					<div className="acc-info">svg User Name dropdown</div>
-				</div>
-
 				<div className="col-md-12 central-dash row">
 					<div className="col-md-5">
 						Alert <Card heading="Performance">Graph</Card>

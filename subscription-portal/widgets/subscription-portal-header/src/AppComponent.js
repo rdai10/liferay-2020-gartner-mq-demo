@@ -1,24 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+
+import CaretIcon from './CaretIcon';
+import NotificationIcon from './NotificationIcon';
 
 export default class extends React.Component {
 	render() {
 		return (
-            <div>
-				<div>
-        	        <span className="tag">Portlet Namespace:</span> 
-					<span className="value">{this.props.portletNamespace}</span>
+			<div className="header-bar">
+				<div className="vehicle-name">
+					<h4>2019 Riuvo Sedan</h4>
+
+					<button className="btn btn-link">Change Vehicle</button>
 				</div>
-				<div>
-    	            <span className="tag">Context Path:</span>
-					<span className="value">{this.props.contextPath}</span>
+
+				<div className="acc-info">
+					<NotificationIcon /> Angelo <CaretIcon />
 				</div>
-				<div>
-	                <span className="tag">Portlet Element Id:</span>
-					<span className="value">{this.props.portletElementId}</span>
-				</div>
-				
 			</div>
 		);
-	}	
+	}
 }
