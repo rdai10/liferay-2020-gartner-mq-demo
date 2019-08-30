@@ -11,33 +11,6 @@ html body {
 	color: var(--sp-color-dark);
 }
 
-.portlet-boundary_subscriptionportal_ {
-	font-family: 'Yantramanav-Regular', sans-serif, -apple-system,
-		blinkmacsystemfont, 'Segoe UI', roboto, 'Helvetica Neue', arial,
-		sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-}
-
-.portlet-boundary_subscriptionportal_ h1,
-.portlet-boundary_subscriptionportal_ h2,
-.portlet-boundary_subscriptionportal_ h3,
-.portlet-boundary_subscriptionportal_ h4,
-.portlet-boundary_subscriptionportal_ h5,
-.portlet-boundary_subscriptionportal_ h6,
-.portlet-boundary_subscriptionportal_ .btn-link {
-	font-family: 'Yantramanav-Medium';
-	font-weight: 500;
-}
-
-.portlet-boundary_subscriptionportal_ h4 {
-	font-size: 25.63px;
-	line-height: 72px;
-}
-
-.portlet-boundary_subscriptionportal_ h6 {
-	font-size: 20.25px;
-	line-height: 28px;
-}
-
 .portlet-boundary_subscriptionportal_ .card {
 	background: var(--sp-color-white);
 	border-color: transparent;
@@ -77,18 +50,4 @@ html body {
 
 .secondary-font-color {
 	color: var(--sp-color-secondary);
-}
-
-.tag {
-	font-weight: bold;
-	margin-right: 1em;
-}
-
-.value {
-	font-family: monospace;
-}
-
-.pre {
-	font-family: monospace;
-	white-space: pre;
 }
