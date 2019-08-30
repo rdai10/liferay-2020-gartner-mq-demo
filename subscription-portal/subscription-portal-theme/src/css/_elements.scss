@@ -1,6 +1,5 @@
 :root {
   --sp-h4-size: 25.63px;
-  --sp-secondary-font-size: 16px;
   --sp-color-background-light: #f7f8f9;
   --sp-color-dark: #09101d;
   --sp-color-secondary: #646b75;
@@ -76,4 +75,12 @@ hr {
 .font-weight-medium {
   font-family: 'Yantramanav-Medium';
   font-weight: $font-weight-medium;
+}
+
+.secondary-font-size {
+	font-size: 18px;
+}
+
+.secondary-font-color {
+	color: $secondary;
 }

@@ -1,0 +1,11 @@
+.card {
+	background: $white;
+	border-color: transparent;
+	border-radius: 24px;
+
+	.heading,
+	.subheading {
+		padding: 12px 20px 0;
+		margin-bottom: 0;
+	}
+}
