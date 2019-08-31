@@ -1,6 +1,6 @@
 .portlet-boundary_subscriptionportalheader_ {
-    .header-bar,
-    .vehicle-name {
+	.header-bar,
+	.vehicle-name {
 		display: flex;
 	}
 
@@ -11,6 +11,18 @@
 
 .portlet-boundary_subscriptionwidgetheader_ {
 	.subscription-header {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.portlet-boundary_notificationwidget_ {
+	.card {
+		background-color: #ff5f5f;
+		color: $white;
+	}
+
+	.notification-body {
 		display: flex;
 		justify-content: space-between;
 	}
