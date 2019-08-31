@@ -3,9 +3,39 @@
 	border-color: transparent;
 	border-radius: 24px;
 
-	.heading,
-	.subheading {
-		padding: 12px 20px 0;
-		margin-bottom: 0;
+	.card-name {
+		padding: 10px 20px;
+	}
+
+	.card-icon-wrapper {
+		background-color: #e8f0fe;
+		border-radius: 24px 0;
+		display: inline-block;
+		height: 64px;
+		width: 64px;
+		position: relative;
+		top: -4px;
+		left: -1px;
+	}
+
+	.card-icon {
+		background-color: $white;
+		border-radius: 12px;
+		display: inline-block;
+		height: 40px;
+		position: absolute;
+		top: 12px;
+		left: 12px;
+		width: 40px;
+
+		svg {
+			position: relative;
+			top: 8px;
+			left: 8px;
+		}
+	}
+
+	.card-item-first {
+		display: flex;
 	}
 }

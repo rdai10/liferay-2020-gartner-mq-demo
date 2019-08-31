@@ -4,34 +4,32 @@ import Card from './Card';
 
 export default class extends React.Component {
 	render() {
+		const bluetoothIcon = (
+			<svg
+				width="18"
+				height="24"
+				viewBox="0 0 18 24"
+				fill="none"
+				xmlns="http://www.w3.org/2000/svg"
+			>
+				<path
+					d="M2 7.00186L8.9996 12L16 17L8.9996 22V2L16 7.00186L8.9996 12L2 17"
+					stroke="#2368EE"
+					strokeWidth="3"
+					strokeLinecap="round"
+					strokeLinejoin="round"
+				/>
+			</svg>
+		);
+
 		return (
-			<div className="dashboard-body">
-				<div className="col-md-12 central-dash row">
-					<div className="col-md-5">
-						Alert <Card heading="Performance">Graph</Card>
-					</div>
-					<div className="col-md-7">
-						<Card heading="Usage">Car</Card>
-					</div>
-				</div>
-				<div className="col-md-12 subscriptions row">
-					<div className="col-md-4">
-						<Card heading="My Data" subheading="Premium Plus">
-							Chart
-						</Card>
-					</div>
-					<div className="col-md-4">
-						<Card heading="Cloud Share" subheading="Basic">
-							Progress Bar
-						</Card>
-					</div>
-					<div className="col-md-4">
-						<Card heading="SolarTrak" subheading="Basic">
-							Graph
-						</Card>
-					</div>
-				</div>
-			</div>
+			<Card
+				heading="My Data"
+				iconSVG={bluetoothIcon}
+				subheading="Premium Plus"
+			>
+				Chart
+			</Card>
 		);
 	}
 }

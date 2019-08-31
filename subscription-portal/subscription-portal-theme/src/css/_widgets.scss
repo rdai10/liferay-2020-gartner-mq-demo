@@ -1,5 +1,17 @@
-.portlet-boundary_subscriptionportalheader_ .header-bar,
-.portlet-boundary_subscriptionwidgetheader_ .subscription-header {
-	display: flex;
-	justify-content: space-between;
+.portlet-boundary_subscriptionportalheader_ {
+    .header-bar,
+    .vehicle-name {
+		display: flex;
+	}
+
+	.header-bar {
+		justify-content: space-between;
+	}
+}
+
+.portlet-boundary_subscriptionwidgetheader_ {
+	.subscription-header {
+		display: flex;
+		justify-content: space-between;
+	}
 }
