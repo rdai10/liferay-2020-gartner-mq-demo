@@ -1,8 +1,47 @@
 import React from 'react';
+import bb from 'billboard.js';
 
 import Card from './Card';
 
 export default class extends React.Component {
+	componentDidMount() {
+		bb.generate({
+			data: {
+				columns: [
+					['energy', 15, 23, 23, 23, 23, 38, 38, 38, 40, 40, 40, 38, 22, 23]
+				],
+				type: 'bar'
+			},
+			axis: {
+				x: {
+					show: false
+				},
+				y: {
+					show: false
+				}
+			},
+			bar: {
+				radius: 6,
+				width: {
+					ratio: 0.5
+				}
+			},
+			color: {
+				pattern: ['23D6EE', '3E7BF0']
+			},
+			legend: {
+				hide: true
+			},
+			size: {
+				height: 70
+			},
+			svg: {
+				classname: 'energy-absorption'
+			},
+			bindto: '#energyAbsorptionChart'
+		});
+	}
+
 	render() {
 		const carIcon = (
 			<svg
@@ -23,7 +62,9 @@ export default class extends React.Component {
 
 		return (
 			<Card heading="SolarTrak" iconSVG={carIcon} subheading="Basic">
-				Graph
+				<div className="font-weight-medium">Energy Absorption</div>
+
+				<div id="energyAbsorptionChart"></div>
 			</Card>
 		);
 	}
