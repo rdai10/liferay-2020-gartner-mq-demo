@@ -3,7 +3,7 @@
 		"output-dir": "dist",
 		"features": {
 			"js-extender": true,
-			"web-context": "/subscription-portal"
+			"web-context": "/personal-data"
 		}
 	},
 	"dump-report": true
