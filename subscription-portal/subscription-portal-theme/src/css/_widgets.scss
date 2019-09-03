@@ -1,3 +1,57 @@
+.portlet-boundary_cloudsharewidget_ .progress-bar-title,
+.portlet-boundary_notificationwidget_ .notification-body,
+.portlet-boundary_subscriptionwidgetheader_ .subscription-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.portlet-boundary_cloudsharewidget_,
+.portlet-boundary_notificationwidget_ {
+	.card-body {
+		padding-top: 0;
+	}
+}
+
+.portlet-boundary_cloudsharewidget_ {
+	.progress-bar-title {
+		margin-top: 24px;
+		padding-bottom: 8px;
+	}
+
+	.progress-bar {
+		background: linear-gradient(
+			202.71deg,
+			#23d6ee 45.19%,
+			#2368ee 64.89%,
+			rgba(11, 95, 255, 0) 103.38%
+		);
+		border-radius: 100px;
+		height: 7px;
+		position: relative;
+		left: 7px;
+		top: 5px;
+	}
+
+	.progress-md {
+		border-radius: 100px;
+		height: 17px;
+	}
+}
+
+.portlet-boundary_notificationwidget_ {
+	.card {
+		background-color: #fd7d7e;
+		color: $white;
+	}
+
+	.notification-body {
+		div {
+			text-align: left;
+			width: 60%;
+		}
+	}
+}
+
 .portlet-boundary_subscriptionportalheader_ {
 	.header-bar,
 	.vehicle-name {
@@ -5,25 +59,6 @@
 	}
 
 	.header-bar {
-		justify-content: space-between;
-	}
-}
-
-.portlet-boundary_subscriptionwidgetheader_ {
-	.subscription-header {
-		display: flex;
-		justify-content: space-between;
-	}
-}
-
-.portlet-boundary_notificationwidget_ {
-	.card {
-		background-color: #FD7D7E;
-		color: $white;
-	}
-
-	.notification-body {
-		display: flex;
 		justify-content: space-between;
 	}
 }

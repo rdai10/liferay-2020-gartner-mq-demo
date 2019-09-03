@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Card from './Card';
+import ProgressBar from './ProgressBar';
 
 export default class extends React.Component {
 	render() {
@@ -21,7 +22,8 @@ export default class extends React.Component {
 
 		return (
 			<Card heading="Cloud Share" iconSVG={cloudIcon} subheading="Basic">
-				Progress Bar
+				<ProgressBar title="GPS" progress="60" />
+				<ProgressBar title="Car Tracker" progress="82" />
 			</Card>
 		);
 	}

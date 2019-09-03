@@ -37,7 +37,7 @@ export default class extends React.Component {
 		return (
 			<Card heading={heading}>
 				<div className="notification-body">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
 					<button className="btn btn-light">Learn More</button>
 				</div>
 			</Card>
