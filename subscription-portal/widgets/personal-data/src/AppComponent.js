@@ -7,22 +7,30 @@ export default class extends React.Component {
 	componentDidMount() {
 		bb.generate({
 			data: {
-				columns: [
-					['Data Used', 71],
-					['Data Unused', 19]
-				],
+				columns: [['Data Unused', 71], ['Data Used', 19]],
 				colors: {
 					'Data Used': '#138EFF',
-					'Data Unused': '#E8E8E8'
+					'Data Unused': '#F1F1F1'
 				},
 				order: 'asc',
 				type: 'donut'
 			},
 			donut: {
-				width: 15
+				label: {
+					show: false
+				},
+				title: '822MB\n 71% left',
+				width: 18
 			},
 			legend: {
 				hide: true
+			},
+			size: {
+				height: 260,
+				width: 290
+			},
+			svg: {
+				classname: 'personal-data-donut'
 			},
 			bindto: '#personalDataDonut'
 		});

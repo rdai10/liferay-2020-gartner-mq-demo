@@ -52,6 +52,27 @@
 	}
 }
 
+.portlet-boundary_personaldata_ {
+	.personal-data-donut {
+		margin-left: -12px;
+
+		.bb-chart-arcs-title {
+			tspan {
+				&:first-child {
+					font-family: $font-family-medium;
+					font-size: $h5-size;
+					font-weight: $font-weight-medium;
+				}
+	
+				&:last-child {
+					font-size: $base-font-size;
+					fill: $secondary;
+				}
+			}
+		}
+	}
+}
+
 .portlet-boundary_subscriptionportalheader_ {
 	.header-bar,
 	.vehicle-name {
