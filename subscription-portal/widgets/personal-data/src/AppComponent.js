@@ -1,8 +1,33 @@
 import React from 'react';
+import bb from 'billboard.js';
 
 import Card from './Card';
 
 export default class extends React.Component {
+	componentDidMount() {
+		bb.generate({
+			data: {
+				columns: [
+					['Data Used', 71],
+					['Data Unused', 19]
+				],
+				colors: {
+					'Data Used': '#138EFF',
+					'Data Unused': '#E8E8E8'
+				},
+				order: 'asc',
+				type: 'donut'
+			},
+			donut: {
+				width: 15
+			},
+			legend: {
+				hide: true
+			},
+			bindto: '#personalDataDonut'
+		});
+	}
+
 	render() {
 		const bluetoothIcon = (
 			<svg
@@ -23,12 +48,8 @@ export default class extends React.Component {
 		);
 
 		return (
-			<Card
-				heading="My Data"
-				iconSVG={bluetoothIcon}
-				subheading="Premium Plus"
-			>
-				Chart
+			<Card heading="My Data" iconSVG={bluetoothIcon} subheading="Premium Plus">
+				<div id="personalDataDonut"></div>
 			</Card>
 		);
 	}
