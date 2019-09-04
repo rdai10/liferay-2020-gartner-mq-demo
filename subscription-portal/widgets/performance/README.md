@@ -1,3 +1,3 @@
-# performance-widget
+# performance
 
 Performance

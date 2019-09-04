@@ -1,5 +1,5 @@
 {
-	"name": "performance-widget",
+	"name": "performance",
 	"version": "1.0.0",
 	"description": "Performance",
 	"devDependencies": {
@@ -15,6 +15,7 @@
 		"babel-loader": "7.1.5"
 	},
 	"dependencies": {
+		"billboard.js": "^1.10.2",
 		"react": "16.8.6",
 		"react-dom": "16.8.6"
 	},
@@ -27,7 +28,7 @@
 		"com.liferay.portlet.display-category": "Subscription.Portal",
 		"com.liferay.portlet.header-portlet-css": "/css/styles.css",
 		"com.liferay.portlet.instanceable": true,
-		"javax.portlet.name": "performancewidget",
+		"javax.portlet.name": "performance",
 		"javax.portlet.security-role-ref": "power-user,user",
 		"javax.portlet.display-name": "Performance"
 	},
