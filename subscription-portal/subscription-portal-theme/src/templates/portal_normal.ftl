@@ -23,6 +23,8 @@
 <@liferay.control_menu />
 
 <div id="wrapper">
+	<#include "${full_templates_path}/gradients.ftl" parse=false />
+
 	<section class="container-fluid-1280" id="content">
 		<h1 class="hide-accessible">${the_title}</h1>
 

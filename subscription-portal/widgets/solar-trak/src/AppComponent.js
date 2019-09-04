@@ -33,7 +33,7 @@ export default class extends React.Component {
 				hide: true
 			},
 			size: {
-				height: 70
+				height: 80
 			},
 			svg: {
 				classname: 'energy-absorption'

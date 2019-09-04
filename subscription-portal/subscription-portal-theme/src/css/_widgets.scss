@@ -52,9 +52,34 @@
 	}
 }
 
+.portlet-boundary_performance_ {
+	.performance {
+		text {
+			fill: $secondary;
+		}
+
+		.bb-axis-x,
+		.bb-axis-y {
+			.domain,
+			.tick line {
+				stroke: none;
+			}
+		}
+
+		.bb-line-performance {
+			stroke: url(#performanceGradient) #3E7BF0 !important;
+			stroke-width: 3;
+		}
+	}
+}
+
 .portlet-boundary_personaldata_ {
 	.personal-data-donut {
 		margin-left: -12px;
+
+		.bb-arc-Data-Used {
+			fill: url(#myDataGradient) #138EFF !important;
+		}
 
 		.bb-chart-arcs-title {
 			tspan {
@@ -63,11 +88,23 @@
 					font-size: $h5-size;
 					font-weight: $font-weight-medium;
 				}
-	
+
 				&:last-child {
 					font-size: $base-font-size;
 					fill: $secondary;
 				}
+			}
+		}
+	}
+}
+
+.portlet-boundary_solartrakwidget_ {
+	.energy-absorption {
+		padding-top: 24px;
+
+		.bb-bars-energy {
+			.bb-shape.bb-bar {
+				fill: url(#energyAbsorptionGradient) #23d6ee !important;
 			}
 		}
 	}
@@ -82,8 +119,4 @@
 	.header-bar {
 		justify-content: space-between;
 	}
-}
-
-svg.energy-absorption {
-	padding-top: 24px;
 }
