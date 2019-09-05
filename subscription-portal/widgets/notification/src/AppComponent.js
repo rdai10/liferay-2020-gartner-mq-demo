@@ -35,12 +35,14 @@ export default class extends React.Component {
 			</React.Fragment>
 		);
 		return (
-			<Card heading={heading}>
-				<div className="notification-body">
-					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
-					<button className="btn btn-light">Learn More</button>
-				</div>
-			</Card>
+			<div className="subscription-portal">
+				<Card heading={heading}>
+					<div className="notification-body">
+						<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+						<button className="btn btn-light">Learn More</button>
+					</div>
+				</Card>
+			</div>
 		);
 	}
 }

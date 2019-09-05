@@ -61,11 +61,13 @@ export default class extends React.Component {
 		);
 
 		return (
-			<Card heading="SolarTrak" iconSVG={carIcon} subheading="Basic">
-				<div className="font-weight-medium">Energy Absorption</div>
+			<div className="subscription-portal">
+				<Card heading="SolarTrak" iconSVG={carIcon} subheading="Basic">
+					<div className="font-weight-medium">Energy Absorption</div>
 
-				<div id="energyAbsorptionChart"></div>
-			</Card>
+					<div id="energyAbsorptionChart"></div>
+				</Card>
+			</div>
 		);
 	}
 }

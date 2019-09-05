@@ -120,9 +120,11 @@ export default class extends React.Component {
 
 	render() {
 		return (
-			<Card heading="Performance">
-				<div id="performanceChart"></div>
-			</Card>
+			<div className="subscription-portal">
+				<Card heading="Performance">
+					<div id="performanceChart"></div>
+				</Card>
+			</div>
 		);
 	}
 }

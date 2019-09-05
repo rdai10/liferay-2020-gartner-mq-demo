@@ -28,6 +28,8 @@
 	<section class="container-fluid-1280" id="content">
 		<h1 class="hide-accessible">${the_title}</h1>
 
+		<#include "${full_templates_path}/navigation.ftl" />
+
 		<#if selectable>
 			<@liferay_util["include"] page=content_include />
 		<#else>

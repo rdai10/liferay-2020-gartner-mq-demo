@@ -21,10 +21,12 @@ export default class extends React.Component {
 		);
 
 		return (
-			<Card heading="Cloud Share" iconSVG={cloudIcon} subheading="Basic">
-				<ProgressBar title="GPS" progress="60" />
-				<ProgressBar title="Car Tracker" progress="82" />
-			</Card>
+			<div className="subscription-portal">
+				<Card heading="Cloud Share" iconSVG={cloudIcon} subheading="Basic">
+					<ProgressBar title="GPS" progress="60" />
+					<ProgressBar title="Car Tracker" progress="82" />
+				</Card>
+			</div>
 		);
 	}
 }

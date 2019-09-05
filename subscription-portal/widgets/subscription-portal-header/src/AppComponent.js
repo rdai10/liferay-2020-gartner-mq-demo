@@ -6,7 +6,7 @@ import NotificationIcon from './NotificationIcon';
 export default class extends React.Component {
 	render() {
 		return (
-			<div className="header-bar">
+			<div className="header-bar subscription-portal">
 				<div className="vehicle-name">
 					<h4>2019 Riuvo Sedan</h4>
 

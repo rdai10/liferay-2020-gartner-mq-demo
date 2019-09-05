@@ -55,9 +55,15 @@ export default class extends React.Component {
 		);
 
 		return (
-			<Card heading="My Data" iconSVG={bluetoothIcon} subheading="Premium Plus">
-				<div id="personalDataDonut"></div>
-			</Card>
+			<div className="subscription-portal">
+				<Card
+					heading="My Data"
+					iconSVG={bluetoothIcon}
+					subheading="Premium Plus"
+				>
+					<div id="personalDataDonut"></div>
+				</Card>
+			</div>
 		);
 	}
 }

@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 export default class extends React.Component {
 	render() {
 		return (
-            <div>
+            <div className="subscription-portal">
 				<div>
         	        <span className="tag">Portlet Namespace:</span> 
 					<span className="value">{this.props.portletNamespace}</span>

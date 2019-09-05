@@ -1,75 +1,61 @@
-:root {
-	--sp-h4-size: 25.63px;
-	--sp-color-background-light: #f7f8f9;
-	--sp-color-dark: #09101d;
-	--sp-color-secondary: #646b75;
-	--sp-color-light: #f1f2f5;
-	--sp-color-white: #fff;
-
-	--sp-font-weight-black: 900;
-	--sp-font-weight-medium: 500;
-
-	--sp-xs-whitespace: 12px;
-	--sp-sm-whitespace: 16px;
-	--sp-md-whitespace: 24px;
-	--sp-lg-whitespace: 32px;
-	--sp-xl-whitespace: 48px;
-}
-
-html body {
+html body .subscription-portal {
 	background: $background-light;
 	font-family: $font-family-base;
 	font-size: $base-font-size;
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-.btn-link {
-	font-family: $font-family-medium;
-	font-weight: $font-weight-medium;
-}
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6,
+	.btn-link {
+		font-family: $font-family-medium;
+		font-weight: $font-weight-medium;
+	}
 
-h1 {
-	font-size: $h1-size;
+	h1 {
+		font-size: $h1-size;
 
-	&.display {
-		font-size: $h1-display-size;
-		line-height: $h1-display-line-height;
+		&.display {
+			font-size: $h1-display-size;
+			line-height: $h1-display-line-height;
+		}
+	}
+
+	h2 {
+		font-size: $h2-size;
+	}
+
+	h3 {
+		font-size: $h3-size;
+		line-height: $h3-line-height;
+	}
+
+	h4 {
+		font-size: $h4-size;
+		line-height: $h4-line-height;
+	}
+
+	h5 {
+		font-size: $h5-size;
+		line-height: $h5-line-height;
+	}
+
+	h6 {
+		font-size: $h6-size;
+		line-height: $h5-line-height;
+	}
+
+	hr {
+		border-bottom-color: $light;
+		margin-top: $xl-whitespace;
+		margin-bottom: $xl-whitespace;
 	}
 }
 
-h2 {
-	font-size: $h2-size;
-}
-
-h3 {
-	font-size: $h3-size;
-	line-height: $h3-line-height;
-}
-
-h4 {
-	font-size: $h4-size;
-	line-height: $h4-line-height;
-}
-
-h5 {
-	font-size: $h5-size;
-	line-height: $h5-line-height;
-}
-
-h6 {
-	font-size: $h6-size;
-	line-height: $h5-line-height;
-}
-
-hr {
-	border-bottom-color: $light;
-	margin-top: $xl-whitespace;
-	margin-bottom: $xl-whitespace;
+#wrapper {
+	margin-left: 79px;
 }
 
 .font-weight-black {
