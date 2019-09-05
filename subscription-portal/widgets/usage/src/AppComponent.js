@@ -2,6 +2,7 @@ import React from 'react';
 
 import Card from './Card';
 import Modal from './Modal';
+import UsageDetail from './UsageDetail';
 
 // import img from '../assets/img/usage-car.png';
 
@@ -46,7 +47,7 @@ export default class extends React.Component {
 							show={showModal}
 							size="full-screen"
 						>
-							Body
+							<UsageDetail />
 						</Modal>
 					</button>
 				</Card>

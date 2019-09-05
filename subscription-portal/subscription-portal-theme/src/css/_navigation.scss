@@ -9,30 +9,30 @@
 	z-index: 100;
 
 	.nav-link {
-        padding: 16px;
+		padding: 16px;
 
-        &:hover,
-        &.active {
+		&:hover,
+		&.active {
 			svg path {
 				fill: #2368ee;
-            }
+			}
 
 			.nav-icon {
 				background-color: #e8f0fe;
 			}
-        }
-        
-        &.brand {
-            padding-bottom: 48px;
+		}
 
-            svg path {
-                fill: none;
-            }
-        }
+		&.brand {
+			padding-bottom: 48px;
+
+			svg path {
+				fill: none;
+			}
+		}
 
 		.nav-icon {
-            border-radius: 10px;
-            padding: 14px;
+			border-radius: 10px;
+			padding: 14px;
 		}
 	}
 }

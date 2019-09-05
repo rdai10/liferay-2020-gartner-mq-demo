@@ -67,7 +67,7 @@
 		}
 
 		.bb-line-performance {
-			stroke: url(#performanceGradient) #3E7BF0 !important;
+			stroke: url(#performanceGradient) #3e7bf0 !important;
 			stroke-width: 3;
 		}
 	}
@@ -78,7 +78,7 @@
 		margin-left: -12px;
 
 		.bb-arc-Data-Used {
-			fill: url(#myDataGradient) #138EFF !important;
+			fill: url(#myDataGradient) #138eff !important;
 		}
 
 		.bb-chart-arcs-title {
@@ -118,5 +118,45 @@
 
 	.header-bar {
 		justify-content: space-between;
+	}
+}
+
+.has-control-menu {
+	.portlet-boundary_usagewidget_ {
+		.modal-full-screen {
+			top: 58px;
+		}
+	}
+}
+
+.portlet-boundary_usagewidget_ {
+	.modal-full-screen {
+		bottom: 0;
+		left: 79px;
+		right: 0;
+		top: 0;
+		font-family: $font-family-base;
+		font-weight: normal;
+	}
+
+	.modal-content {
+		border: none;
+	}
+
+	.stats {
+		margin-bottom: 125px;
+
+		.primary-stat {
+			color: $dark;
+			font-size: $h1-display-size;
+		}
+
+		.secondary-stat {
+			font-size: $h6-size;
+
+			svg {
+				margin-right: 6px;
+			}
+		}
 	}
 }
