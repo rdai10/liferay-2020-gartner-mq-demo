@@ -1,10 +1,16 @@
+.has-control-menu {
+	.subscription-portal-vertical-nav {
+		top: 58px;
+	}
+}
+
 .subscription-portal-vertical-nav {
 	background: $white;
 	height: 100%;
 	position: fixed;
 	left: 0;
 	text-align: center;
-	top: 58px;
+	top: 0;
 	width: 79px;
 	z-index: 100;
 

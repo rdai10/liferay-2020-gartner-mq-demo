@@ -1,56 +1,59 @@
-html body .subscription-portal {
+html body {
 	background: $background-light;
-	font-family: $font-family-base;
-	font-size: $base-font-size;
 
-	h1,
-	h2,
-	h3,
-	h4,
-	h5,
-	h6,
-	.btn-link {
-		font-family: $font-family-medium;
-		font-weight: $font-weight-medium;
-	}
+	.subscription-portal {
+		font-family: $font-family-base;
+		font-size: $base-font-size;
 
-	h1 {
-		font-size: $h1-size;
-
-		&.display {
-			font-size: $h1-display-size;
-			line-height: $h1-display-line-height;
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		.btn-link {
+			font-family: $font-family-medium;
+			font-weight: $font-weight-medium;
 		}
-	}
 
-	h2 {
-		font-size: $h2-size;
-	}
+		h1 {
+			font-size: $h1-size;
 
-	h3 {
-		font-size: $h3-size;
-		line-height: $h3-line-height;
-	}
+			&.display {
+				font-size: $h1-display-size;
+				line-height: $h1-display-line-height;
+			}
+		}
 
-	h4 {
-		font-size: $h4-size;
-		line-height: $h4-line-height;
-	}
+		h2 {
+			font-size: $h2-size;
+		}
 
-	h5 {
-		font-size: $h5-size;
-		line-height: $h5-line-height;
-	}
+		h3 {
+			font-size: $h3-size;
+			line-height: $h3-line-height;
+		}
 
-	h6 {
-		font-size: $h6-size;
-		line-height: $h5-line-height;
-	}
+		h4 {
+			font-size: $h4-size;
+			line-height: $h4-line-height;
+		}
 
-	hr {
-		border-bottom-color: $light;
-		margin-top: $xl-whitespace;
-		margin-bottom: $xl-whitespace;
+		h5 {
+			font-size: $h5-size;
+			line-height: $h5-line-height;
+		}
+
+		h6 {
+			font-size: $h6-size;
+			line-height: $h5-line-height;
+		}
+
+		hr {
+			border-bottom-color: $light;
+			margin-top: $xl-whitespace;
+			margin-bottom: $xl-whitespace;
+		}
 	}
 }
 

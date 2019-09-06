@@ -4,8 +4,6 @@ import Card from './Card';
 import Modal from './Modal';
 import UsageDetail from './UsageDetail';
 
-// import img from '../assets/img/usage-car.png';
-
 export default class extends React.Component {
 	constructor(props) {
 		super(props);
@@ -35,10 +33,8 @@ export default class extends React.Component {
 						type="button"
 					>
 						<img
-							// Import img file as img tag src fails silently, hard coding url for now
-							src={
-								'http://localhost:8080/documents/20123/46507/usage-car+%281%29.png/9fb8f04b-2a07-1fa0-d162-18d8c24b632c?version=1.0&t=1567632736711&download=true'
-							}
+							// Image saved in theme
+							src={`${Liferay.ThemeDisplay.getPathThemeImages()}/usage-car.png`}
 							alt="Usage Car Image"
 						/>
 

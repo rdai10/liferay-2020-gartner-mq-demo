@@ -1,5 +1,6 @@
 import React from 'react';
 
+import CarDetail from './CarDetail';
 import FuelConsumption from './FuelConsumption';
 import Milage from './Milage';
 import Stat from './Stat';
@@ -8,7 +9,9 @@ class UsageDetail extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className="col-md-12 hero">Hero</div>
+				<div className="col-md-12 hero">
+					<CarDetail />
+				</div>
 
 				<div className="col-md-12 row stats">
 					<Stat

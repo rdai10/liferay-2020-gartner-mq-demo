@@ -42,6 +42,12 @@
 	.card {
 		background-color: #fd7d7e;
 		color: $white;
+
+		&.card-interactive {
+			&:hover {
+				background: #f7f8f9;
+			}
+		}
 	}
 
 	.notification-body {
@@ -52,7 +58,7 @@
 	}
 }
 
-.portlet-boundary_performance_ .performance, 
+.portlet-boundary_performance_ .performance,
 .portlet-boundary_usagewidget_ .fuel-consumption-chart {
 	text {
 		fill: $secondary;
@@ -131,13 +137,42 @@
 .portlet-boundary_usagewidget_ {
 	.fuel-consumption {
 		color: $dark;
+		padding-left: 32px;
 
 		h4 {
 			margin-bottom: 32px;
 		}
+
+		.consumption-heading {
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.time-scale {
+			span {
+				padding: 0 16px;
+			}
+
+			.active-scale {
+				background-color: #F5F6F9;
+				color: #262933;
+				padding: 3px 6px;
+				border-radius: 8px;
+			}
+		}
 	}
 
 	.milage-table {
+		&.table-list {
+			tbody,
+			thead {
+				td,
+				th {
+					background-color: #F5F6F9;
+				}
+			}
+		}
+
 		td {
 			font-size: $h5-size;
 		}

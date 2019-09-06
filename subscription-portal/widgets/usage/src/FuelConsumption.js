@@ -112,7 +112,15 @@ export default class extends React.Component {
 	render() {
 		return (
 			<div className="fuel-consumption">
-				<h4>Fuel Consumption</h4>
+				<div className="consumption-heading">
+					<h4>Fuel Consumption</h4>
+					<div className="time-scale">
+						<span>D</span>
+						<span>W</span>
+						<span className="active-scale font-weight-black">M</span>
+						<span>Y</span>
+					</div>
+				</div>
 				<div id="fuelConsumptionChart"></div>
 			</div>
 		);
