@@ -131,12 +131,13 @@
 .portlet-boundary_usagewidget_ {
 	.fuel-consumption {
 		color: $dark;
-		text-align: left;
+
+		h4 {
+			margin-bottom: 32px;
+		}
 	}
 
 	.milage-table {
-		text-align: left;
-
 		td {
 			font-size: $h5-size;
 		}
@@ -153,6 +154,11 @@
 		top: 0;
 		font-family: $font-family-base;
 		font-weight: normal;
+	}
+
+	.modal-body {
+		padding: 0 48px;
+		text-align: left;
 	}
 
 	.modal-content {

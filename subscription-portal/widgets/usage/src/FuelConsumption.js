@@ -57,7 +57,7 @@ export default class extends React.Component {
 						' ',
 						' ',
 						' ',
-						' ',
+						'Sep 7',
 						' ',
 						' ',
 						' ',
@@ -69,7 +69,7 @@ export default class extends React.Component {
 						' ',
 						' ',
 						' ',
-						' ',
+						'Sep 22',
 						' ',
 						' ',
 						' ',
@@ -99,13 +99,6 @@ export default class extends React.Component {
 			legend: {
 				hide: true
 			},
-			regions: [
-				{
-					axis: 'x',
-					start: 16,
-					end: 26
-				}
-			],
 			point: {
 				show: false
 			},
