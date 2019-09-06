@@ -5,36 +5,36 @@ class Milage extends React.Component {
 		const {milage, fuel, speed} = this.props;
 
 		return (
-			<table className="table table-autofit table-list table-nowrap">
+			<table className="table table-autofit table-list table-nowrap milage-table">
 				<thead>
 					<tr>
-						<th className="table-cell-expand">Milage</th>
+						<th className="font-weight-medium">Milage</th>
 						<th></th>
 					</tr>
 				</thead>
 				<tbody>
 					{milage && (
 						<tr>
-							<td clasSName="table-cell-expand">
-								<div className="table-list-title">Average Milage</div>
+							<td className="table-cell-expand">
+								<div className="font-weight-medium">Average Milage</div>
 							</td>
-							<td className="table-cell-expand">{milage}</td>
+							<td>{milage}</td>
 						</tr>
 					)}
 					{fuel && (
 						<tr>
-							<td clasSName="table-cell-expand">
-								<div className="table-list-title">Average Fuel</div>
+							<td className="table-cell-expand">
+								<div className="font-weight-medium">Average Fuel</div>
 							</td>
-							<td className="table-cell-expand">{fuel}</td>
+							<td>{fuel}</td>
 						</tr>
 					)}
 					{speed && (
 						<tr>
 							<td className="table-cell-expand">
-								<div className="table-list-title">Average Speed</div>
+								<div className="font-weight-medium">Average Speed</div>
 							</td>
-							<td className="table-cell-expand">{speed}</td>
+							<td>{speed}</td>
 						</tr>
 					)}
 				</tbody>

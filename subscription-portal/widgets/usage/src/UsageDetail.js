@@ -1,5 +1,6 @@
 import React from 'react';
 
+import FuelConsumption from './FuelConsumption';
 import Milage from './Milage';
 import Stat from './Stat';
 
@@ -123,7 +124,9 @@ class UsageDetail extends React.Component {
 						<Milage milage="9,0189" fuel="33.6 mpg" speed="45 mpg" />
 					</div>
 
-					<div className="col-md-8 fuelConsumption">Fuel Consumption</div>
+					<div className="col-md-8 fuel-consumption">
+						<FuelConsumption />
+					</div>
 				</div>
 			</React.Fragment>
 		);
