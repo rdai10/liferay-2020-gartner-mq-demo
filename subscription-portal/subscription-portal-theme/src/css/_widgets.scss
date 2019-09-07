@@ -135,6 +135,38 @@
 }
 
 .portlet-boundary_usagewidget_ {
+	.car-info {
+		background-color: $white;
+		border-radius: 24px;
+		padding: 32px;
+		position: relative;
+		top: 60px;
+		left: -120px;
+		width: 20%;
+
+		dt,
+		h5 {
+			color: $dark;
+		}
+
+		dd {
+			color: $secondary;
+		}
+
+		dl {
+			padding-top: 24px;
+		}
+
+		dt {
+			font-family: 'Yantramanav-Medium';
+			font-weight: $font-weight-medium;
+		}
+
+		.user-manual {
+			color: $brand;
+		}
+	}
+
 	.fuel-consumption {
 		color: $dark;
 		padding-left: 32px;
@@ -154,7 +186,7 @@
 			}
 
 			.active-scale {
-				background-color: #F5F6F9;
+				background-color: #f5f6f9;
 				color: #262933;
 				padding: 3px 6px;
 				border-radius: 8px;
@@ -168,7 +200,7 @@
 			thead {
 				td,
 				th {
-					background-color: #F5F6F9;
+					background-color: #f5f6f9;
 				}
 			}
 		}
@@ -192,8 +224,12 @@
 	}
 
 	.modal-body {
-		padding: 0 48px;
 		text-align: left;
+		padding: 0;
+
+		.detail-wrapper {
+			padding: 0 48px;
+		}
 	}
 
 	.modal-content {

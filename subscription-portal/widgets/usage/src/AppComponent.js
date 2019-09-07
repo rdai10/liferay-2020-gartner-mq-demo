@@ -33,7 +33,6 @@ export default class extends React.Component {
 						type="button"
 					>
 						<img
-							// Image saved in theme
 							src={`${Liferay.ThemeDisplay.getPathThemeImages()}/usage-car.png`}
 							alt="Usage Car Image"
 						/>

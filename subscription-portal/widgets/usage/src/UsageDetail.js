@@ -9,11 +9,17 @@ class UsageDetail extends React.Component {
 	render() {
 		return (
 			<React.Fragment>
-				<div className="col-md-12 hero">
-					<CarDetail />
+				<div className="car-detail">
+					<CarDetail
+						year="2019"
+						name="Bilantra SE"
+						type="Compact Sedan"
+						plate="2342 E029"
+						vin="39850238403984"
+					/>
 				</div>
 
-				<div className="col-md-12 row stats">
+				<div className="col-md-12 row stats detail-wrapper">
 					<Stat
 						icon={
 							<svg
@@ -122,7 +128,7 @@ class UsageDetail extends React.Component {
 					/>
 				</div>
 
-				<div className="col-md-12 row">
+				<div className="col-md-12 row detail-wrapper">
 					<div className="col-md-4 milage">
 						<Milage milage="9,0189" fuel="33.6 mpg" speed="45 mpg" />
 					</div>
