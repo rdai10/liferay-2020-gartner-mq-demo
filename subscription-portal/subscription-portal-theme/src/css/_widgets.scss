@@ -180,6 +180,17 @@
 			justify-content: space-between;
 		}
 
+		.fuel-consumption-chart {
+			.bb-circles-performance circle {
+				fill: none !important;
+				stroke: transparent !important;
+			}
+
+			.bb-line-performance {
+				stroke-width: 5;
+			}
+		}
+
 		.time-scale {
 			span {
 				padding: 0 16px;

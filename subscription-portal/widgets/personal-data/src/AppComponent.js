@@ -20,13 +20,13 @@ export default class extends React.Component {
 					show: false
 				},
 				title: '822MB\n 71% left',
-				width: 20
+				width: 11
 			},
 			legend: {
 				hide: true
 			},
 			size: {
-				height: 220
+				height: 190
 			},
 			svg: {
 				classname: 'personal-data-donut'

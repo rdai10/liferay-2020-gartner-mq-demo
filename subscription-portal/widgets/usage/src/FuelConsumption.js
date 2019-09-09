@@ -23,7 +23,7 @@ export default class extends React.Component {
 						13,
 						14,
 						18,
-						18,
+						19,
 						15,
 						9,
 						3,
@@ -39,7 +39,21 @@ export default class extends React.Component {
 				colors: {
 					performance: '#3E7BF0'
 				},
-				type: 'area-spline'
+				type: 'area-spline',
+				onmax: function(data) {
+					data.forEach(function(v) {
+						const max = document.querySelector(
+							'.fuel-consumption-chart .bb-circle-' + v.index
+						);
+
+						max.setAttribute(
+							'style',
+							'fill: #FFF !important; stroke: #FF6B00 !important; stroke-width: 4px'
+						);
+
+						max.setAttribute('r', '6');
+					});
+				}
 			},
 			area: {
 				linearGradient: true
@@ -98,9 +112,6 @@ export default class extends React.Component {
 			},
 			legend: {
 				hide: true
-			},
-			point: {
-				show: false
 			},
 			svg: {
 				classname: 'fuel-consumption-chart'
