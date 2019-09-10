@@ -44,12 +44,11 @@ export default class extends React.Component {
 							alt="Usage Car Image"
 						/>
 
-						<Modal
-							show={showModal}
-							size="full-screen"
-						>
-							<UsageDetail onClick={this.handleCloseModal} />
-						</Modal>
+						{showModal && (
+							<Modal size="full-screen">
+								<UsageDetail onClick={this.handleCloseModal} />
+							</Modal>
+						)}
 					</button>
 				</Card>
 			</div>
