@@ -135,22 +135,33 @@
 }
 
 .portlet-boundary_usagewidget_ {
+	dt,
+	h5 {
+		color: $dark;
+	}
+
+	.btn-light {
+		background-color: $white;
+	}
+
 	.car-info {
 		background-color: $white;
 		border-radius: 24px;
+		display: inline-block;
 		padding: 32px;
 		position: relative;
 		top: 60px;
-		left: -120px;
-		width: 20%;
+		left: -140px;
+		width: 24%;
 
-		dt,
-		h5 {
-			color: $dark;
+		dd,
+		dt {
+			display: inline-block;
 		}
 
 		dd {
 			color: $secondary;
+			width: 75%;
 		}
 
 		dl {
@@ -160,6 +171,33 @@
 		dt {
 			font-family: 'Yantramanav-Medium';
 			font-weight: $font-weight-medium;
+			width: 25%;
+		}
+
+		.btn-add {
+			box-shadow: 0px 4px 16px rgba(42, 70, 103, 0.15);
+			border-radius: 24px 0px;
+			border-width: 0;
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			padding: 24px;
+		}
+
+		.control {
+			margin-right: 16px;
+ 
+			&.active {
+				border-top: 3px solid #cd5e0d;
+			}
+
+			img {
+				padding-top: 8px;
+			}
+		}
+
+		.controls {
+			display: flex;
 		}
 
 		.user-manual {
@@ -170,6 +208,7 @@
 	.fuel-consumption {
 		color: $dark;
 		padding-left: 32px;
+		margin-bottom: 24px;
 
 		h4 {
 			margin-bottom: 32px;
@@ -247,6 +286,29 @@
 		border: none;
 	}
 
+	.my-data-label {
+		position: relative;
+		top: 60px;
+		display: inline-block;
+		vertical-align: top;
+
+		h5 {
+			display: inline;
+			padding-left: 16px;
+		}
+
+		.card-icon {
+			box-shadow: 0px 12px 16px rgba(68, 79, 120, 0.15);
+			left: 10px;
+			position: initial;
+			vertical-align: bottom;
+		}
+	}
+
+	.stat-icon {
+		height: 28px;
+	}
+
 	.stats {
 		margin-bottom: 125px;
 
@@ -261,6 +323,19 @@
 			svg {
 				margin-right: 6px;
 			}
+		}
+	}
+
+	.upgrade {
+		color: #ff6b00;
+		display: block;
+		text-align: right;
+
+		.btn-upgrade {
+			box-shadow: 0px 4px 16px rgba(42, 70, 103, 0.15);
+			border-radius: 12px;
+			padding: 24px;
+			margin-right: 24px;
 		}
 	}
 }
