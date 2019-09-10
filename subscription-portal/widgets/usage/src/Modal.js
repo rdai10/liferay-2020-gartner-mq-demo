@@ -9,7 +9,7 @@ class Modal extends React.Component {
 				<div className="modal show" role="dialog" tabIndex="-1">
 					<div className={`modal-dialog ${size ? `modal-${size}` : ''}`}>
 						<div className="modal-content">
-							{header && (
+							{(header || onClose) && (
 								<div className="modal-header">
 									<div className="modal-title">{header}</div>
 

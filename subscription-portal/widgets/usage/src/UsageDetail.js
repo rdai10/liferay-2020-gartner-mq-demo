@@ -6,6 +6,16 @@ import Milage from './Milage';
 import Stat from './Stat';
 
 class UsageDetail extends React.Component {
+	constructor(props) {
+		super(props);
+
+		this.handleOnClick = this.handleOnClick.bind(this);
+	}
+
+	handleOnClick() {
+		this.props.onClick();
+	}
+
 	render() {
 		return (
 			<React.Fragment>
@@ -17,6 +27,10 @@ class UsageDetail extends React.Component {
 						plate="2342 E029"
 						vin="39850238403984"
 					/>
+
+					<div className="close-modal" onClick={this.handleOnClick}>
+						X
+					</div>
 				</div>
 
 				<div className="col-md-12 row stats detail-wrapper">
@@ -39,7 +53,8 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="9,018m"
+						primaryStat="9,018"
+						primaryStatUnit="m"
 						secondaryStat="+ 215m last week"
 					/>
 
@@ -60,7 +75,8 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="850v"
+						primaryStat="850"
+						primaryStatUnit="v"
 						secondaryStat="73% capacity"
 					/>
 
@@ -83,7 +99,8 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="48%"
+						primaryStat="48"
+						primaryStatUnit="%"
 						secondaryStat="164m remain"
 					/>
 
@@ -106,7 +123,8 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="17,426m"
+						primaryStat="17,426"
+						primaryStatUnit="m"
 						secondaryStat={
 							<React.Fragment>
 								<svg

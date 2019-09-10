@@ -8,11 +8,18 @@ export default class extends React.Component {
 	constructor(props) {
 		super(props);
 
+		this.handleCloseModal = this.handleCloseModal.bind(this);
 		this.handleDisplayModal = this.handleDisplayModal.bind(this);
 
 		this.state = {
 			showModal: false
 		};
+	}
+
+	handleCloseModal() {
+		this.setState({
+			showModal: false
+		});
 	}
 
 	handleDisplayModal() {
@@ -38,11 +45,10 @@ export default class extends React.Component {
 						/>
 
 						<Modal
-							onClose={this.handleCloseModal}
 							show={showModal}
 							size="full-screen"
 						>
-							<UsageDetail />
+							<UsageDetail onClick={this.handleCloseModal} />
 						</Modal>
 					</button>
 				</Card>

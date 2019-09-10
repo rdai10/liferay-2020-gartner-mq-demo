@@ -149,7 +149,7 @@
 	}
 
 	.btn-link {
-		img {
+		> img {
 			margin-bottom: 22px;
 		}
 	}
@@ -213,6 +213,15 @@
 		.user-manual {
 			color: $brand;
 		}
+	}
+
+	.close-modal {
+		font-size: $h3-size;
+		color: $secondary;
+		padding: 24px;
+		position: absolute;
+		top: 0;
+		right: 0;
 	}
 
 	.fuel-consumption {
