@@ -51,35 +51,7 @@ export default class extends React.Component {
 					tick: {
 						show: false
 					},
-					type: 'category',
-					categories: [
-						'Sep 1',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						'Sep 15',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						' ',
-						'Sep 30'
-					]
+					show: false
 				},
 				y: {
 					tick: {

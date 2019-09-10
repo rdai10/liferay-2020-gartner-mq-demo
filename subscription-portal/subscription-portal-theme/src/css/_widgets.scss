@@ -7,6 +7,10 @@
 
 .portlet-boundary_cloudsharewidget_,
 .portlet-boundary_notificationwidget_ {
+	.card {
+		margin-bottom: 0;
+	}
+
 	.card-body {
 		padding-top: 0;
 	}
@@ -142,6 +146,12 @@
 
 	.btn-light {
 		background-color: $white;
+	}
+
+	.btn-link {
+		img {
+			margin-bottom: 22px;
+		}
 	}
 
 	.car-info {
@@ -330,6 +340,8 @@
 		color: #ff6b00;
 		display: block;
 		text-align: right;
+		position: relative;
+		bottom: 24px;
 
 		.btn-upgrade {
 			box-shadow: 0px 4px 16px rgba(42, 70, 103, 0.15);
