@@ -54,7 +54,7 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="9,018"
+						primaryStat={9018}
 						primaryStatUnit="m"
 						secondaryStat="+ 215m last week"
 					/>
@@ -76,7 +76,7 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="850"
+						primaryStat={850}
 						primaryStatUnit="v"
 						secondaryStat="73% capacity"
 					/>
@@ -100,7 +100,7 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="48"
+						primaryStat={48}
 						primaryStatUnit="%"
 						secondaryStat="164m remain"
 					/>
@@ -124,7 +124,7 @@ class UsageDetail extends React.Component {
 								/>
 							</svg>
 						}
-						primaryStat="17,426"
+						primaryStat={17426}
 						primaryStatUnit="m"
 						secondaryStat={
 							<React.Fragment>

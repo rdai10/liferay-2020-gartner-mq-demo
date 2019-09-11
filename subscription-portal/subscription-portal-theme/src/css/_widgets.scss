@@ -334,6 +334,10 @@
 		.primary-stat {
 			color: $dark;
 			font-size: $h1-display-size;
+
+			div {
+				display: inline;
+			}
 		}
 
 		.secondary-stat {

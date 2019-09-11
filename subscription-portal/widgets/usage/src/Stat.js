@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import AnimationCount from 'react-count-animation';
 
 class Stat extends React.Component {
 	render() {
@@ -11,7 +12,12 @@ class Stat extends React.Component {
 
 				{primaryStat && (
 					<div className="font-weight-medium primary-stat">
-						{primaryStat}
+						<AnimationCount
+							start={0}
+							count={primaryStat}
+							animation="up"
+							duration={2500}
+						/>
 						{primaryStatUnit ? primaryStatUnit : ''}
 					</div>
 				)}
@@ -28,7 +34,7 @@ class Stat extends React.Component {
 
 Stat.propTypes = {
 	icon: PropTypes.node,
-	primaryStat: PropTypes.string.isRequired,
+	primaryStat: PropTypes.number.isRequired,
 	primaryStatUnit: PropTypes.string,
 	secondaryStat: PropTypes.node
 };
