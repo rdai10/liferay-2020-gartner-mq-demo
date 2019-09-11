@@ -5,37 +5,37 @@ import Card from './Card';
 
 export default class extends React.Component {
 	componentDidMount() {
-		bb.generate({
+		const chart = bb.generate({
 			data: {
 				columns: [
 					[
 						'performance',
 						0,
-						5,
-						6,
-						1,
-						4,
-						5,
-						6,
-						18,
-						18,
-						12,
-						14,
-						15,
-						13,
-						14,
-						18,
-						18,
-						15,
-						9,
+						2.5,
 						3,
+						0.5,
+						2,
+						2.5,
+						3,
+						9,
+						9,
+						6,
+						7,
+						7.5,
+						6.5,
 						7,
 						9,
-						7,
+						9,
+						7.5,
+						4.5,
+						1.5,
+						3.5,
+						4.5,
+						3.5,
+						2.5,
 						5,
-						10,
-						12,
-						13
+						6,
+						6.5
 					]
 				],
 				colors: {
@@ -88,6 +88,44 @@ export default class extends React.Component {
 			},
 			bindto: '#performanceChart'
 		});
+
+		setTimeout(
+			() =>
+				chart.load({
+					columns: [
+						[
+							'performance',
+							0,
+							5,
+							6,
+							1,
+							4,
+							5,
+							6,
+							18,
+							18,
+							12,
+							14,
+							15,
+							13,
+							14,
+							18,
+							18,
+							15,
+							9,
+							3,
+							7,
+							9,
+							7,
+							5,
+							10,
+							12,
+							13
+						]
+					]
+				}),
+			1000
+		);
 	}
 
 	render() {
