@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Stat extends React.Component {
 	render() {
@@ -9,7 +10,10 @@ class Stat extends React.Component {
 				{icon && <div className="stat-icon">{icon}</div>}
 
 				{primaryStat && (
-					<div className="font-weight-medium primary-stat">{primaryStat}{primaryStatUnit ? primaryStatUnit : ''}</div>
+					<div className="font-weight-medium primary-stat">
+						{primaryStat}
+						{primaryStatUnit ? primaryStatUnit : ''}
+					</div>
 				)}
 
 				{secondaryStat && (
@@ -21,5 +25,12 @@ class Stat extends React.Component {
 		);
 	}
 }
+
+Stat.propTypes = {
+	icon: PropTypes.node,
+	primaryStat: PropTypes.string.isRequired,
+	primaryStatUnit: PropTypes.string,
+	secondaryStat: PropTypes.node
+};
 
 export default Stat;

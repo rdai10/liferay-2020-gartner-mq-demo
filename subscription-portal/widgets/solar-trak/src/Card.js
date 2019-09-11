@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Card extends React.Component {
 	render() {
@@ -33,5 +34,12 @@ class Card extends React.Component {
 		);
 	}
 }
+
+Card.propTypes = {
+	children: PropTypes.node.isRequired,
+	heading: PropTypes.node.isRequired,
+	iconSVG: PropTypes.node,
+	subheading: PropTypes.string
+};
 
 export default Card;

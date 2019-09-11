@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class Milage extends React.Component {
 	render() {
@@ -42,5 +43,11 @@ class Milage extends React.Component {
 		);
 	}
 }
+
+Milage.propTypes = {
+	milage: PropTypes.string,
+	fuel: PropTypes.string,
+	speed: PropTypes.string
+};
 
 export default Milage;

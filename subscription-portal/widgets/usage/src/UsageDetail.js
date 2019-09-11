@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import CarDetail from './CarDetail';
 import FuelConsumption from './FuelConsumption';
@@ -159,5 +160,9 @@ class UsageDetail extends React.Component {
 		);
 	}
 }
+
+UsageDetail.propTypes = {
+	onClick: PropTypes.func.isRequired
+};
 
 export default UsageDetail;

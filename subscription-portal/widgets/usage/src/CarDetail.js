@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class CarDetail extends React.Component {
 	render() {
@@ -47,10 +48,16 @@ class CarDetail extends React.Component {
 						<div className="controls-wrapper">
 							<div className="controls">
 								<div className="control active">
-									<img src={`${Liferay.ThemeDisplay.getPathThemeImages()}/car-1.png`} alt="active car"/>
+									<img
+										src={`${Liferay.ThemeDisplay.getPathThemeImages()}/car-1.png`}
+										alt="active car"
+									/>
 								</div>
 								<div className="control">
-								<img src={`${Liferay.ThemeDisplay.getPathThemeImages()}/car-2.png`} alt="inactive car"/>
+									<img
+										src={`${Liferay.ThemeDisplay.getPathThemeImages()}/car-2.png`}
+										alt="inactive car"
+									/>
 								</div>
 							</div>
 							<a className="btn btn-light btn-add">
@@ -115,5 +122,13 @@ class CarDetail extends React.Component {
 		);
 	}
 }
+
+CarDetail.propTypes = {
+	year: PropTypes.string,
+	name: PropTypes.string,
+	type: PropTypes.string,
+	plate: PropTypes.string,
+	vin: PropTypes.string
+};
 
 export default CarDetail;

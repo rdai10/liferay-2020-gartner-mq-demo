@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class ProgressBar extends React.Component {
 	render() {
@@ -28,5 +29,10 @@ class ProgressBar extends React.Component {
 		);
 	}
 }
+
+ProgressBar.propTypes = {
+	title: PropTypes.string.isRequired,
+	progress: PropTypes.string.isRequired
+};
 
 export default ProgressBar;
