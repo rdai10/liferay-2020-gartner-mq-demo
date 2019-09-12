@@ -196,7 +196,7 @@
 
 		.control {
 			margin-right: 16px;
- 
+
 			&.active {
 				border-top: 3px solid #cd5e0d;
 			}
@@ -222,6 +222,13 @@
 		position: absolute;
 		top: 0;
 		right: 0;
+	}
+
+	.flying-car {
+		position: absolute;
+		width: 58%;
+		right: 265px;
+		top: 112px;
 	}
 
 	.fuel-consumption {
@@ -359,6 +366,7 @@
 		text-align: right;
 		position: relative;
 		bottom: 24px;
+		right: -130px;
 
 		.btn-upgrade {
 			box-shadow: 0px 4px 16px rgba(42, 70, 103, 0.15);

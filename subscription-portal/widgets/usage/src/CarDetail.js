@@ -6,14 +6,14 @@ class CarDetail extends React.Component {
 		const {year, name, type, plate, vin} = this.props;
 
 		const style = {
-			background: `url(${Liferay.ThemeDisplay.getPathThemeImages()}/bg.png) bottom center no-repeat`,
+			background: `url(${Liferay.ThemeDisplay.getPathThemeImages()}/bg.png) center no-repeat`,
 			backgroundSize: 'cover',
 			minHeight: '620px',
 			width: '100%'
 		};
 
 		return (
-			<div className="banner d-flex" style={style}>
+			<div className="banner" style={style}>
 				<div className="container">
 					<div className="car-info">
 						{year && (
