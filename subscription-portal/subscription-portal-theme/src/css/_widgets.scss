@@ -283,6 +283,10 @@
 		}
 	}
 
+	.modal {
+		z-index: 900;
+	}
+
 	.modal-full-screen {
 		bottom: 0;
 		left: 79px;
