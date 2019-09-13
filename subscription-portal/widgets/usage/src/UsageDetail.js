@@ -17,6 +17,16 @@ class UsageDetail extends React.Component {
 		this.props.onClick();
 	}
 
+	componentDidMount() {
+		setTimeout(() => {
+			const wrapper = document.querySelector('.car-usage-wrapper');
+
+			if (wrapper) {
+				wrapper.classList.add('show');
+			}
+		}, 600)
+	}
+
 	render() {
 		return (
 			<React.Fragment>

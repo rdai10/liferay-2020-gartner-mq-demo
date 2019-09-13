@@ -16,7 +16,7 @@ class Stat extends React.Component {
 							start={0}
 							count={primaryStat}
 							animation="up"
-							duration={2500}
+							duration={2400}
 						/>
 						{primaryStatUnit ? primaryStatUnit : ''}
 					</div>

@@ -224,13 +224,6 @@
 		right: 0;
 	}
 
-	.flying-car {
-		position: absolute;
-		width: 58%;
-		right: 265px;
-		top: 112px;
-	}
-
 	.fuel-consumption {
 		color: $dark;
 		padding-left: 32px;
@@ -312,10 +305,6 @@
 		}
 	}
 
-	.modal-content {
-		border: none;
-	}
-
 	.my-data-label {
 		position: relative;
 		top: 60px;
@@ -366,13 +355,67 @@
 		text-align: right;
 		position: relative;
 		bottom: 24px;
-		right: -130px;
+		right: -120px;
 
 		.btn-upgrade {
 			box-shadow: 0px 4px 16px rgba(42, 70, 103, 0.15);
 			border-radius: 12px;
 			padding: 24px;
 			margin-right: 24px;
+		}
+	}
+
+	.modal-content {
+		border: none;
+		opacity: 1;
+
+		animation-duration: 600ms;
+		animation-name: fadein;
+	}
+
+	.flying-car {
+		position: absolute;
+		width: 58%;
+		right: 265px;
+		top: 112px;
+
+		animation-duration: 600ms;
+		animation-name: flyin;
+	}
+
+	.car-usage-wrapper {
+		opacity: 0;
+
+		&.show {
+			opacity: 1;
+		}
+	}
+
+	@keyframes fadein {
+		from {
+			opacity: 0;
+		}
+
+		50% {
+			opacity: 0.5;
+		}
+
+		to {
+			opacity: 1;
+		}
+	}
+
+	@keyframes flyin {
+		from {
+			width: 23%;
+			right: 424px;
+			top: 513px;
+		}
+
+		to {
+			width: 58%;
+			right: 265px;
+			top: 112px;
 		}
 	}
 }
