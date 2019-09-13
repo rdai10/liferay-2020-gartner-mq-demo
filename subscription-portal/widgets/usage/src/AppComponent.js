@@ -43,13 +43,13 @@ export default class extends React.Component {
 							src={`${Liferay.ThemeDisplay.getPathThemeImages()}/usage-car.png`}
 							alt="Usage Car Image"
 						/>
-
-						{showModal && (
-							<Modal size="full-screen">
-								<UsageDetail onClick={this.handleCloseModal} />
-							</Modal>
-						)}
 					</button>
+
+					{showModal && (
+						<Modal size="full-screen">
+							<UsageDetail onClick={this.handleCloseModal} />
+						</Modal>
+					)}
 				</Card>
 			</div>
 		);
