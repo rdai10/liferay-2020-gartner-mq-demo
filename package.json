@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "a quick demo for gartner mq",
   "devDependencies": {
-    "generator-liferay-fragments": "^1.2.1",
+    "generator-liferay-fragments": "^1.10.0",
     "generator-liferay-js": "^2.12.0",
     "generator-liferay-theme": "^9.4.0"
   },
